@@ -1,0 +1,213 @@
+{
+  "lang": "id",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Jadwal salat, selalu dalam genggaman.",
+    "nav_label": "Navigasi utama",
+    "nav_support": "Dukungan",
+    "nav_privacy": "Privasi",
+    "footer_support": "Dukungan",
+    "footer_privacy": "Kebijakan Privasi",
+    "language_label": "Bahasa",
+    "eyebrow": {
+      "ios": "NIDAA UNTUK IPHONE DAN APPLE WATCH",
+      "android": "NIDAA UNTUK ANDROID DAN WEAR OS"
+    },
+    "title": "Privasi Anda, dijelaskan dengan gamblang.",
+    "description": "Penjelasan jelas tentang cara Nidaa menggunakan lokasi, akses kamera, dan pengaturan yang tersimpan.",
+    "platform_name": {
+      "ios": "iPhone dan Apple Watch",
+      "android": "Android dan Wear OS"
+    },
+    "platform_switch": {
+      "ios": "Ini adalah kebijakan untuk iPhone dan Apple Watch. Menggunakan Android? [Lihat kebijakan untuk Android dan Wear OS]({url}).",
+      "android": "Ini adalah kebijakan untuk Android dan Wear OS. Menggunakan iPhone? [Lihat kebijakan untuk iPhone dan Apple Watch]({url})."
+    },
+    "effective_date": "Tanggal berlaku: {date}",
+    "translation_note": "Ini adalah terjemahan. Jika ada perbedaan dengan [versi bahasa Inggris]({url}), yang berlaku adalah versi bahasa Inggris.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Kebijakan Privasi",
+    "router_intro": "Nidaa memiliki kebijakan privasi untuk setiap jenis perangkat. Pilih perangkat Anda.",
+    "router_choice": {
+      "ios": "iPhone dan Apple Watch",
+      "android": "Android dan Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "3 November 2026",
+    "android": "16 November 2026"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "platforms": ["ios", "android"],
+      "paragraphs": [
+        "Kebijakan ini menjelaskan cara Nidaa menangani data saat ini. Kami akan memperbaruinya jika cara tersebut berubah."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "Jadwal salat tetap di perangkat Anda",
+      "paragraphs": [
+        {
+          "ios": "Nidaa menghitung jadwal salat dan arah Kiblat di perangkat Anda. Anda tidak memerlukan akun. Aplikasi ini tidak berisi iklan maupun analitik penggunaan, dan kami tidak mengoperasikan server yang menerima pengaturan salat atau gambar kamera Anda.",
+          "android": "Nidaa menghitung jadwal salat dan arah Kiblat di perangkat Anda. Anda tidak memerlukan akun. Aplikasi ini tidak berisi iklan, dan Nidaa tidak memiliki analitik atau pelacakan sendiri. Kami tidak mengoperasikan server yang menerima lokasi, pengaturan salat, atau gambar kamera Anda. Beberapa layanan Google yang digunakan aplikasi ini mengumpulkan data diagnostiknya sendiri. Masing-masing layanan tersebut dijelaskan di bawah."
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "platforms": ["ios", "android"],
+      "heading": "Lokasi dan pengaturan tersimpan",
+      "paragraphs": [
+        {
+          "ios": "Nidaa menyimpan koordinat yang Anda pilih, nama kota tersimpan, dan preferensi salat Anda di perangkat Anda. Aplikasi dan widget-nya berbagi pengaturan ini melalui penyimpanan lokal di perangkat Anda.",
+          "android": "Nidaa menyimpan lokasi tersimpan Anda (nama kota, zona waktu, dan koordinat) serta preferensi salat Anda di perangkat Anda. Aplikasi, widget layar utama, dan kartu Setelan Cepat milik Nidaa membaca pengaturan ini dari penyimpanan di perangkat Anda."
+        },
+        {
+          "text": "Izin lokasi bersifat opsional dan hanya diminta saat Anda menggunakan aplikasi. Sebagai gantinya, Anda dapat memasukkan koordinat secara manual. Lokasi perkiraan sudah cukup untuk aplikasi ini.",
+          "platforms": ["ios"]
+        },
+        {
+          "text": "Izin lokasi bersifat opsional. Nidaa terlebih dahulu menjelaskan alasannya memerlukan lokasi Anda, lalu Android meminta izin. Aplikasi hanya menggunakan lokasi Anda saat Anda menggunakannya dan tidak pernah meminta akses lokasi di latar belakang. Sebagai gantinya, Anda dapat memilih kota atau memasukkan koordinat.",
+          "platforms": ["android"]
+        },
+        {
+          "text": "Jika Anda mengizinkan lokasi akurat, Nidaa menggunakan posisi persis Anda. Jika Anda mengizinkan lokasi perkiraan, aplikasi tetap bekerja dengan cara yang sama: hanya jarak ke masjid terdekat yang kurang tepat. Lokasi Anda hanya keluar dari perangkat untuk mencari nama tempat Anda berada dan menemukan masjid terdekat, seperti dijelaskan di bawah.",
+          "platforms": ["android"]
+        }
+      ]
+    },
+    {
+      "id": "watch_ios",
+      "platforms": ["ios"],
+      "heading": "Apple Watch dan hitung mundur di Layar Terkunci",
+      "paragraphs": [
+        "Jika Anda menggunakan Nidaa di Apple Watch, iPhone Anda mengirimkan lokasi tersimpan Anda (nama kota, zona waktu, dan koordinat yang dibulatkan hingga sekitar 100 m) serta pengaturan waktu salat ke jam tangan yang dipasangkan melalui WatchConnectivity dari Apple, agar jam tangan dapat menampilkan jadwal yang sama. Data ini hanya berpindah di antara perangkat Anda sendiri. Nidaa tidak menerimanya.",
+        "Hitung mundur salat yang opsional muncul di Layar Terkunci, di Dynamic Island, dan di Tumpukan Pintar Apple Watch. Fitur ini berjalan di perangkat Anda, tidak menggunakan layanan push, dan dapat menampilkan nama kota tersimpan Anda jika zona waktunya berbeda dengan zona waktu ponsel Anda."
+      ]
+    },
+    {
+      "id": "wear_android",
+      "platforms": ["android"],
+      "heading": "Wear OS, widget, dan hitung mundur",
+      "paragraphs": [
+        "Jika Anda menggunakan Nidaa di jam tangan Wear OS, ponsel Anda mengirimkan lokasi tersimpan Anda (nama kota, zona waktu, dan koordinat yang dibulatkan hingga sekitar 100 m) serta pengaturan waktu salat ke jam tangan Anda melalui Wearable Data Layer dari Google Play services, agar jam tangan dapat menampilkan jadwal yang sama. Selama hitung mundur salat berjalan, ponsel Anda juga mengirimkannya ke jam tangan. Data ini hanya berpindah di antara ponsel dan jam tangan Anda sendiri, secara langsung atau melalui server Google saat keduanya tidak saling terhubung. Nidaa tidak menerimanya.",
+        "Hitung mundur salat yang opsional muncul sebagai notifikasi yang terus berjalan. Di Android 16, hitung mundur ini juga dapat muncul sebagai Pembaruan langsung di status bar dan di layar kunci. Widget layar utama, kartu Setelan Cepat, hitung mundur, serta kartu dan komplikasi di jam tangan semuanya berjalan di perangkat Anda dan tidak menggunakan layanan push."
+      ]
+    },
+    {
+      "id": "geocoding_ios",
+      "platforms": ["ios"],
+      "heading": "Pencarian kota dan geocoding Apple",
+      "paragraphs": [
+        "Saat Nidaa mencari nama kota untuk suatu koordinat, Nidaa mengirimkan koordinat tersebut ke layanan geocoding Apple. Saat Anda mencari kota, Nidaa mengirimkan teks pencarian Anda ke Apple. Aplikasi juga dapat mencoba mencari nama kota setelah Anda memasukkan koordinat secara manual. Jika pencarian itu tidak tersedia, entri manual tetap berfungsi.",
+        "Permintaan ini memerlukan akses internet dan ditangani oleh Apple sesuai dengan [kebijakan privasinya](https://www.apple.com/legal/privacy/). Perhitungan jadwal salat tidak menggunakan layanan jadwal salat online."
+      ]
+    },
+    {
+      "id": "geocoding_android",
+      "platforms": ["android"],
+      "heading": "Pencarian kota dan nama tempat",
+      "paragraphs": [
+        "Saat Anda mencari kota, Nidaa mengirimkan teks pencarian Anda ke layanan geocoding Android. Saat Nidaa mencari nama suatu tempat dari koordinat (lokasi Anda saat ini atau koordinat yang Anda masukkan), Nidaa mengirimkan koordinat tersebut ke layanan yang sama. Di sebagian besar ponsel Android, layanan ini disediakan oleh Google, yang menangani permintaan tersebut sesuai dengan [kebijakan privasinya](https://policies.google.com/privacy).",
+        "Permintaan ini memerlukan akses internet. Nidaa juga menyarankan kota dan menentukan nama kota dari daftar yang disertakan dalam aplikasi. Pencarian dalam daftar itu dilakukan di perangkat Anda. Memasukkan koordinat secara manual tetap berfungsi jika pencarian tidak tersedia. Perhitungan jadwal salat tidak menggunakan layanan jadwal salat online."
+      ]
+    },
+    {
+      "id": "mosques_ios",
+      "platforms": ["ios"],
+      "heading": "Masjid terdekat",
+      "paragraphs": [
+        "Saat Anda membuka tab Masjid, Nidaa mengirimkan lokasi yang menjadi titik pencarian (lokasi Anda saat ini jika Anda mengizinkannya, atau lokasi tersimpan Anda jika tidak) ke layanan MapKit dari Apple untuk menemukan masjid dan musala terdekat serta memperkirakan waktu tempuh dengan berjalan kaki, berkendara, dan transportasi umum. Apple menangani permintaan ini sesuai dengan [kebijakan privasinya](https://www.apple.com/legal/privacy/). Nidaa tidak menyimpan informasi ini di server mana pun milik Nidaa dan tidak membagikannya kepada pihak lain. Jika Anda memilih petunjuk arah di Google Maps atau Waze, tujuan Anda diteruskan ke aplikasi tersebut."
+      ]
+    },
+    {
+      "id": "mosques_android",
+      "platforms": ["android"],
+      "heading": "Masjid terdekat",
+      "paragraphs": [
+        "Saat Anda membuka tab Masjid, Nidaa mengirimkan lokasi yang menjadi titik pencarian (lokasi Anda saat ini jika Anda mengizinkannya, atau lokasi tersimpan Anda jika tidak) ke Google Maps Platform. Google menggunakannya untuk menampilkan peta (Maps SDK for Android), menemukan masjid dan musala terdekat beserta detailnya (Places SDK for Android), serta memperkirakan waktu tempuh ke sana dengan berjalan kaki, berkendara, dan transportasi umum (Routes API).",
+        "SDK Maps dan Places juga mengumpulkan data diagnostiknya sendiri: log error, data performa, interaksi dengan peta seperti menggeser dan memperbesar, serta ID yang digunakan Google untuk menghitung jumlah orang yang menggunakan SDK tersebut. Google menangani semua data ini sesuai dengan [kebijakan privasinya](https://policies.google.com/privacy).",
+        "Nidaa tidak menyimpan informasi ini di server mana pun milik Nidaa dan tidak membagikannya kepada pihak lain. Jika Anda memilih petunjuk arah di Google Maps, Waze, atau aplikasi peta lain, tujuan Anda diteruskan ke aplikasi tersebut."
+      ]
+    },
+    {
+      "id": "qibla_ios",
+      "platforms": ["ios"],
+      "heading": "Kamera dan arah Kiblat",
+      "paragraphs": [
+        "Akses kamera bersifat opsional dan digunakan untuk menunjukkan arah Kiblat dengan realitas tertambah (AR). Nidaa tidak merekam, menyimpan, atau mengunggah gambar kamera. Pemrosesan kamera, arah kompas, dan AR berlangsung di perangkat Anda."
+      ]
+    },
+    {
+      "id": "qibla_android",
+      "platforms": ["android"],
+      "heading": "Kamera dan Kiblat AR",
+      "paragraphs": [
+        "Akses kamera bersifat opsional. Nidaa hanya memintanya saat Anda mengalihkan layar Kiblat ke mode AR. Kamera hanya digunakan di perangkat Anda: Nidaa tidak merekam, menyimpan, atau mengunggah gambar kamera, dan tidak ada gambar kamera maupun lokasi yang keluar dari perangkat Anda untuk keperluan AR.",
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en"
+        },
+        "Aplikasi ini berjalan di [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), yang disediakan oleh Google dan tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy).",
+        "ARCore mengumpulkan data diagnostik dan ID-nya sendiri: data performa, informasi tentang cara aplikasi menggunakan ARCore, dan ID perangkat, atau ID Akun Google Anda jika Anda login ke Google di ponsel. ARCore hanya mulai berjalan saat Anda beralih ke mode AR. Jika Anda tidak pernah menggunakan AR, tidak satu pun data ini dikumpulkan."
+      ]
+    },
+    {
+      "id": "notifications",
+      "platforms": ["ios", "android"],
+      "heading": "Notifikasi",
+      "paragraphs": [
+        {
+          "ios": "Jika Anda mengizinkan pemberitahuan, Nidaa menjadwalkan peringatan dan pengingat salat secara lokal. Anda dapat mengubah suara dan pengingat di aplikasi atau menonaktifkan izin pemberitahuan di pengaturan perangkat Anda.",
+          "android": "Jika Anda mengizinkan notifikasi, Nidaa menjadwalkan peringatan dan pengingat salat di perangkat Anda. Jika Anda juga mengizinkan Alarm & pengingat, Android memungkinkan peringatan berbunyi tepat pada menitnya. Setelah ponsel Anda dimulai ulang, Nidaa menjadwalkannya kembali. Anda dapat mengubah suara dan pengingat di aplikasi atau menonaktifkan izin notifikasi di setelan ponsel Anda."
+        }
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Pilihan Anda dan penyimpanan data",
+      "paragraphs": [
+        {
+          "ios": "Anda dapat mencabut izin lokasi dan kamera di pengaturan perangkat Anda dan mengganti lokasi tersimpan di Nidaa. Pengaturan tetap berada di perangkat Anda sampai Anda mengubahnya atau menghapus data yang disimpan aplikasi. Sistem operasi Anda mengatur penghapusan aplikasi, pencadangan, dan penyimpanan yang digunakan bersama dengan widget. Tidak ada akun Nidaa atau salinan pengaturan aplikasi Anda yang dipegang pengembang untuk dihapus.",
+          "android": "Anda dapat mencabut izin lokasi, kamera, dan notifikasi di setelan ponsel Anda dan mengganti lokasi tersimpan di Nidaa. Pengaturan tetap berada di perangkat Anda sampai Anda mengubahnya, menghapus data aplikasi, atau meng-uninstal aplikasi. Tidak ada akun Nidaa atau salinan pengaturan aplikasi Anda yang dipegang pengembang untuk dihapus."
+        },
+        {
+          "text": "Jika pencadangan Android diaktifkan, Android dapat menyertakan pengaturan Nidaa dan lokasi tersimpan Anda dalam cadangan perangkat, misalnya di Akun Google Anda. Cadangan ini milik Android dan Anda, bukan milik Nidaa: Anda mengaturnya di setelan ponsel Anda.",
+          "platforms": ["android"]
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "platforms": ["ios", "android"],
+      "heading": "Jika Anda menghubungi dukungan",
+      "paragraphs": [
+        {
+          "ios": "Jika Anda mengirim email ke [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), kami menerima alamat email Anda dan informasi yang Anda pilih untuk dikirim. Jika Anda menggunakan Kirim Masukan di aplikasi, draf email juga mencantumkan versi aplikasi, versi iOS, dan bahasa aplikasi, yang dapat Anda ubah atau hapus sebelum mengirim. Kami menggunakannya untuk menanggapi permintaan Anda. Penyedia email Anda dan penyedia email kami memproses korespondensi tersebut sebagai bagian dari pengiriman dan penyimpanan email.",
+          "android": "Jika Anda mengirim email ke [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), kami menerima alamat email Anda dan informasi yang Anda pilih untuk dikirim. Jika Anda menggunakan Kirim Masukan di aplikasi, draf email juga mencantumkan versi aplikasi dan nomor build, versi Android, dan bahasa aplikasi, yang dapat Anda ubah atau hapus sebelum mengirim. Kami menggunakannya untuk menanggapi permintaan Anda. Penyedia email Anda dan penyedia email kami memproses korespondensi tersebut sebagai bagian dari pengiriman dan penyimpanan email."
+        },
+        "Kami menyimpan korespondensi dukungan hanya selama diperlukan untuk menangani permintaan dan tindak lanjut terkait, atau jika penyimpanannya diwajibkan oleh hukum. Anda dapat meminta kami menghapusnya dengan mengirim email ke alamat yang sama."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "Situs web ini",
+      "paragraphs": [
+        "Situs ini dihosting oleh GitHub Pages. Kami tidak menambahkan skrip analitik, iklan, cookie, atau formulir kontak. Situs ini mengingat bahasa yang Anda pilih di penyimpanan lokal browser Anda, yang tidak pernah keluar dari perangkat Anda. GitHub dapat memproses informasi teknis permintaan, termasuk alamat IP Anda, untuk menyajikan dan melindungi situs web ini. Lihat [pernyataan privasi GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "questions",
+      "platforms": ["ios", "android"],
+      "heading": "Pertanyaan dan perubahan",
+      "paragraphs": [
+        "Untuk pertanyaan atau permintaan terkait privasi, hubungi [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com). Jika kebijakan ini berubah, kami akan memublikasikan versi terbaru di sini dengan tanggal berlaku yang baru."
+      ]
+    }
+  ]
+}

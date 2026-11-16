@@ -1,0 +1,213 @@
+{
+  "lang": "ha",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Lokutan salla, kusa da ku koyaushe.",
+    "nav_label": "Babban menu",
+    "nav_support": "Tallafi",
+    "nav_privacy": "Sirri",
+    "footer_support": "Tallafi",
+    "footer_privacy": "Manufar sirri",
+    "language_label": "Harshe",
+    "eyebrow": {
+      "ios": "NIDAA DON IPHONE DA APPLE WATCH",
+      "android": "NIDAA DON ANDROID DA WEAR OS"
+    },
+    "title": "Sirrinku, a fayyace.",
+    "description": "Bayani mai sauƙi kan yadda Nidaa ke amfani da wuri, kyamara da saitunan da aka adana.",
+    "platform_name": {
+      "ios": "iPhone da Apple Watch",
+      "android": "Android da Wear OS"
+    },
+    "platform_switch": {
+      "ios": "Wannan ita ce manufar sirri ta iPhone da Apple Watch. Kuna amfani da Android? [Duba manufar Android da Wear OS]({url}).",
+      "android": "Wannan ita ce manufar sirri ta Android da Wear OS. Kuna amfani da iPhone? [Duba manufar iPhone da Apple Watch]({url})."
+    },
+    "effective_date": "Ranar fara aiki: {date}",
+    "translation_note": "Wannan fassara ce. Idan ta bambanta da [sigar Turanci]({url}), sigar Turanci ce ake bi.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Manufar sirri",
+    "router_intro": "Nidaa na da manufar sirri ga kowane irin na'ura. Zaɓi taku.",
+    "router_choice": {
+      "ios": "iPhone da Apple Watch",
+      "android": "Android da Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "3 Nuwamba, 2026",
+    "android": "16 Nuwamba, 2026"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "platforms": ["ios", "android"],
+      "paragraphs": [
+        "Wannan manufa tana bayyana yadda Nidaa ke sarrafa bayanai a yanzu. Za mu sabunta ta idan hakan ya canza."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "Lokutan salla suna nan a na'urarku",
+      "paragraphs": [
+        {
+          "ios": "Nidaa na lissafa lokutan salla da hanyar Alƙibla a cikin na'urarku. Ba kwa buƙatar asusu. Manhajar ba ta da talla ko nazarin yadda ake amfani da ita (analytics), kuma ba mu da wata sabar da ke karɓar saitunan sallarku ko abin da kyamararku ke gani.",
+          "android": "Nidaa na lissafa lokutan salla da hanyar Alƙibla a cikin na'urarku. Ba kwa buƙatar asusu. Manhajar ba ta da talla, kuma Nidaa ba ta da wani nazari (analytics) ko bin diddigi na kanta. Ba mu da wata sabar da ke karɓar wurinku, saitunan sallarku ko hotunan kyamararku. Wasu ayyukan Google da manhajar ke amfani da su suna tattara bayanan gano matsala (diagnostics) nasu. Wannan manufa ta bayyana kowannensu a ƙasa."
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "platforms": ["ios", "android"],
+      "heading": "Wuri da saitunan da aka adana",
+      "paragraphs": [
+        {
+          "ios": "Nidaa na adana lambobin wurin da kuka zaɓa, sunayen biranen da kuka adana da zaɓuɓɓukan sallarku a cikin na'urarku. Manhajar da widget ɗinta suna raba waɗannan saituna ta ma'ajiyar da ke cikin na'urarku.",
+          "android": "Nidaa na adana wurin da kuka adana (sunan birni, yankin lokaci da lambobin wuri) da zaɓuɓɓukan sallarku a cikin na'urarku. Manhajar, widget ɗinta na allon gida da maɓallinta na Quick Settings suna karanta waɗannan saituna daga ma'ajiyar da ke cikin na'urarku."
+        },
+        {
+          "text": "Izinin wuri ba dole ba ne, kuma ana neman sa ne kawai lokacin da kuke amfani da manhajar. Kuna iya shigar da lambobin wuri da hannu maimakon haka. Wuri na kimanin ya isa ga manhajar.",
+          "platforms": ["ios"]
+        },
+        {
+          "text": "Izinin wuri ba dole ba ne. Nidaa na fara bayyana dalilin da ya sa take buƙatar wurinku, sannan Android ta nemi izini. Manhajar tana amfani da wurinku ne kawai lokacin da kuke amfani da ita, kuma ba ta taɓa neman izinin wuri a bayan fage. Kuna iya zaɓar birni ko shigar da lambobin wuri maimakon haka.",
+          "platforms": ["android"]
+        },
+        {
+          "text": "Idan kun ba da izinin ainihin wuri, Nidaa na amfani da ainihin inda kuke. Idan kun ba da izinin wuri na kimanin, manhajar tana aiki daidai yadda take: nisan masallatan da ke kusa ne kawai ba zai yi daidai sosai ba. Wurinku yana barin na'urarku ne kawai don gano sunan wurinku da kuma nemo masallatan da ke kusa, kamar yadda aka bayyana a ƙasa.",
+          "platforms": ["android"]
+        }
+      ]
+    },
+    {
+      "id": "watch_ios",
+      "platforms": ["ios"],
+      "heading": "Apple Watch da ƙidaya a allon kulle",
+      "paragraphs": [
+        "Idan kuna amfani da Nidaa a Apple Watch, iPhone ɗinku na aika wurin da kuka adana (sunan birni, yankin lokaci da lambobin wuri da aka zagaye zuwa kusan mita 100) da saitunan lokutan sallarku zuwa agogon da kuka haɗa da shi ta WatchConnectivity na Apple, domin agogon ya nuna lokuta iri ɗaya. Waɗannan bayanai suna tafiya ne tsakanin na'urorinku kawai. Nidaa ba ta karɓar su.",
+        "Ƙidayar salla zaɓi ne, ba dole ba ne. Tana bayyana a allon kullenku, a Dynamic Island da kuma a Smart Stack na Apple Watch. Tana aiki ne a na'urorinku, ba ta amfani da wani sabis na push, kuma tana iya nuna sunan birnin da kuka adana idan yankin lokacinsa ya bambanta da na wayarku."
+      ]
+    },
+    {
+      "id": "wear_android",
+      "platforms": ["android"],
+      "heading": "Wear OS, widget da ƙidaya",
+      "paragraphs": [
+        "Idan kuna amfani da Nidaa a agogon Wear OS, wayarku na aika wurin da kuka adana (sunan birni, yankin lokaci da lambobin wuri da aka zagaye zuwa kusan mita 100) da saitunan lokutan sallarku zuwa agogonku ta Wearable Data Layer na Google Play services, domin agogon ya nuna lokuta iri ɗaya. Yayin da ƙidayar salla ke gudana, wayarku tana aika ta zuwa agogonku ita ma. Waɗannan bayanai suna tafiya ne tsakanin wayarku da agogonku kawai, kai tsaye, ko ta sabobin Google idan ba su haɗe da juna ba. Nidaa ba ta karɓar su.",
+        "Ƙidayar salla zaɓi ne, ba dole ba ne. Tana bayyana a matsayin sanarwa mai ɗorewa. A Android 16 kuma tana iya bayyana a matsayin Sabuntawa kai tsaye a sandar matsayi da kuma a allon kulle. Widget na allon gida, maɓallin Quick Settings, ƙidayar, da tile da complications na agogo duk suna aiki ne a na'urorinku, kuma ba sa amfani da wani sabis na push."
+      ]
+    },
+    {
+      "id": "geocoding_ios",
+      "platforms": ["ios"],
+      "heading": "Neman birni da sabis ɗin geocoding na Apple",
+      "paragraphs": [
+        "Lokacin da Nidaa ke neman sunan birni na wasu lambobin wuri, tana aika waɗannan lambobin zuwa sabis ɗin geocoding na Apple. Lokacin da kuke neman birni, tana aika rubutun da kuka nema zuwa Apple. Manhajar tana iya ƙoƙarin gano sunan birni bayan kun shigar da lambobin wuri da hannu. Shigarwa da hannu tana aiki ko da wannan binciken bai samu ba.",
+        "Waɗannan bincike suna buƙatar intanet, kuma Apple ce ke sarrafa su ƙarƙashin [manufar sirrinta](https://www.apple.com/legal/privacy/). Lissafin lokutan salla ba ya amfani da wani sabis na lokutan salla na intanet."
+      ]
+    },
+    {
+      "id": "geocoding_android",
+      "platforms": ["android"],
+      "heading": "Neman birni da sunayen wurare",
+      "paragraphs": [
+        "Lokacin da kuke neman birni, Nidaa na aika rubutun da kuka nema zuwa sabis ɗin geocoding na Android. Lokacin da Nidaa ke gano sunan wuri daga lambobin wuri (wurinku na yanzu ko lambobin da kuka shigar), tana aika waɗannan lambobin zuwa wannan sabis ɗin. A yawancin wayoyin Android, Google ce ke samar da wannan sabis, kuma tana sarrafa waɗannan bincike ƙarƙashin [manufar sirrinta](https://policies.google.com/privacy).",
+        "Waɗannan bincike suna buƙatar intanet. Nidaa kuma tana ba da shawarar birane, kuma tana gano sunayensu, daga jerin biranen da ke cikin manhajar. Ana bincika wannan jeri ne a cikin na'urarku. Shigar da lambobin wuri da hannu yana aiki ko da bincike bai samu ba. Lissafin lokutan salla ba ya amfani da wani sabis na lokutan salla na intanet."
+      ]
+    },
+    {
+      "id": "mosques_ios",
+      "platforms": ["ios"],
+      "heading": "Masallatai na kusa",
+      "paragraphs": [
+        "Lokacin da kuka buɗe shafin Masallatai, Nidaa na aika wurin da take bincike daga gare shi (wurinku na yanzu idan kun ba da izini, in ba haka ba wurin da kuka adana) zuwa sabis ɗin MapKit na Apple, don nemo masallatai da wuraren salla na kusa, da kuma kimanta lokacin tafiya a ƙafa, da mota da kuma da sufurin jama'a. Apple ce ke sarrafa waɗannan bincike ƙarƙashin [manufar sirrinta](https://www.apple.com/legal/privacy/). Nidaa ba ta adana waɗannan bayanai a kowace sabar tata, kuma ba ta raba su da kowa. Idan kun zaɓi kwatance a Google Maps ko Waze, ana tura wurin da za ku zuwa waccan manhajar."
+      ]
+    },
+    {
+      "id": "mosques_android",
+      "platforms": ["android"],
+      "heading": "Masallatai na kusa",
+      "paragraphs": [
+        "Lokacin da kuka buɗe shafin Masallatai, Nidaa na aika wurin da take bincike daga gare shi (wurinku na yanzu idan kun ba da izini, in ba haka ba wurin da kuka adana) zuwa Google Maps Platform. Google na amfani da shi don nuna taswira (Maps SDK for Android), don nemo masallatai da wuraren salla na kusa da bayanansu (Places SDK for Android), da kuma kimanta lokacin tafiya zuwa gare su a ƙafa, da mota da kuma da sufurin jama'a (Routes API).",
+        "SDK na Maps da na Places su ma suna tattara bayanan gano matsala nasu: rahotannin faɗuwar manhaja, bayanan yadda manhajar ke aiki, mu'amala da taswira kamar jan ta da zuƙowa, da wata lambar tantancewa da Google ke amfani da ita don ƙidaya mutanen da ke amfani da waɗannan SDK. Google ce ke sarrafa duk waɗannan bayanai ƙarƙashin [manufar sirrinta](https://policies.google.com/privacy).",
+        "Nidaa ba ta adana waɗannan bayanai a kowace sabar tata, kuma ba ta raba su da kowa. Idan kun zaɓi kwatance a Google Maps, Waze ko wata manhajar taswira, ana tura wurin da za ku zuwa waccan manhajar."
+      ]
+    },
+    {
+      "id": "qibla_ios",
+      "platforms": ["ios"],
+      "heading": "Kyamara da hanyar Alƙibla",
+      "paragraphs": [
+        "Izinin kyamara ba dole ba ne, kuma ana amfani da shi ne don nuna Alƙibla ta AR (augmented reality). Nidaa ba ta naɗa, ba ta adanawa, kuma ba ta loda hotunan kyamara. Sarrafa kyamara, kamfas da AR duk suna gudana ne a cikin na'urarku."
+      ]
+    },
+    {
+      "id": "qibla_android",
+      "platforms": ["android"],
+      "heading": "Kyamara da Alƙibla ta AR",
+      "paragraphs": [
+        "Izinin kyamara ba dole ba ne. Nidaa na neman sa ne kawai lokacin da kuka sauya allon Alƙibla zuwa AR. Ana amfani da kyamara ne a cikin na'urarku kawai: Nidaa ba ta naɗa, ba ta adanawa, kuma ba ta loda hotunan kyamara, kuma babu hoton kyamara ko bayanin wuri da ke barin na'urarku saboda AR.",
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en"
+        },
+        "Wannan manhaja tana aiki ne da [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), wanda Google ke samarwa, kuma [Manufar Sirri ta Google](https://policies.google.com/privacy) ce ke tafiyar da shi.",
+        "ARCore na tattara bayanan gano matsala da lambobin tantancewa nata: bayanan yadda take aiki, bayani kan yadda manhajar ke amfani da ARCore, da lambar tantance na'ura, ko lambar tantance asusunku na Google idan kun shiga Google a wayarku. ARCore na farawa ne kawai lokacin da kuka sauya zuwa AR. Idan ba ku taɓa amfani da AR ba, ba ta tattara ko ɗaya daga cikin waɗannan."
+      ]
+    },
+    {
+      "id": "notifications",
+      "platforms": ["ios", "android"],
+      "heading": "Sanarwoyi",
+      "paragraphs": [
+        {
+          "ios": "Idan kun ba da izinin sanarwoyi, Nidaa na tsara sanarwoyin salla da tunatarwa a cikin na'urarku. Kuna iya canza sautuka da tunatarwa a cikin manhajar, ko ku kashe izinin sanarwoyi a saitunan na'urarku.",
+          "android": "Idan kun ba da izinin sanarwoyi, Nidaa na tsara sanarwoyin salla da tunatarwa a cikin na'urarku. Idan kun kuma ba da izinin Ƙararrawa da tunatarwa, Android na barin sanarwoyin su yi ƙara daidai a minti. Bayan wayarku ta sake kunnawa, Nidaa na sake tsara su. Kuna iya canza sautuka da tunatarwa a cikin manhajar, ko ku kashe izinin sanarwoyi a saitunan wayarku."
+        }
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Zaɓuɓɓukanku da tsawon ajiye bayanai",
+      "paragraphs": [
+        {
+          "ios": "Kuna iya janye izinin wuri da na kyamara a saitunan na'urarku, kuma ku canza wurin da aka adana a Nidaa. Saituna suna nan a na'urarku har sai kun canza su ko kun goge bayanan da manhajar ta adana. Tsarin aikin na'urarku ne ke sarrafa goge manhaja, ajiyar madadi (backup) da ma'ajiyar da widget ke raba wa. Babu asusun Nidaa, kuma mai haɓaka manhajar ba shi da kwafin saitunan manhajarku, don haka babu abin da za a goge.",
+          "android": "Kuna iya janye izinin wuri, kyamara da sanarwoyi a saitunan wayarku, kuma ku canza wurin da aka adana a Nidaa. Saituna suna nan a na'urarku har sai kun canza su, kun share bayanan manhajar ko kun cire manhajar. Babu asusun Nidaa, kuma mai haɓaka manhajar ba shi da kwafin saitunan manhajarku, don haka babu abin da za a goge."
+        },
+        {
+          "text": "Idan ajiyar madadi ta Android (backup) a kunne take, Android na iya saka saitunan Nidaa da wurin da kuka adana a cikin madadin na'urarku, misali a asusunku na Google. Wannan madadi na Android ne da ku, ba na Nidaa ba: ku ne kuke sarrafa shi a saitunan wayarku.",
+          "platforms": ["android"]
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "platforms": ["ios", "android"],
+      "heading": "Idan kun tuntuɓi tallafi",
+      "paragraphs": [
+        {
+          "ios": "Idan kun aika imel zuwa [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), muna karɓar adireshin imel ɗinku da bayanan da kuka zaɓi aikawa. Idan kun yi amfani da Aika ra'ayi a cikin manhajar, daftarin imel ɗin zai ƙunshi sigar manhajar, sigar iOS da harshen manhajar, waɗanda kuke iya gyarawa ko cirewa kafin aikawa. Muna amfani da su ne don amsa buƙatarku. Masu ba da sabis na imel ɗinku da namu suna sarrafa wasiƙun a matsayin wani ɓangare na isar da imel da adana shi.",
+          "android": "Idan kun aika imel zuwa [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), muna karɓar adireshin imel ɗinku da bayanan da kuka zaɓi aikawa. Idan kun yi amfani da Aika ra'ayi a cikin manhajar, daftarin imel ɗin zai ƙunshi sigar manhajar da lambar ginin ta (build number), sigar Android da harshen manhajar, waɗanda kuke iya gyarawa ko cirewa kafin aikawa. Muna amfani da su ne don amsa buƙatarku. Masu ba da sabis na imel ɗinku da namu suna sarrafa wasiƙun a matsayin wani ɓangare na isar da imel da adana shi."
+        },
+        "Muna ajiye wasiƙun tallafi ne kawai har tsawon lokacin da ake buƙata don kammala buƙatar da abubuwan da suka biyo bayanta, ko kuma idan doka ta tilasta ajiye su. Kuna iya neman mu goge su ta hanyar aika imel zuwa wannan adireshin."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "Wannan shafin yanar gizo",
+      "paragraphs": [
+        "Wannan shafi yana kan GitHub Pages. Ba mu ƙara wani rubutun nazari (analytics), talla, kukis ko fom na tuntuɓa ba. Shafin yana tuna harshen da kuka zaɓa a ma'ajiyar burauzarku ta cikin na'ura, wadda ba ta taɓa barin na'urarku. GitHub na iya sarrafa bayanan fasaha na buƙatun shiga shafin, har da adireshin IP ɗinku, don isar da shafin da kuma kare shi. Duba [sanarwar sirri ta GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "questions",
+      "platforms": ["ios", "android"],
+      "heading": "Tambayoyi da canje-canje",
+      "paragraphs": [
+        "Don tambayoyi ko buƙatu game da sirri, ku tuntuɓi [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com). Idan wannan manufa ta canza, za mu wallafa sabuwar sigarta a nan tare da sabuwar ranar fara aiki."
+      ]
+    }
+  ]
+}
