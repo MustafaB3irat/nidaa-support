@@ -114,7 +114,7 @@
       "platforms": ["android"],
       "heading": "Wear OS, widgets and the countdown",
       "paragraphs": [
-        "If you use Nidaa on a Wear OS watch, your phone sends your saved place (city name, time zone and coordinates rounded to about 100 m) and your prayer-time settings to your watch through the Wearable Data Layer of Google Play services, so the watch can show the same times. While the prayer countdown runs, your phone also sends it to your watch. This data goes only between your own phone and watch. Nidaa does not receive it.",
+        "If you use Nidaa on a Wear OS watch, your phone sends your saved place (city name, time zone and coordinates rounded to about 100 m) and your prayer-time settings to your watch through the Wearable Data Layer of Google Play services, so the watch can show the same times. While the prayer countdown runs, your phone also sends it to your watch. This data goes only between your own phone and watch, directly or through Google’s servers when they are not connected to each other. Nidaa does not receive it.",
         "The optional prayer countdown appears as an ongoing notification. On Android 16 it can also appear as a Live Update in the status bar and on the lock screen. Home screen widgets, the Quick Settings tile, the countdown and the watch’s tile and complications all run on your devices and use no push service."
       ]
     },
