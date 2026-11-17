@@ -17,6 +17,8 @@ def texts(node, path=""):
         for i, x in enumerate(node):
             yield from texts(x, f"{path}[{i}]")
     elif isinstance(node, dict):
+        if "lang" in node:  # the ARCore notice stays in English, compared separately
+            return
         for k, v in node.items():
             if k in ("id", "platforms", "lang"):
                 continue
