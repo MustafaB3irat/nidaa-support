@@ -201,8 +201,8 @@
       "heading": "Rating request",
       "paragraphs": [
         {
-          "ios": "To show Apple’s request to rate Nidaa once, at a quiet moment, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. These counts never leave your device and are not used for anything else. Apple shows the request and handles any rating you give.",
-          "android": "To ask Google Play once, at a quiet moment, to show its request to rate Nidaa, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. These counts never leave your device and are not used for anything else. Google Play decides whether to show the request and handles any rating you give under Google’s [privacy policy](https://policies.google.com/privacy)."
+          "ios": "To show Apple’s request to rate Nidaa once, at a quiet moment, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. This record, which also notes when you last opened the app, is kept with the app’s settings on your device. It is never sent to us and is not used for anything else. Apple shows the request and handles any rating you give.",
+          "android": "To ask Google Play once, at a quiet moment, to show its request to rate Nidaa, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. This record, which also notes when you last opened the app, is kept with the app’s settings on your device. It is never sent to us and is not used for anything else. Google Play decides whether to show the request and handles any rating you give under Google’s [privacy policy](https://policies.google.com/privacy)."
         }
       ]
     },

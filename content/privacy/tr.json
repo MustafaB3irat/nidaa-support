@@ -181,8 +181,8 @@
       "heading": "Değerlendirme isteği",
       "paragraphs": [
         {
-          "ios": "Apple’ın Nidaa’yı değerlendirme isteğini sakin bir anda bir kez göstermek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Bu sayılar cihazınızdan asla çıkmaz ve başka hiçbir şey için kullanılmaz. İsteği Apple gösterir ve verdiğiniz puanı Apple işler.",
-          "android": "Google Play’den sakin bir anda bir kez Nidaa’yı değerlendirme isteğini göstermesini istemek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Bu sayılar cihazınızdan asla çıkmaz ve başka hiçbir şey için kullanılmaz. İsteğin gösterilip gösterilmeyeceğine Google Play karar verir ve verdiğiniz puanı Google’ın [gizlilik politikasına](https://policies.google.com/privacy) göre işler."
+          "ios": "Apple’ın Nidaa’yı değerlendirme isteğini sakin bir anda bir kez göstermek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Uygulamayı en son ne zaman açtığınızı da içeren bu kayıt, uygulamanın ayarlarıyla birlikte cihazınızda saklanır. Bize asla gönderilmez ve başka hiçbir şey için kullanılmaz. İsteği Apple gösterir ve verdiğiniz puanı Apple işler.",
+          "android": "Google Play’den sakin bir anda bir kez Nidaa’yı değerlendirme isteğini göstermesini istemek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Uygulamayı en son ne zaman açtığınızı da içeren bu kayıt, uygulamanın ayarlarıyla birlikte cihazınızda saklanır. Bize asla gönderilmez ve başka hiçbir şey için kullanılmaz. İsteğin gösterilip gösterilmeyeceğine Google Play karar verir ve verdiğiniz puanı Google’ın [gizlilik politikasına](https://policies.google.com/privacy) göre işler."
         }
       ]
     },

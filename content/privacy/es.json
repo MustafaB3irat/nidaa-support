@@ -181,8 +181,8 @@
       "heading": "Solicitud de valoración",
       "paragraphs": [
         {
-          "ios": "Para mostrar una sola vez, en un momento tranquilo, la solicitud de Apple para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Estos recuentos nunca salen de tu dispositivo y no se usan para nada más. Apple muestra la solicitud y gestiona cualquier valoración que des.",
-          "android": "Para pedir una sola vez a Google Play, en un momento tranquilo, que muestre su solicitud para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Estos recuentos nunca salen de tu dispositivo y no se usan para nada más. Google Play decide si muestra la solicitud y gestiona cualquier valoración que des según la [política de privacidad](https://policies.google.com/privacy) de Google."
+          "ios": "Para mostrar una sola vez, en un momento tranquilo, la solicitud de Apple para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Este registro, que también anota cuándo abriste la app por última vez, se guarda con los ajustes de la app en tu dispositivo. Nunca se nos envía y no se usa para nada más. Apple muestra la solicitud y gestiona cualquier valoración que des.",
+          "android": "Para pedir una sola vez a Google Play, en un momento tranquilo, que muestre su solicitud para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Este registro, que también anota cuándo abriste la app por última vez, se guarda con los ajustes de la app en tu dispositivo. Nunca se nos envía y no se usa para nada más. Google Play decide si muestra la solicitud y gestiona cualquier valoración que des según la [política de privacidad](https://policies.google.com/privacy) de Google."
         }
       ]
     },

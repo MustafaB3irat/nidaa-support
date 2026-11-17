@@ -181,8 +181,8 @@
       "heading": "Demande d’évaluation",
       "paragraphs": [
         {
-          "ios": "Pour afficher une seule fois, à un moment calme, la demande d’Apple d’évaluer Nidaa, l’app compte sur votre appareil combien de fois et combien de jours vous l’ouvrez, et si vous avez trouvé la Qibla. Ces compteurs ne quittent jamais votre appareil et ne servent à rien d’autre. Apple affiche la demande et gère toute note que vous donnez.",
-          "android": "Pour demander une seule fois à Google Play, à un moment calme, d’afficher sa demande d’évaluation de Nidaa, l’app compte sur votre appareil combien de fois et combien de jours vous l’ouvrez, et si vous avez trouvé la Qibla. Ces compteurs ne quittent jamais votre appareil et ne servent à rien d’autre. Google Play décide d’afficher ou non la demande et gère toute note que vous donnez conformément à la [politique de confidentialité](https://policies.google.com/privacy) de Google."
+          "ios": "Pour afficher une seule fois, à un moment calme, la demande d’Apple d’évaluer Nidaa, l’app compte sur votre appareil combien de fois et combien de jours vous l’ouvrez, et si vous avez trouvé la Qibla. Ces données, qui notent aussi votre dernière ouverture de l’app, sont conservées avec les réglages de l’app sur votre appareil. Elles ne nous sont jamais envoyées et ne servent à rien d’autre. Apple affiche la demande et gère toute note que vous donnez.",
+          "android": "Pour demander une seule fois à Google Play, à un moment calme, d’afficher sa demande d’évaluation de Nidaa, l’app compte sur votre appareil combien de fois et combien de jours vous l’ouvrez, et si vous avez trouvé la Qibla. Ces données, qui notent aussi votre dernière ouverture de l’app, sont conservées avec les réglages de l’app sur votre appareil. Elles ne nous sont jamais envoyées et ne servent à rien d’autre. Google Play décide d’afficher ou non la demande et gère toute note que vous donnez conformément à la [politique de confidentialité](https://policies.google.com/privacy) de Google."
         }
       ]
     },
