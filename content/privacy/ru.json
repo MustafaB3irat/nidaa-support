@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "ru",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Время намазов всегда под рукой.",
+    "nav_label": "Основная навигация",
+    "nav_support": "Поддержка",
+    "nav_privacy": "Конфиденциальность",
+    "footer_support": "Поддержка",
+    "footer_privacy": "Политика конфиденциальности",
+    "language_label": "Язык",
+    "eyebrow": {
+      "ios": "NIDAA ДЛЯ IPHONE И APPLE WATCH",
+      "android": "NIDAA ДЛЯ ANDROID И WEAR OS"
+    },
+    "title": "Политика конфиденциальности",
+    "description": "Nidaa не собирает ваши персональные данные. На этой странице объясняется, что это значит.",
+    "platform_name": {
+      "ios": "iPhone и Apple Watch",
+      "android": "Android и Wear OS"
+    },
+    "platform_switch": {
+      "ios": "Это политика для iPhone и Apple Watch. У вас Android? [Откройте политику для Android и Wear OS]({url}).",
+      "android": "Это политика для Android и Wear OS. У вас iPhone? [Откройте политику для iPhone и Apple Watch]({url})."
+    },
+    "effective_date": "Дата вступления в силу: {date}",
+    "translation_note": "Это перевод. Если он расходится с [английской версией]({url}), действует английская версия.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Политика конфиденциальности",
+    "router_intro": "У Nidaa есть отдельная политика конфиденциальности для каждого типа устройств. Выберите свой.",
+    "router_choice": {
+      "ios": "iPhone и Apple Watch",
+      "android": "Android и Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "17 ноября 2026 г.",
+    "android": "17 ноября 2026 г."
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "Кратко",
+      "paragraphs": [
+        {
+          "list": [
+            "Nidaa не собирает, не хранит и не продаёт ваши персональные данные.",
+            "Нет учётной записи, нет нашего сервера, нет рекламы, аналитики или отслеживания.",
+            "Время намазов и направление киблы рассчитываются на вашем устройстве, и ваши настройки остаются на нём.",
+            {
+              "ios": "Некоторые функции используют сервисы Apple, описанные ниже.",
+              "android": "Некоторые функции используют сервисы Google, описанные ниже."
+            },
+            "Единственные данные, которые мы когда-либо получаем, это письма, которые вы сами решите нам отправить."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "Кто мы",
+      "paragraphs": [
+        "Nidaa создаёт независимый разработчик Mustafa Bi’rat. В этой политике слова «мы» и «нас» означают разработчика. Связаться с нами можно по адресу [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "Какую информацию мы не собираем",
+      "paragraphs": [
+        "Мы не собираем никакой персональной информации. В частности, мы никогда не получаем:",
+        {
+          "list": [
+            "ваше имя, адрес электронной почты или номер телефона (если только вы не напишете нам)",
+            "ваше местоположение или места, которые вы ищете",
+            "ваши настройки намазов или сведения о том, как вы пользуетесь приложением",
+            "изображения с камеры, фотографии, контакты или звук с микрофона",
+            "рекламные идентификаторы, идентификаторы устройства или ваш IP-адрес"
+          ]
+        },
+        "Поскольку мы не храним персональных данных, мы никогда их не продаём и не передаём."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "Что остаётся на вашем устройстве",
+      "paragraphs": [
+        "Nidaa сохраняет на вашем устройстве выбранное местоположение, настройки намазов и параметры уведомлений, чтобы приложение и его виджеты могли показывать ваше время. Если вы пользуетесь Nidaa на часах, телефон передаёт эти настройки на часы.",
+        "Приложение также ведёт небольшую запись о том, как часто вы его открываете и нашли ли вы киблу, чтобы один раз выбрать подходящий момент и попросить оценку.",
+        "Ничего из этого не отправляется нам. Эти данные удаляются вместе с приложением, а ваше устройство может включать их в свои резервные копии."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "Разрешения",
+      "paragraphs": [
+        "Все разрешения необязательны. Nidaa работает и без них, а изменить их можно в любой момент в настройках устройства.",
+        {
+          "list": [
+            "**Местоположение**: чтобы показывать время намазов и киблу для того места, где вы находитесь. Достаточно приблизительного местоположения, а вместо него можно выбрать город.",
+            "**Камера**: только для режима киблы в дополненной реальности. Изображение с камеры используется в реальном времени на вашем устройстве и никогда не записывается, не сохраняется и не загружается.",
+            "**Уведомления**: для напоминаний о намазах, которые планируются на вашем устройстве.",
+            {
+              "text": "**Будильники и напоминания**: чтобы уведомления о намазах звучали точно в нужную минуту.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "Сервисы Apple",
+        "android": "Сервисы Google"
+      },
+      "paragraphs": [
+        {
+          "ios": "Некоторым функциям нужен онлайн-сервис. Для них Nidaa отправляет напрямую в Apple только то, что нужно функции, а Apple обрабатывает эти данные в соответствии с [Политикой конфиденциальности Apple](https://www.apple.com/legal/privacy/). Эти данные никогда не отправляются нам, и Nidaa их не хранит.",
+          "android": "Некоторым функциям нужен онлайн-сервис. Для них Nidaa отправляет напрямую в Google только то, что нужно функции, а Google обрабатывает эти данные в соответствии с [Политикой конфиденциальности Google](https://policies.google.com/privacy). Эти данные никогда не отправляются нам, и Nidaa их не хранит."
+        },
+        {
+          "list": [
+            "**Поиск города**: название, которое вы ищете, или координаты, чтобы узнать название города.",
+            "**Мечети рядом**: место, от которого вы ищете, чтобы найти ближайшие мечети и время пути до них.",
+            {
+              "text": "**Siri и Быстрые команды**: если вы ими пользуетесь, ваш запрос обрабатывает Apple. Nidaa отвечает на основе настроек на вашем устройстве.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**Карты**: компоненты карт и мест Google также могут собирать собственные диагностические данные.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Синхронизация с часами**: ваши настройки передаются между телефоном и часами через Google Play services, которые могут пересылать их, когда устройства не соединены напрямую.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Кибла в AR**: использует ARCore, который может собирать собственные диагностические данные, пока открыт режим AR.",
+              "platforms": ["android"]
+            },
+            "**Маршруты**: если вы запросите маршрут, пункт назначения передаётся выбранному вами приложению карт."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "Вы получаете Nidaa из App Store, поэтому загрузку и любую вашу оценку обрабатывает Apple.",
+          "android": "Вы получаете Nidaa из Google Play, поэтому загрузку и любую вашу оценку обрабатывает Google."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "Когда вы связываетесь с нами",
+      "paragraphs": [
+        "Если вы напишете нам на [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), мы получим ваш адрес электронной почты и всё, что вы укажете в письме. Мы используем это только для ответа и удаляем переписку по вашей просьбе. Функция «Отправить отзыв» в приложении добавляет в черновик версию приложения, версию системы и язык, и вы можете удалить их перед отправкой."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "Хранение данных и безопасность",
+      "paragraphs": [
+        "Всё, что сохраняет Nidaa, остаётся на вашем устройстве, пока вы это не измените или не удалите приложение. Письма в поддержку мы храним только столько, сколько нужно, чтобы вам помочь, или пока вы не попросите их удалить.",
+        "Поскольку у нас нет сервера и мы не храним данные пользователей, не существует базы с вашими данными, которую можно было бы взломать. Запросы к Apple или Google передаются по зашифрованным соединениям."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "Ваши права",
+      "paragraphs": [
+        "В зависимости от места проживания такие законы, как GDPR или CCPA, дают вам право на доступ к своим персональным данным, их исправление или удаление, а также право подать жалобу в местный орган по защите данных. Единственные персональные данные, которые у нас могут быть, это письмо в поддержку, и любой запрос о нём мы выполним в течение 30 дней. Мы не продаём и не передаём персональную информацию."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "Дети",
+      "paragraphs": [
+        "Nidaa подходит для всех и не собирает персональную информацию ни у кого, в том числе у детей."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Ваш выбор",
+      "paragraphs": [
+        "Вы можете отключить разрешения в настройках устройства, изменить сохранённое местоположение в приложении или удалить приложение, чтобы стереть всё, что оно сохранило. Поскольку у нас нет данных о вас, запрашивать у нас или удалять нечего."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "Этот сайт",
+      "paragraphs": [
+        "На этом сайте нет аналитики, рекламы и файлов cookie. Выбранный вами язык он запоминает только в вашем браузере. Сайт размещён на GitHub Pages, и GitHub может обрабатывать техническую информацию, например ваш IP-адрес, чтобы его показывать. См. [заявление GitHub о конфиденциальности](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "Изменения и вопросы",
+      "paragraphs": [
+        "Если эта политика изменится, мы опубликуем здесь новую версию с новой датой вступления в силу. С любыми вопросами о конфиденциальности пишите на [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    }
+  ]
+}

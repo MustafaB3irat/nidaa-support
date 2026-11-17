@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "ar",
+  "ui": {
+    "site_name": "نداء",
+    "tagline": "مواقيت الصلاة، أقرب إليك.",
+    "nav_label": "التنقل الرئيسي",
+    "nav_support": "الدعم",
+    "nav_privacy": "الخصوصية",
+    "footer_support": "الدعم",
+    "footer_privacy": "سياسة الخصوصية",
+    "language_label": "اللغة",
+    "eyebrow": {
+      "ios": "نداء لـ iPhone وApple Watch",
+      "android": "نداء لـ Android وWear OS"
+    },
+    "title": "سياسة الخصوصية",
+    "description": "لا يجمع نداء بياناتك الشخصية. توضّح هذه الصفحة ما يعنيه ذلك.",
+    "platform_name": {
+      "ios": "iPhone وApple Watch",
+      "android": "Android وWear OS"
+    },
+    "platform_switch": {
+      "ios": "هذه هي السياسة الخاصة بـ iPhone وApple Watch. هل تستخدم Android؟ [اطّلع على سياسة Android وWear OS]({url}).",
+      "android": "هذه هي السياسة الخاصة بـ Android وWear OS. هل تستخدم iPhone؟ [اطّلع على سياسة iPhone وApple Watch]({url})."
+    },
+    "effective_date": "تاريخ السريان: {date}",
+    "translation_note": "هذه ترجمة. إذا اختلفت عن [النسخة الإنجليزية]({url})، فالنسخة الإنجليزية هي المعتمدة.",
+    "router_eyebrow": "نداء",
+    "router_title": "سياسة الخصوصية",
+    "router_intro": "لنداء سياسة خصوصية لكل نوع من الأجهزة. اختر جهازك.",
+    "router_choice": {
+      "ios": "iPhone وApple Watch",
+      "android": "Android وWear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "١٧ نوفمبر ٢٠٢٦",
+    "android": "١٧ نوفمبر ٢٠٢٦"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "ملخّص",
+      "paragraphs": [
+        {
+          "list": [
+            "لا يجمع نداء بياناتك الشخصية ولا يخزّنها ولا يبيعها.",
+            "لا يوجد حساب، ولا خادم خاص بنا، ولا إعلانات أو تحليلات أو تتبّع.",
+            "تُحسب مواقيت الصلاة واتجاه القبلة على جهازك، وتبقى إعداداتك عليه.",
+            {
+              "ios": "تستخدم بعض الميزات خدمات من Apple، وهي موضّحة أدناه.",
+              "android": "تستخدم بعض الميزات خدمات من Google، وهي موضّحة أدناه."
+            },
+            "البيانات الوحيدة التي قد نتلقّاها هي رسالة بريد إلكتروني تختار أن ترسلها إلينا."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "من نحن",
+      "paragraphs": [
+        "يطوّر نداء Mustafa Bi’rat، وهو مطوّر مستقل. وفي هذه السياسة، تشير كلمتا «نحن» و«لنا» إلى المطوّر. يمكنك التواصل معنا عبر [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "المعلومات التي لا نجمعها",
+      "paragraphs": [
+        "لا نجمع أي معلومات شخصية. وعلى وجه الخصوص، لا نتلقّى أبدًا:",
+        {
+          "list": [
+            "اسمك أو عنوان بريدك الإلكتروني أو رقم هاتفك (إلا إذا راسلتنا)",
+            "موقعك أو الأماكن التي تبحث عنها",
+            "إعدادات الصلاة لديك أو طريقة استخدامك للتطبيق",
+            "صور الكاميرا أو الصور أو جهات الاتصال أو صوت الميكروفون",
+            "معرّفات الإعلانات أو معرّفات الجهاز أو عنوان IP الخاص بك"
+          ]
+        },
+        "ولأننا لا نحتفظ بأي بيانات شخصية، فإننا لا نبيعها ولا نشاركها أبدًا."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "ما يبقى على جهازك",
+      "paragraphs": [
+        "يحفظ نداء موقعك المختار وإعدادات الصلاة وتفضيلات التنبيهات على جهازك، ليعرض التطبيق وتطبيقاته المصغّرة مواقيتك. وإذا استخدمت نداء على ساعة، يرسل هاتفك هذه الإعدادات إلى ساعتك.",
+        "ويحتفظ التطبيق أيضًا بسجلّ صغير لعدد مرات فتحه وما إذا كنت قد وجدت القبلة، ليختار لحظة هادئة يطلب فيها تقييمك، مرة واحدة فقط.",
+        "لا يُرسَل شيء من ذلك إلينا. ويُحذف عند حذف التطبيق، وقد يُدرجه جهازك في نسخه الاحتياطية."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "الأذونات",
+      "paragraphs": [
+        "كل الأذونات اختيارية. يعمل نداء بدونها، ويمكنك تغييرها في أي وقت من إعدادات جهازك.",
+        {
+          "list": [
+            "**الموقع**: لعرض مواقيت الصلاة والقبلة حيث أنت. يكفي الموقع التقريبي، ويمكنك اختيار مدينة بدلًا منه.",
+            "**الكاميرا**: لعرض القبلة بالواقع المعزز فقط. تُستخدم صورة الكاميرا مباشرةً على جهازك، ولا تُسجَّل أو تُحفظ أو تُرفع أبدًا.",
+            "**الإشعارات**: لتنبيهات الصلاة والتذكيرات، وتُجدوَل على جهازك.",
+            {
+              "text": "**المنبّهات والتذكيرات**: لكي تنطلق تنبيهات الصلاة في الدقيقة المحددة تمامًا.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "خدمات من Apple",
+        "android": "خدمات من Google"
+      },
+      "paragraphs": [
+        {
+          "ios": "تحتاج بعض الميزات إلى خدمة عبر الإنترنت. وفي هذه الحالات، يرسل نداء ما تحتاجه الميزة فقط مباشرةً إلى Apple، التي تتعامل معه وفق [سياسة خصوصية Apple](https://www.apple.com/legal/privacy/). لا يُرسَل إلينا أبدًا، ولا يخزّنه نداء.",
+          "android": "تحتاج بعض الميزات إلى خدمة عبر الإنترنت. وفي هذه الحالات، يرسل نداء ما تحتاجه الميزة فقط مباشرةً إلى Google، التي تتعامل معه وفق [سياسة خصوصية Google](https://policies.google.com/privacy). لا يُرسَل إلينا أبدًا، ولا يخزّنه نداء."
+        },
+        {
+          "list": [
+            "**البحث عن المدن**: الاسم الذي تبحث عنه، أو الإحداثيات لمعرفة اسم المدينة.",
+            "**المساجد القريبة**: الموقع الذي تبحث منه، للعثور على المساجد القريبة منك ومدة الوصول إليها.",
+            {
+              "text": "**Siri والاختصارات**: إذا استخدمتهما، تتعامل Apple مع طلبك. ويجيب نداء من الإعدادات الموجودة على جهازك.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**الخرائط**: قد تجمع مكوّنات الخرائط والأماكن من Google أيضًا بيانات تشخيص خاصة بها.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**مزامنة الساعة**: تنتقل إعداداتك بين هاتفك وساعتك عبر Google Play services، التي قد تنقلها عندما لا يكون الجهازان متصلين مباشرةً.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**القبلة بالواقع المعزز**: تستخدم ARCore، الذي قد يجمع بيانات تشخيص خاصة به أثناء فتح عرض الواقع المعزز.",
+              "platforms": ["android"]
+            },
+            "**الاتجاهات**: إذا طلبت الاتجاهات، تُمرَّر الوجهة إلى تطبيق الخرائط الذي تختاره."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "تحصل على نداء من App Store، لذا تتعامل Apple مع عملية التنزيل وأي تقييم تقدّمه.",
+          "android": "تحصل على نداء من Google Play، لذا تتعامل Google مع عملية التنزيل وأي تقييم تقدّمه."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "عند التواصل معنا",
+      "paragraphs": [
+        "إذا راسلتنا على [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)، نتلقّى عنوان بريدك الإلكتروني وكل ما تضمّنه رسالتك. نستخدمه للرد فقط، ونحذف المحادثة عندما تطلب ذلك. ويضيف «إرسال ملاحظات» في التطبيق إصدار التطبيق وإصدار النظام واللغة إلى المسودة، ويمكنك حذفها قبل الإرسال."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "الاحتفاظ بالبيانات وأمنها",
+      "paragraphs": [
+        "كل ما يحفظه نداء يبقى على جهازك حتى تغيّره أو تحذف التطبيق. ونحتفظ برسائل الدعم فقط للمدة اللازمة لمساعدتك، أو حتى تطلب منا حذفها.",
+        "ولأننا لا نشغّل أي خادم ولا نحتفظ بأي بيانات للمستخدمين، فلا توجد قاعدة بيانات تخصّك يمكن اختراقها. وتمرّ الطلبات إلى Apple أو Google عبر اتصالات مشفّرة."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "حقوقك",
+      "paragraphs": [
+        "بحسب مكان إقامتك، تمنحك قوانين مثل اللائحة العامة لحماية البيانات (GDPR) أو CCPA حق الوصول إلى بياناتك الشخصية أو تصحيحها أو حذفها، وحق تقديم شكوى إلى السلطة المحلية لحماية البيانات. والبيانات الشخصية الوحيدة التي قد نحتفظ بها هي رسالة دعم، وسنستجيب لأي طلب بشأنها خلال ٣٠ يومًا. نحن لا نبيع المعلومات الشخصية ولا نشاركها."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "الأطفال",
+      "paragraphs": [
+        "نداء مناسب للجميع، ولا يجمع أي معلومات شخصية من أي أحد، بما في ذلك الأطفال."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "خياراتك",
+      "paragraphs": [
+        "يمكنك إيقاف الأذونات من إعدادات جهازك، أو تغيير موقعك المحفوظ في التطبيق، أو حذف التطبيق لإزالة كل ما خزّنه. ولأننا لا نحتفظ بأي بيانات عنك، فلا يوجد ما تطلبه منا أو ما نحذفه."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "هذا الموقع",
+      "paragraphs": [
+        "لا يستخدم هذا الموقع أي تحليلات أو إعلانات أو ملفات تعريف الارتباط. ولا يتذكّر سوى اللغة التي تختارها، وذلك في متصفحك فقط. وهو مستضاف على GitHub Pages، وقد تعالج GitHub معلومات تقنية مثل عنوان IP الخاص بك لتقديمه. راجع [بيان الخصوصية لدى GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "التغييرات والأسئلة",
+      "paragraphs": [
+        "إذا تغيّرت هذه السياسة، فسننشر النسخة الجديدة هنا مع تاريخ سريان جديد. لأي سؤال يتعلق بالخصوصية، راسل [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    }
+  ]
+}

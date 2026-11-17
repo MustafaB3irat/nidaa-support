@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "tr",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Namaz vakitleri, her an elinizin altında.",
+    "nav_label": "Ana gezinme",
+    "nav_support": "Destek",
+    "nav_privacy": "Gizlilik",
+    "footer_support": "Destek",
+    "footer_privacy": "Gizlilik politikası",
+    "language_label": "Dil",
+    "eyebrow": {
+      "ios": "IPHONE VE APPLE WATCH İÇİN NIDAA",
+      "android": "ANDROID VE WEAR OS İÇİN NIDAA"
+    },
+    "title": "Gizlilik Politikası",
+    "description": "Nidaa kişisel verilerinizi toplamaz. Bu sayfa bunun ne anlama geldiğini açıklar.",
+    "platform_name": {
+      "ios": "iPhone ve Apple Watch",
+      "android": "Android ve Wear OS"
+    },
+    "platform_switch": {
+      "ios": "Bu, iPhone ve Apple Watch için gizlilik politikasıdır. Android mi kullanıyorsunuz? [Android ve Wear OS politikasına bakın]({url}).",
+      "android": "Bu, Android ve Wear OS için gizlilik politikasıdır. iPhone mu kullanıyorsunuz? [iPhone ve Apple Watch politikasına bakın]({url})."
+    },
+    "effective_date": "Yürürlük tarihi: {date}",
+    "translation_note": "Bu bir çeviridir. [İngilizce sürümle]({url}) arasında fark olursa İngilizce sürüm geçerlidir.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Gizlilik politikası",
+    "router_intro": "Nidaa'nın her cihaz türü için ayrı bir gizlilik politikası vardır. Cihazınızı seçin.",
+    "router_choice": {
+      "ios": "iPhone ve Apple Watch",
+      "android": "Android ve Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "17 Kasım 2026",
+    "android": "17 Kasım 2026"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "Özet",
+      "paragraphs": [
+        {
+          "list": [
+            "Nidaa kişisel verilerinizi toplamaz, saklamaz ve satmaz.",
+            "Hesap yoktur, bize ait bir sunucu yoktur; reklam, analiz veya izleme de yoktur.",
+            "Namaz vakitleri ve kıble yönü cihazınızda hesaplanır, ayarlarınız da cihazınızda kalır.",
+            {
+              "ios": "Bazı özellikler, aşağıda açıklanan Apple hizmetlerini kullanır.",
+              "android": "Bazı özellikler, aşağıda açıklanan Google hizmetlerini kullanır."
+            },
+            "Bize ulaşan tek veri, göndermeyi seçtiğiniz e-postalardır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "Biz kimiz",
+      "paragraphs": [
+        "Nidaa, bağımsız bir geliştirici olan Mustafa Bi’rat tarafından geliştirilmektedir. Bu politikada “biz” ifadesi geliştiriciyi ifade eder. Bize [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) adresinden ulaşabilirsiniz."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "Toplamadığımız bilgiler",
+      "paragraphs": [
+        "Hiçbir kişisel bilgi toplamayız. Özellikle şunları hiçbir zaman almayız:",
+        {
+          "list": [
+            "adınız, e-posta adresiniz veya telefon numaranız (bize e-posta göndermediğiniz sürece)",
+            "konumunuz veya aradığınız yerler",
+            "namaz ayarlarınız veya uygulamayı nasıl kullandığınız",
+            "kamera görüntüleri, fotoğraflar, kişiler veya mikrofon sesi",
+            "reklam tanımlayıcıları, cihaz tanımlayıcıları veya IP adresiniz"
+          ]
+        },
+        "Hiçbir kişisel veri tutmadığımız için bu verileri hiçbir zaman satmayız veya paylaşmayız."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "Cihazınızda kalanlar",
+      "paragraphs": [
+        "Nidaa, uygulamanın ve widget'larının vakitlerinizi gösterebilmesi için seçtiğiniz konumu, namaz ayarlarınızı ve bildirim tercihlerinizi cihazınızda saklar. Nidaa'yı bir saatte kullanıyorsanız telefonunuz bu ayarları saatinize gönderir.",
+        "Uygulama ayrıca, puan istemek için uygun bir anı bir kez seçebilmek amacıyla onu ne sıklıkla açtığınızı ve Kıble'yi bulup bulmadığınızı küçük bir kayıtta tutar.",
+        "Bunların hiçbiri bize gönderilmez. Uygulamayı sildiğinizde kaldırılır; cihazınız bunları kendi yedeklerine dahil edebilir."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "İzinler",
+      "paragraphs": [
+        "Tüm izinler isteğe bağlıdır. Nidaa bu izinler olmadan da çalışır ve bunları istediğiniz zaman cihazınızın ayarlarından değiştirebilirsiniz.",
+        {
+          "list": [
+            "**Konum**: bulunduğunuz yere göre namaz vakitlerini ve kıbleyi göstermek için. Yaklaşık konum yeterlidir; bunun yerine bir şehir de seçebilirsiniz.",
+            "**Kamera**: yalnızca artırılmış gerçeklik kıble görünümü için. Kamera görüntüsü cihazınızda anlık olarak kullanılır; hiçbir zaman kaydedilmez, saklanmaz veya yüklenmez.",
+            "**Bildirimler**: cihazınızda planlanan namaz bildirimleri ve hatırlatıcılar için.",
+            {
+              "text": "**Alarmlar ve hatırlatıcılar**: namaz bildirimlerinin tam vaktinde çalması için.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "Apple hizmetleri",
+        "android": "Google hizmetleri"
+      },
+      "paragraphs": [
+        {
+          "ios": "Bazı özellikler çevrimiçi bir hizmete ihtiyaç duyar. Bu özellikler için Nidaa, yalnızca özelliğin ihtiyaç duyduğu bilgiyi doğrudan Apple'a gönderir; Apple bu bilgiyi [Apple Gizlilik Politikası](https://www.apple.com/legal/privacy/) kapsamında işler. Bu bilgi hiçbir zaman bize gönderilmez ve Nidaa onu saklamaz.",
+          "android": "Bazı özellikler çevrimiçi bir hizmete ihtiyaç duyar. Bu özellikler için Nidaa, yalnızca özelliğin ihtiyaç duyduğu bilgiyi doğrudan Google'a gönderir; Google bu bilgiyi [Google Gizlilik Politikası](https://policies.google.com/privacy) kapsamında işler. Bu bilgi hiçbir zaman bize gönderilmez ve Nidaa onu saklamaz."
+        },
+        {
+          "list": [
+            "**Şehir arama**: aradığınız ad veya bir şehrin adını bulmak için koordinatlar.",
+            "**Yakındaki camiler**: size yakın camileri ve bunlara ulaşım sürelerini bulmak için arama yaptığınız konum.",
+            {
+              "text": "**Siri ve Kestirmeler**: bunları kullanırsanız isteğinizi Apple işler. Nidaa, cihazınızdaki ayarlara göre yanıt verir.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**Haritalar**: Google'ın harita ve yer bileşenleri kendi tanılama verilerini de toplayabilir.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Saat eşitleme**: ayarlarınız telefonunuz ile saatiniz arasında Google Play services üzerinden aktarılır; ikisi doğrudan bağlı değilken Google Play services bunları iletebilir.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**AR Kıble**: AR görünümü açıkken kendi tanılama verilerini toplayabilen ARCore'u kullanır.",
+              "platforms": ["android"]
+            },
+            "**Yol tarifi**: yol tarifi isterseniz varış noktası seçtiğiniz harita uygulamasına iletilir."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "Nidaa'yı App Store'dan edindiğiniz için indirme işleminizi ve verdiğiniz puanları Apple işler.",
+          "android": "Nidaa'yı Google Play'den edindiğiniz için indirme işleminizi ve verdiğiniz puanları Google işler."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "Bize ulaştığınızda",
+      "paragraphs": [
+        "Bize [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) adresinden e-posta gönderirseniz e-posta adresinizi ve eklediğiniz her şeyi alırız. Bunları yalnızca yanıt vermek için kullanır, siz istediğinizde yazışmayı sileriz. Uygulamadaki Geri bildirim gönder seçeneği taslağa uygulama sürümünü, sistem sürümünü ve dili ekler; bunları göndermeden önce silebilirsiniz."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "Verilerin saklanması ve güvenlik",
+      "paragraphs": [
+        "Nidaa'nın kaydettiği her şey, siz değiştirene veya uygulamayı silene kadar cihazınızda kalır. Destek e-postalarını yalnızca size yardımcı olmak için gerektiği sürece veya siz silmemizi isteyene kadar saklarız.",
+        "Hiçbir sunucu işletmediğimiz ve hiçbir kullanıcı verisi tutmadığımız için, size ait ihlal edilebilecek bir veritabanı yoktur. Apple veya Google'a yapılan istekler şifreli bağlantılar üzerinden gönderilir."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "Haklarınız",
+      "paragraphs": [
+        "Yaşadığınız yere bağlı olarak GDPR veya CCPA gibi yasalar size kişisel verilerinize erişme, bunları düzeltme veya sildirme ve yerel veri koruma otoritenize şikâyette bulunma hakları tanır. Tutabileceğimiz tek kişisel veri bir destek e-postasıdır ve bununla ilgili her talebi 30 gün içinde yerine getiririz. Kişisel bilgileri satmayız veya paylaşmayız."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "Çocuklar",
+      "paragraphs": [
+        "Nidaa herkes için uygundur ve çocuklar dahil hiç kimseden kişisel bilgi toplamaz."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Seçimleriniz",
+      "paragraphs": [
+        "İzinleri cihazınızın ayarlarından kapatabilir, kayıtlı konumunuzu uygulamada değiştirebilir veya uygulamayı silerek sakladığı her şeyi kaldırabilirsiniz. Hakkınızda hiçbir veri tutmadığımız için bizden talep edilecek veya silinecek bir şey yoktur."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "Bu web sitesi",
+      "paragraphs": [
+        "Bu sitede analiz, reklam veya çerez yoktur. Seçtiğiniz dili yalnızca tarayıcınızda hatırlar. Site GitHub Pages üzerinde barındırılır ve GitHub, siteyi sunmak için IP adresiniz gibi teknik bilgileri işleyebilir. [GitHub'ın gizlilik bildirimine](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) bakın."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "Değişiklikler ve sorular",
+      "paragraphs": [
+        "Bu politika değişirse yeni sürümü yeni bir yürürlük tarihiyle burada yayımlarız. Gizlilikle ilgili her türlü soru için [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) adresine yazın."
+      ]
+    }
+  ]
+}

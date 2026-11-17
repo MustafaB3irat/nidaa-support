@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "ha",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Lokutan salla, kusa da ku koyaushe.",
+    "nav_label": "Babban menu",
+    "nav_support": "Tallafi",
+    "nav_privacy": "Sirri",
+    "footer_support": "Tallafi",
+    "footer_privacy": "Manufar sirri",
+    "language_label": "Harshe",
+    "eyebrow": {
+      "ios": "NIDAA DON IPHONE DA APPLE WATCH",
+      "android": "NIDAA DON ANDROID DA WEAR OS"
+    },
+    "title": "Manufar Sirri",
+    "description": "Nidaa ba ta tattara bayananku na sirri. Wannan shafi yana bayyana ma'anar hakan.",
+    "platform_name": {
+      "ios": "iPhone da Apple Watch",
+      "android": "Android da Wear OS"
+    },
+    "platform_switch": {
+      "ios": "Wannan ita ce manufar sirri ta iPhone da Apple Watch. Kuna amfani da Android? [Duba manufar Android da Wear OS]({url}).",
+      "android": "Wannan ita ce manufar sirri ta Android da Wear OS. Kuna amfani da iPhone? [Duba manufar iPhone da Apple Watch]({url})."
+    },
+    "effective_date": "Ranar fara aiki: {date}",
+    "translation_note": "Wannan fassara ce. Idan ta bambanta da [sigar Turanci]({url}), sigar Turanci ce ake bi.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Manufar sirri",
+    "router_intro": "Nidaa na da manufar sirri ga kowane irin na'ura. Zaɓi taku.",
+    "router_choice": {
+      "ios": "iPhone da Apple Watch",
+      "android": "Android da Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "17 Nuwamba, 2026",
+    "android": "17 Nuwamba, 2026"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "Taƙaitawa",
+      "paragraphs": [
+        {
+          "list": [
+            "Nidaa ba ta tattarawa, ba ta adanawa, kuma ba ta sayar da bayananku na sirri.",
+            "Babu asusu, babu sabar tamu, kuma babu talla, nazari (analytics) ko bin diddigi.",
+            "Ana lissafa lokutan salla da hanyar Alƙibla a cikin na'urarku, kuma saitunanku suna nan a ciki.",
+            {
+              "ios": "Wasu fasaloli suna amfani da ayyukan Apple, kamar yadda aka bayyana a ƙasa.",
+              "android": "Wasu fasaloli suna amfani da ayyukan Google, kamar yadda aka bayyana a ƙasa."
+            },
+            "Bayanin da kawai muke taɓa karɓa shi ne imel ɗin da kuka zaɓi aiko mana."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "Mu wane ne",
+      "paragraphs": [
+        "Nidaa aikin Mustafa Bi’rat ne, mai haɓaka manhaja mai zaman kansa. A wannan manufa, “mu” na nufin wannan mai haɓakawa. Kuna iya tuntuɓar mu a [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "Bayanan da ba ma tattarawa",
+      "paragraphs": [
+        "Ba ma tattara wani bayanin sirri. Musamman, ba ma taɓa karɓar:",
+        {
+          "list": [
+            "sunanku, adireshin imel ko lambar wayarku (sai dai idan kun aiko mana da imel)",
+            "wurinku ko wuraren da kuke nema",
+            "saitunan sallarku ko yadda kuke amfani da manhajar",
+            "hotunan kyamara, hotuna, lambobin sadarwa ko sautin makirufo",
+            "lambobin tantancewa na talla, lambobin tantance na'ura ko adireshin IP ɗinku"
+          ]
+        },
+        "Tun da ba mu riƙe wani bayanin sirri, ba ma taɓa sayar da shi ko raba shi."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "Abin da ke zama a na'urarku",
+      "paragraphs": [
+        "Nidaa na adana wurin da kuka zaɓa, saitunan salla da zaɓuɓɓukan sanarwoyi a cikin na'urarku, domin manhajar da widget ɗinta su iya nuna lokutanku. Idan kuna amfani da Nidaa a agogo, wayarku na aika waɗannan saituna zuwa agogonku.",
+        "Manhajar kuma tana ajiye ƙaramin bayani kan sau nawa kuke buɗe ta da ko kun sami Alƙibla, don zaɓar lokacin natsuwa ta nemi ku ba ta ƙima, sau ɗaya kawai.",
+        "Ba a aiko mana da ko ɗaya daga cikin waɗannan ba. Ana goge su idan kun goge manhajar, kuma na'urarku na iya saka su a cikin madadinta (backup) na kanta."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "Izini",
+      "paragraphs": [
+        "Kowane izini ba dole ba ne. Nidaa tana aiki ba tare da su ba, kuma kuna iya canza su a kowane lokaci a saitunan na'urarku.",
+        {
+          "list": [
+            "**Wuri**: don nuna lokutan salla da Alƙibla na inda kuke. Wuri na kimanin ya isa, kuma kuna iya zaɓar birni maimakon haka.",
+            "**Kyamara**: don nuna Alƙibla ta AR (augmented reality) kawai. Ana amfani da hoton kyamara kai tsaye a cikin na'urarku, kuma ba a taɓa naɗa shi, adana shi ko loda shi ba.",
+            "**Sanarwoyi**: don sanarwoyin salla da tunatarwa, waɗanda ake tsarawa a cikin na'urarku.",
+            {
+              "text": "**Ƙararrawa da tunatarwa**: domin sanarwoyin salla su yi ƙara daidai a minti.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "Ayyukan Apple",
+        "android": "Ayyukan Google"
+      },
+      "paragraphs": [
+        {
+          "ios": "Wasu fasaloli suna buƙatar sabis na intanet. Don waɗannan, Nidaa na aika abin da fasalin ke buƙata kawai, kai tsaye zuwa Apple, wadda ke sarrafa shi ƙarƙashin [Manufar Sirri ta Apple](https://www.apple.com/legal/privacy/). Ba a taɓa aiko mana da shi ba, kuma Nidaa ba ta adana shi.",
+          "android": "Wasu fasaloli suna buƙatar sabis na intanet. Don waɗannan, Nidaa na aika abin da fasalin ke buƙata kawai, kai tsaye zuwa Google, wadda ke sarrafa shi ƙarƙashin [Manufar Sirri ta Google](https://policies.google.com/privacy). Ba a taɓa aiko mana da shi ba, kuma Nidaa ba ta adana shi."
+        },
+        {
+          "list": [
+            "**Neman birni**: sunan da kuke nema, ko lambobin wuri don gano sunan birni.",
+            "**Masallatai na kusa**: wurin da kuke bincike daga gare shi, don nemo masallatan da ke kusa da ku da lokacin tafiya zuwa gare su.",
+            {
+              "text": "**Siri da Gajerun hanyoyi**: idan kuna amfani da su, Apple ce ke sarrafa buƙatarku. Nidaa na amsawa daga saitunan da ke cikin na'urarku.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**Taswira**: abubuwan taswira da na wurare na Google su ma suna iya tattara bayanan gano matsala (diagnostics) nasu.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Daidaita agogo**: saitunanku suna tafiya tsakanin wayarku da agogonku ta Google Play services, wanda zai iya isar da su idan biyun ba su haɗe kai tsaye ba.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Alƙibla ta AR**: tana amfani da ARCore, wadda za ta iya tattara bayanan gano matsala nata yayin da allon AR ke buɗe.",
+              "platforms": ["android"]
+            },
+            "**Kwatance**: idan kun nemi kwatance, ana tura wurin da za ku zuwa manhajar taswira da kuka zaɓa."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "Kuna samun Nidaa daga App Store, don haka Apple ce ke kula da saukewarku da duk ƙimar da kuka bayar.",
+          "android": "Kuna samun Nidaa daga Google Play, don haka Google ce ke kula da saukewarku da duk ƙimar da kuka bayar."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "Idan kun tuntuɓe mu",
+      "paragraphs": [
+        "Idan kun aika imel zuwa [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), muna karɓar adireshin imel ɗinku da duk abin da kuka saka. Muna amfani da shi ne kawai don amsawa, kuma muna goge tattaunawar idan kun nema. Aika ra'ayi a cikin manhajar yana ƙara sigar manhajar, sigar tsarin aiki da harshe a cikin daftarin, waɗanda kuke iya cirewa kafin aikawa."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "Ajiye bayanai da tsaro",
+      "paragraphs": [
+        "Duk abin da Nidaa ke adanawa yana nan a na'urarku har sai kun canza shi ko kun goge manhajar. Muna ajiye imel ɗin tallafi ne kawai har tsawon lokacin da ake buƙata don taimaka muku, ko har sai kun nemi mu goge su.",
+        "Tun da ba mu da sabar kuma ba mu riƙe bayanan masu amfani, babu wani rumbun bayananku da za a iya kutsawa cikinsa. Buƙatun da ake aikawa zuwa Apple ko Google suna tafiya ta haɗin da aka ɓoye (encrypted)."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "Haƙƙoƙinku",
+      "paragraphs": [
+        "Ya danganta da inda kuke zaune, dokoki kamar GDPR ko CCPA suna ba ku haƙƙin ganin bayananku na sirri, gyara su ko goge su, da kuma kai ƙara ga hukumar kare bayanai ta yankinku. Bayanin sirri kawai da za mu iya riƙewa shi ne imel ɗin tallafi, kuma za mu ɗauki mataki kan duk wata buƙata game da shi cikin kwanaki 30. Ba ma sayarwa ko raba bayanan sirri."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "Yara",
+      "paragraphs": [
+        "Nidaa ta dace da kowa, kuma ba ta tattara bayanin sirri daga kowa, har da yara."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Zaɓuɓɓukanku",
+      "paragraphs": [
+        "Kuna iya kashe izini a saitunan na'urarku, canza wurin da kuka adana a cikin manhajar, ko goge manhajar don cire duk abin da ta adana. Tun da ba mu riƙe wani bayani game da ku, babu abin da za ku nema daga gare mu ko ku sa mu goge."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "Wannan shafin yanar gizo",
+      "paragraphs": [
+        "Wannan shafi ba shi da nazari (analytics), talla ko kukis. Yana tuna harshen da kuka zaɓa ne kawai, a cikin burauzarku. Yana kan GitHub Pages, kuma GitHub na iya sarrafa bayanan fasaha kamar adireshin IP ɗinku don isar da shi. Duba [sanarwar sirri ta GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "Canje-canje da tambayoyi",
+      "paragraphs": [
+        "Idan wannan manufa ta canza, za mu wallafa sabuwar sigarta a nan tare da sabuwar ranar fara aiki. Don kowace tambaya game da sirri, ku tuntuɓi [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    }
+  ]
+}

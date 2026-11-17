@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "fa",
+  "ui": {
+    "site_name": "نداء",
+    "tagline": "اوقات شرعی، همیشه در دسترس.",
+    "nav_label": "پیمایش اصلی",
+    "nav_support": "پشتیبانی",
+    "nav_privacy": "حریم خصوصی",
+    "footer_support": "پشتیبانی",
+    "footer_privacy": "سیاست حفظ حریم خصوصی",
+    "language_label": "زبان",
+    "eyebrow": {
+      "ios": "نداء برای iPhone و Apple Watch",
+      "android": "نداء برای Android و Wear OS"
+    },
+    "title": "سیاست حفظ حریم خصوصی",
+    "description": "نداء داده‌های شخصی شما را جمع‌آوری نمی‌کند. این صفحه توضیح می‌دهد که این یعنی چه.",
+    "platform_name": {
+      "ios": "iPhone و Apple Watch",
+      "android": "Android و Wear OS"
+    },
+    "platform_switch": {
+      "ios": "این سیاست مربوط به iPhone و Apple Watch است. از Android استفاده می‌کنید؟ [سیاست Android و Wear OS را ببینید]({url}).",
+      "android": "این سیاست مربوط به Android و Wear OS است. از iPhone استفاده می‌کنید؟ [سیاست iPhone و Apple Watch را ببینید]({url})."
+    },
+    "effective_date": "تاریخ اجرا: {date}",
+    "translation_note": "این متن ترجمه است. اگر با [نسخهٔ انگلیسی]({url}) تفاوتی داشته باشد، نسخهٔ انگلیسی ملاک است.",
+    "router_eyebrow": "نداء",
+    "router_title": "سیاست حفظ حریم خصوصی",
+    "router_intro": "نداء برای هر نوع دستگاه سیاست حفظ حریم خصوصی جداگانه‌ای دارد. دستگاه خود را انتخاب کنید.",
+    "router_choice": {
+      "ios": "iPhone و Apple Watch",
+      "android": "Android و Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "۱۷ نوامبر ۲۰۲۶",
+    "android": "۱۷ نوامبر ۲۰۲۶"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "خلاصه",
+      "paragraphs": [
+        {
+          "list": [
+            "نداء داده‌های شخصی شما را جمع‌آوری، ذخیره یا فروش نمی‌کند.",
+            "نه حساب کاربری در کار است، نه سروری از ما، و نه تبلیغات، تحلیل یا ردیابی.",
+            "اوقات شرعی و جهت قبله روی دستگاه شما محاسبه می‌شوند و تنظیمات شما همان‌جا می‌ماند.",
+            {
+              "ios": "چند قابلیت از سرویس‌های Apple استفاده می‌کنند که در ادامه شرح داده شده‌اند.",
+              "android": "چند قابلیت از سرویس‌های Google استفاده می‌کنند که در ادامه شرح داده شده‌اند."
+            },
+            "تنها داده‌ای که ممکن است به دست ما برسد، ایمیلی است که خودتان تصمیم می‌گیرید برایمان بفرستید."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "دربارهٔ ما",
+      "paragraphs": [
+        "نداء را Mustafa Bi’rat، یک توسعه‌دهندهٔ مستقل، ساخته است. در این سیاست، منظور از «ما» توسعه‌دهنده است. می‌توانید از طریق [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) با ما تماس بگیرید."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "اطلاعاتی که جمع‌آوری نمی‌کنیم",
+      "paragraphs": [
+        "ما هیچ اطلاعات شخصی‌ای جمع‌آوری نمی‌کنیم. به‌ویژه، این موارد هرگز به دست ما نمی‌رسد:",
+        {
+          "list": [
+            "نام، نشانی ایمیل یا شمارهٔ تلفن شما (مگر اینکه به ما ایمیل بزنید)",
+            "موقعیت مکانی شما یا مکان‌هایی که جستجو می‌کنید",
+            "تنظیمات نماز شما یا نحوهٔ استفاده‌تان از برنامه",
+            "تصاویر دوربین، عکس‌ها، مخاطبان یا صدای میکروفون",
+            "شناسه‌های تبلیغاتی، شناسه‌های دستگاه یا نشانی IP شما"
+          ]
+        },
+        "چون هیچ دادهٔ شخصی‌ای نزد ما نیست، هرگز آن را نمی‌فروشیم و با کسی به اشتراک نمی‌گذاریم."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "آنچه روی دستگاه شما می‌ماند",
+      "paragraphs": [
+        "نداء موقعیت انتخاب‌شده، تنظیمات نماز و ترجیحات هشدار شما را روی دستگاهتان ذخیره می‌کند تا برنامه و ابزارک‌هایش بتوانند اوقات شما را نشان دهند. اگر از نداء روی ساعت استفاده کنید، گوشی شما این تنظیمات را به ساعتتان می‌فرستد.",
+        "برنامه همچنین سابقهٔ کوچکی از دفعات باز شدنش و اینکه آیا قبله را پیدا کرده‌اید نگه می‌دارد تا لحظه‌ای آرام را برای درخواست امتیاز انتخاب کند، فقط یک بار.",
+        "هیچ‌کدام از این‌ها برای ما فرستاده نمی‌شود. با حذف برنامه پاک می‌شوند، و ممکن است دستگاه شما آن‌ها را در نسخه‌های پشتیبان خودش بگنجاند."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "مجوزها",
+      "paragraphs": [
+        "همهٔ مجوزها اختیاری‌اند. نداء بدون آن‌ها هم کار می‌کند و می‌توانید هر زمان آن‌ها را در تنظیمات دستگاهتان تغییر دهید.",
+        {
+          "list": [
+            "**موقعیت مکانی**: برای نمایش اوقات شرعی و قبله در جایی که هستید. موقعیت تقریبی کافی است و می‌توانید به‌جای آن شهری را انتخاب کنید.",
+            "**دوربین**: فقط برای نمای قبله با واقعیت افزوده. تصویر دوربین به‌صورت زنده روی دستگاه شما استفاده می‌شود و هرگز ضبط، ذخیره یا بارگذاری نمی‌شود.",
+            "**اعلان‌ها**: برای هشدارها و یادآورهای نماز که روی دستگاه شما زمان‌بندی می‌شوند.",
+            {
+              "text": "**زنگ‌های هشدار و یادآوری‌ها**: تا هشدارهای نماز دقیقاً در همان دقیقه به صدا درآیند.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "سرویس‌های Apple",
+        "android": "سرویس‌های Google"
+      },
+      "paragraphs": [
+        {
+          "ios": "چند قابلیت به یک سرویس آنلاین نیاز دارند. برای این موارد، نداء فقط آنچه را قابلیت لازم دارد مستقیماً به Apple می‌فرستد که طبق [سیاست حفظ حریم خصوصی Apple](https://www.apple.com/legal/privacy/) با آن رفتار می‌کند. این اطلاعات هرگز برای ما فرستاده نمی‌شود و نداء آن را ذخیره نمی‌کند.",
+          "android": "چند قابلیت به یک سرویس آنلاین نیاز دارند. برای این موارد، نداء فقط آنچه را قابلیت لازم دارد مستقیماً به Google می‌فرستد که طبق [سیاست حفظ حریم خصوصی Google](https://policies.google.com/privacy) با آن رفتار می‌کند. این اطلاعات هرگز برای ما فرستاده نمی‌شود و نداء آن را ذخیره نمی‌کند."
+        },
+        {
+          "list": [
+            "**جستجوی شهر**: نامی که جستجو می‌کنید، یا مختصات برای یافتن نام یک شهر.",
+            "**مساجد نزدیک**: موقعیتی که از آن جستجو می‌کنید، برای یافتن مساجد نزدیک شما و مدت زمان رسیدن به آن‌ها.",
+            {
+              "text": "**Siri و میان‌برها**: اگر از آن‌ها استفاده کنید، Apple درخواست شما را پردازش می‌کند. نداء با تنظیمات روی دستگاه شما پاسخ می‌دهد.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**نقشه‌ها**: اجزای نقشه و مکان‌های Google ممکن است داده‌های عیب‌یابی خودشان را هم جمع‌آوری کنند.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**همگام‌سازی ساعت**: تنظیمات شما از طریق Google Play services بین گوشی و ساعتتان جابه‌جا می‌شود و این سرویس ممکن است وقتی این دو مستقیماً به هم متصل نیستند، آن‌ها را منتقل کند.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**قبله با واقعیت افزوده**: از ARCore استفاده می‌کند که ممکن است هنگام باز بودن نمای واقعیت افزوده، داده‌های عیب‌یابی خودش را جمع‌آوری کند.",
+              "platforms": ["android"]
+            },
+            "**مسیریابی**: اگر مسیر را درخواست کنید، مقصد به برنامهٔ نقشه‌ای که انتخاب می‌کنید فرستاده می‌شود."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "نداء را از App Store دریافت می‌کنید، بنابراین Apple دانلود شما و هر امتیازی را که بدهید مدیریت می‌کند.",
+          "android": "نداء را از Google Play دریافت می‌کنید، بنابراین Google دانلود شما و هر امتیازی را که بدهید مدیریت می‌کند."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "وقتی با ما تماس می‌گیرید",
+      "paragraphs": [
+        "اگر به [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) ایمیل بزنید، نشانی ایمیل شما و هر آنچه در آن بنویسید به دست ما می‌رسد. از آن فقط برای پاسخ دادن استفاده می‌کنیم و هر وقت بخواهید، گفتگو را پاک می‌کنیم. گزینهٔ «ارسال بازخورد» در برنامه، نسخهٔ برنامه، نسخهٔ سیستم و زبان را به پیش‌نویس اضافه می‌کند که می‌توانید پیش از ارسال حذفشان کنید."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "نگهداری و امنیت داده‌ها",
+      "paragraphs": [
+        "هر چه نداء ذخیره می‌کند روی دستگاه شما می‌ماند تا زمانی که آن را تغییر دهید یا برنامه را حذف کنید. ایمیل‌های پشتیبانی را فقط تا زمانی که برای کمک به شما لازم است نگه می‌داریم، یا تا وقتی که از ما بخواهید حذفشان کنیم.",
+        "چون هیچ سروری نداریم و هیچ دادهٔ کاربری نزد ما نیست، پایگاه داده‌ای از اطلاعات شما وجود ندارد که بتواند مورد نفوذ قرار گیرد. درخواست‌ها به Apple یا Google از طریق اتصال‌های رمزگذاری‌شده ارسال می‌شوند."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "حقوق شما",
+      "paragraphs": [
+        "بسته به محل زندگی‌تان، قوانینی مانند مقررات عمومی حفاظت از داده‌ها (GDPR) یا CCPA به شما حق دسترسی به داده‌های شخصی‌تان، اصلاح یا حذف آن‌ها و شکایت به مرجع محلی حفاظت از داده‌ها را می‌دهند. تنها دادهٔ شخصی‌ای که ممکن است نزد ما باشد یک ایمیل پشتیبانی است و ما به هر درخواستی دربارهٔ آن ظرف ۳۰ روز رسیدگی می‌کنیم. ما اطلاعات شخصی را نمی‌فروشیم و به اشتراک نمی‌گذاریم."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "کودکان",
+      "paragraphs": [
+        "نداء برای همه مناسب است و از هیچ‌کس، از جمله کودکان، اطلاعات شخصی جمع‌آوری نمی‌کند."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "انتخاب‌های شما",
+      "paragraphs": [
+        "می‌توانید مجوزها را در تنظیمات دستگاهتان خاموش کنید، موقعیت ذخیره‌شده را در برنامه تغییر دهید یا برنامه را حذف کنید تا هر چه ذخیره کرده پاک شود. چون هیچ داده‌ای دربارهٔ شما نزد ما نیست، چیزی برای درخواست از ما یا حذف کردن وجود ندارد."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "این وب‌سایت",
+      "paragraphs": [
+        "این سایت هیچ ابزار تحلیل، تبلیغات یا کوکی ندارد. فقط زبانی را که انتخاب می‌کنید، آن هم تنها در مرورگر خودتان، به خاطر می‌سپارد. این سایت روی GitHub Pages میزبانی می‌شود و GitHub ممکن است برای ارائهٔ آن، اطلاعات فنی مانند نشانی IP شما را پردازش کند. [بیانیهٔ حریم خصوصی GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) را ببینید."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "تغییرات و پرسش‌ها",
+      "paragraphs": [
+        "اگر این سیاست تغییر کند، نسخهٔ جدید را با تاریخ اجرای جدید همین‌جا منتشر می‌کنیم. برای هر پرسشی دربارهٔ حریم خصوصی، با [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com) تماس بگیرید."
+      ]
+    }
+  ]
+}

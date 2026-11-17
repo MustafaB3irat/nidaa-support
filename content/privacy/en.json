@@ -1,0 +1,234 @@
+{
+  "_translators": {
+    "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
+    "keep_in_english": [
+      "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "nidaaprayer@gmail.com"
+    ],
+    "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
+    "dates": "Write both effective dates in your language's usual date format and digits. Do not change the dates themselves.",
+    "terms": {
+      "Qibla": "the direction of the Kaaba",
+      "Send Feedback": "use the name the app uses for this button in your language"
+    },
+    "style": "Write plainly, the way a short app privacy policy reads. Keep **bold** markers around the same words. Shortcuts: use Apple's own name for the Shortcuts app in your language."
+  },
+  "lang": "en",
+  "ui": {
+    "site_name": "Nidaa",
+    "tagline": "Prayer times, close at hand.",
+    "nav_label": "Main navigation",
+    "nav_support": "Support",
+    "nav_privacy": "Privacy",
+    "footer_support": "Support",
+    "footer_privacy": "Privacy policy",
+    "language_label": "Language",
+    "eyebrow": {
+      "ios": "NIDAA FOR IPHONE AND APPLE WATCH",
+      "android": "NIDAA FOR ANDROID AND WEAR OS"
+    },
+    "title": "Privacy Policy",
+    "description": "Nidaa does not collect your personal data. This page explains what that means.",
+    "platform_name": {
+      "ios": "iPhone and Apple Watch",
+      "android": "Android and Wear OS"
+    },
+    "platform_switch": {
+      "ios": "This is the policy for iPhone and Apple Watch. Using Android? [See the Android and Wear OS policy]({url}).",
+      "android": "This is the policy for Android and Wear OS. Using an iPhone? [See the iPhone and Apple Watch policy]({url})."
+    },
+    "effective_date": "Effective date: {date}",
+    "translation_note": "This is a translation. If it differs from the [English version]({url}), the English version applies.",
+    "router_eyebrow": "NIDAA",
+    "router_title": "Privacy policy",
+    "router_intro": "Nidaa has a privacy policy for each kind of device. Choose yours.",
+    "router_choice": {
+      "ios": "iPhone and Apple Watch",
+      "android": "Android and Wear OS"
+    }
+  },
+  "effective_date": {
+    "ios": "17 November 2026",
+    "android": "17 November 2026"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "platforms": ["ios", "android"],
+      "heading": "Summary",
+      "paragraphs": [
+        {
+          "list": [
+            "Nidaa does not collect, store or sell your personal data.",
+            "There is no account, no server of ours, and no advertising, analytics or tracking.",
+            "Prayer times and the Qibla direction are calculated on your device, and your settings stay there.",
+            {
+              "ios": "A few features use services from Apple, described below.",
+              "android": "A few features use services from Google, described below."
+            },
+            "The only data we ever receive is an email you choose to send us."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "platforms": ["ios", "android"],
+      "heading": "Who we are",
+      "paragraphs": [
+        "Nidaa is made by Mustafa Bi’rat, an independent developer. In this policy, “we” and “us” mean the developer. You can reach us at [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    },
+    {
+      "id": "collect",
+      "platforms": ["ios", "android"],
+      "heading": "Information we do not collect",
+      "paragraphs": [
+        "We do not collect any personal information. In particular, we never receive:",
+        {
+          "list": [
+            "your name, email address or phone number (unless you email us)",
+            "your location or the places you search for",
+            "your prayer settings or how you use the app",
+            "camera images, photos, contacts or microphone audio",
+            "advertising identifiers, device identifiers or your IP address"
+          ]
+        },
+        "Because we hold no personal data, we never sell or share it."
+      ]
+    },
+    {
+      "id": "on_device",
+      "platforms": ["ios", "android"],
+      "heading": "What stays on your device",
+      "paragraphs": [
+        "Nidaa saves your chosen location, prayer settings and alert preferences on your device, so the app and its widgets can show your times. If you use Nidaa on a watch, your phone sends these settings to your watch.",
+        "The app also keeps a small record of how often you open it and whether you have found the Qibla, to pick a quiet moment to ask for a rating, once.",
+        "None of this is sent to us. It is removed when you delete the app, and your device may include it in its own backups."
+      ]
+    },
+    {
+      "id": "permissions",
+      "platforms": ["ios", "android"],
+      "heading": "Permissions",
+      "paragraphs": [
+        "Every permission is optional. Nidaa works without them, and you can change them at any time in your device settings.",
+        {
+          "list": [
+            "**Location**: to show prayer times and the Qibla for where you are. Approximate location is enough, and you can choose a city instead.",
+            "**Camera**: only for the augmented-reality Qibla view. The camera image is used live on your device and is never recorded, saved or uploaded.",
+            "**Notifications**: for prayer alerts and reminders, which are scheduled on your device.",
+            {
+              "text": "**Alarms and reminders**: so prayer alerts sound at the exact minute.",
+              "platforms": ["android"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "platforms": ["ios", "android"],
+      "heading": {
+        "ios": "Services from Apple",
+        "android": "Services from Google"
+      },
+      "paragraphs": [
+        {
+          "ios": "A few features need an online service. For these, Nidaa sends only what the feature needs directly to Apple, which handles it under the [Apple Privacy Policy](https://www.apple.com/legal/privacy/). It is never sent to us, and Nidaa does not store it.",
+          "android": "A few features need an online service. For these, Nidaa sends only what the feature needs directly to Google, which handles it under the [Google Privacy Policy](https://policies.google.com/privacy). It is never sent to us, and Nidaa does not store it."
+        },
+        {
+          "list": [
+            "**City search**: the name you search for, or coordinates to look up a city’s name.",
+            "**Nearby mosques**: the location you search from, to find mosques near you and travel times to them.",
+            {
+              "text": "**Siri and Shortcuts**: if you use them, Apple handles your request. Nidaa answers from the settings on your device.",
+              "platforms": ["ios"]
+            },
+            {
+              "text": "**Maps**: Google’s map and places components may also collect their own diagnostic data.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**Watch sync**: your settings go between your phone and watch through Google Play services, which may relay them when the two are not connected directly.",
+              "platforms": ["android"]
+            },
+            {
+              "text": "**AR Qibla**: uses ARCore, which may collect its own diagnostic data while the AR view is open.",
+              "platforms": ["android"]
+            },
+            "**Directions**: if you ask for directions, the destination is passed to the maps app you choose."
+          ]
+        },
+        {
+          "text": "This application runs on [Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core), which is provided by Google and governed by the [Google Privacy Policy](https://policies.google.com/privacy).",
+          "lang": "en",
+          "platforms": ["android"]
+        },
+        {
+          "ios": "You get Nidaa from the App Store, so Apple handles your download and any rating you give.",
+          "android": "You get Nidaa from Google Play, so Google handles your download and any rating you give."
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "platforms": ["ios", "android"],
+      "heading": "When you contact us",
+      "paragraphs": [
+        "If you email us at [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com), we receive your email address and whatever you include. We use it only to reply, and we delete the conversation when you ask. Send Feedback in the app adds the app version, system version and language to the draft, which you can remove before sending."
+      ]
+    },
+    {
+      "id": "retention",
+      "platforms": ["ios", "android"],
+      "heading": "Data retention and security",
+      "paragraphs": [
+        "Everything Nidaa saves stays on your device until you change it or delete the app. We keep support emails only as long as needed to help you, or until you ask us to delete them.",
+        "Since we run no server and hold no user data, there is no database of yours that could be breached. Requests to Apple or Google go over encrypted connections."
+      ]
+    },
+    {
+      "id": "rights",
+      "platforms": ["ios", "android"],
+      "heading": "Your rights",
+      "paragraphs": [
+        "Depending on where you live, laws such as the GDPR or the CCPA give you rights to access, correct or delete your personal data, and to complain to your local data protection authority. The only personal data we could hold is a support email, and we will act on any request about it within 30 days. We do not sell or share personal information."
+      ]
+    },
+    {
+      "id": "children",
+      "platforms": ["ios", "android"],
+      "heading": "Children",
+      "paragraphs": [
+        "Nidaa is suitable for everyone and collects no personal information from anyone, including children."
+      ]
+    },
+    {
+      "id": "choices",
+      "platforms": ["ios", "android"],
+      "heading": "Your choices",
+      "paragraphs": [
+        "You can turn permissions off in your device settings, change your saved location in the app, or delete the app to remove everything it stored. Because we hold no data about you, there is nothing to request from us or delete."
+      ]
+    },
+    {
+      "id": "website",
+      "platforms": ["ios", "android"],
+      "heading": "This website",
+      "paragraphs": [
+        "This site has no analytics, advertising or cookies. It remembers the language you choose in your browser only. It is hosted on GitHub Pages, and GitHub may process technical information such as your IP address to serve it. See [GitHub’s privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+      ]
+    },
+    {
+      "id": "changes",
+      "platforms": ["ios", "android"],
+      "heading": "Changes and questions",
+      "paragraphs": [
+        "If this policy changes, we will publish the new version here with a new effective date. For any privacy question, contact [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com)."
+      ]
+    }
+  ]
+}
