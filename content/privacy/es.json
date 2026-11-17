@@ -34,26 +34,20 @@
     }
   },
   "effective_date": {
-    "ios": "3 de noviembre de 2026",
-    "android": "16 de noviembre de 2026"
+    "ios": "17 de noviembre de 2026",
+    "android": "17 de noviembre de 2026"
   },
   "sections": [
     {
       "id": "intro",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "paragraphs": [
         "Esta política describe las prácticas actuales de Nidaa en materia de datos. La actualizaremos si esas prácticas cambian."
       ]
     },
     {
       "id": "on_device",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Los horarios de oración se quedan en tu dispositivo",
       "paragraphs": [
         {
@@ -64,10 +58,7 @@
     },
     {
       "id": "location",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Ubicación y ajustes guardados",
       "paragraphs": [
         {
@@ -76,40 +67,39 @@
         },
         {
           "text": "El permiso de ubicación es opcional y solo se solicita mientras usas la app. También puedes introducir las coordenadas manualmente. A la app le basta con la ubicación aproximada.",
-          "platforms": [
-            "ios"
-          ]
+          "platforms": ["ios"]
         },
         {
           "text": "El permiso de ubicación es opcional. Nidaa te explica primero por qué necesita tu ubicación y, después, Android te pide el permiso. La app solo accede a tu ubicación mientras la usas y nunca solicita acceso a la ubicación en segundo plano. También puedes elegir una ciudad o introducir coordenadas.",
-          "platforms": [
-            "android"
-          ]
+          "platforms": ["android"]
         },
         {
           "text": "Si permites la ubicación precisa, Nidaa usa tu posición exacta. Si permites la ubicación aproximada, la app funciona igual: solo las distancias a las mezquitas cercanas son menos exactas. Tu ubicación solo sale de tu dispositivo para buscar el nombre de tu lugar y para encontrar mezquitas cercanas, como se describe más abajo.",
-          "platforms": [
-            "android"
-          ]
+          "platforms": ["android"]
         }
       ]
     },
     {
       "id": "watch_ios",
-      "platforms": [
-        "ios"
-      ],
+      "platforms": ["ios"],
       "heading": "Apple Watch y la cuenta atrás en la pantalla de bloqueo",
       "paragraphs": [
         "Si usas Nidaa en el Apple Watch, tu iPhone envía tu lugar guardado (nombre de la ciudad, zona horaria y coordenadas redondeadas a unos 100 m) y tus ajustes de horarios de oración a tu reloj enlazado mediante WatchConnectivity de Apple, para que el reloj muestre los mismos horarios. Estos datos solo circulan entre tus propios dispositivos. Nidaa no los recibe.",
-        "La cuenta atrás de oración, que es opcional, aparece en la pantalla de bloqueo, en la Dynamic Island y en la pila inteligente del Apple Watch. Funciona en tus dispositivos, no usa ningún servicio de notificaciones push y puede mostrar el nombre de tu ciudad guardada cuando su zona horaria es distinta de la de tu teléfono."
+        "La cuenta atrás de oración, que es opcional, aparece en la pantalla de bloqueo, en la Dynamic Island y en la pila inteligente del Apple Watch. Funciona en tus dispositivos, no usa ningún servicio de notificaciones push y puede mostrar el nombre de tu ciudad guardada cuando su zona horaria es distinta de la de tu teléfono.",
+        "La brújula de la Qibla en el Apple Watch pide su propio permiso de ubicación en el reloj, con precisión aproximada, solo para encontrar el norte verdadero. Esa ubicación se queda en tu reloj."
+      ]
+    },
+    {
+      "id": "siri_ios",
+      "platforms": ["ios"],
+      "heading": "Siri, Atajos y Concentración",
+      "paragraphs": [
+        "Si pides a Siri o a Atajos una hora de oración o que inicie la cuenta atrás, Nidaa responde en tu dispositivo a partir de tus ajustes guardados. Apple procesa las solicitudes de Siri según su [política de privacidad](https://www.apple.com/legal/privacy/). Si añades el filtro Alertas de oración de Nidaa a un modo de concentración, la app solo recibe las opciones que eliges en ese filtro y las usa para cambiar sus alertas mientras ese modo está activado."
       ]
     },
     {
       "id": "wear_android",
-      "platforms": [
-        "android"
-      ],
+      "platforms": ["android"],
       "heading": "Wear OS, widgets y la cuenta atrás",
       "paragraphs": [
         "Si usas Nidaa en un reloj Wear OS, tu teléfono envía tu lugar guardado (nombre de la ciudad, zona horaria y coordenadas redondeadas a unos 100 m) y tus ajustes de horarios de oración a tu reloj a través de la Wearable Data Layer de los Servicios de Google Play, para que el reloj muestre los mismos horarios. Mientras la cuenta atrás de oración está en marcha, tu teléfono también la envía a tu reloj. Estos datos solo circulan entre tu propio teléfono y tu reloj, directamente o a través de los servidores de Google cuando no están conectados entre sí. Nidaa no los recibe.",
@@ -118,9 +108,7 @@
     },
     {
       "id": "geocoding_ios",
-      "platforms": [
-        "ios"
-      ],
+      "platforms": ["ios"],
       "heading": "Búsqueda de ciudades y geocodificación de Apple",
       "paragraphs": [
         "Cuando Nidaa busca el nombre de la ciudad que corresponde a unas coordenadas, envía esas coordenadas al servicio de geocodificación de Apple. Cuando buscas una ciudad, la app envía a Apple el texto de tu búsqueda. La app también puede intentar obtener el nombre de la ciudad después de que introduzcas coordenadas manualmente. La introducción manual sigue funcionando aunque esa búsqueda no esté disponible.",
@@ -129,9 +117,7 @@
     },
     {
       "id": "geocoding_android",
-      "platforms": [
-        "android"
-      ],
+      "platforms": ["android"],
       "heading": "Búsqueda de ciudades y nombres de lugares",
       "paragraphs": [
         "Cuando buscas una ciudad, Nidaa envía el texto de tu búsqueda al servicio de geocodificación de Android. Cuando Nidaa busca el nombre de un lugar a partir de unas coordenadas (tu ubicación actual o las coordenadas que has introducido), envía esas coordenadas a ese servicio. En la mayoría de los teléfonos Android, este servicio lo proporciona Google, que gestiona estas solicitudes conforme a su [política de privacidad](https://policies.google.com/privacy).",
@@ -140,9 +126,7 @@
     },
     {
       "id": "mosques_ios",
-      "platforms": [
-        "ios"
-      ],
+      "platforms": ["ios"],
       "heading": "Mezquitas cercanas",
       "paragraphs": [
         "Cuando abres la pestaña Mezquitas, Nidaa envía la ubicación desde la que busca (tu ubicación actual si lo permites o, si no, tu ubicación guardada) al servicio MapKit de Apple para encontrar mezquitas y salas de oración cercanas y calcular el tiempo aproximado a pie, en coche y en transporte público. Apple gestiona estas solicitudes conforme a su [política de privacidad](https://www.apple.com/legal/privacy/). Nidaa no almacena esta información en ningún servidor propio ni la comparte con nadie más. Si eliges indicaciones en Google Maps o Waze, el destino se pasa a esa app."
@@ -150,9 +134,7 @@
     },
     {
       "id": "mosques_android",
-      "platforms": [
-        "android"
-      ],
+      "platforms": ["android"],
       "heading": "Mezquitas cercanas",
       "paragraphs": [
         "Cuando abres la pestaña Mezquitas, Nidaa envía a Google Maps Platform la ubicación desde la que busca (tu ubicación actual si lo permites o, si no, tu lugar guardado). Google la usa para mostrar el mapa (Maps SDK for Android), para encontrar mezquitas y salas de oración cercanas y sus datos (Places SDK for Android) y para calcular el tiempo aproximado hasta ellas a pie, en coche y en transporte público (Routes API).",
@@ -162,9 +144,7 @@
     },
     {
       "id": "qibla_ios",
-      "platforms": [
-        "ios"
-      ],
+      "platforms": ["ios"],
       "heading": "Cámara y dirección de la Qibla",
       "paragraphs": [
         "El acceso a la cámara es opcional y se usa para guiarte hacia la Qibla con realidad aumentada. Nidaa no graba, guarda ni sube imágenes de la cámara. La cámara, el rumbo de la brújula y la RA se procesan en tu dispositivo."
@@ -172,9 +152,7 @@
     },
     {
       "id": "qibla_android",
-      "platforms": [
-        "android"
-      ],
+      "platforms": ["android"],
       "heading": "Cámara y Qibla en RA",
       "paragraphs": [
         "El acceso a la cámara es opcional. Nidaa solo lo solicita cuando cambias la pantalla Qibla a RA. La cámara solo se usa en tu dispositivo: Nidaa no graba, guarda ni sube imágenes de la cámara, y ninguna imagen de la cámara ni ninguna ubicación sale de tu dispositivo para la RA.",
@@ -188,10 +166,7 @@
     },
     {
       "id": "notifications",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Notificaciones",
       "paragraphs": [
         {
@@ -201,11 +176,19 @@
       ]
     },
     {
+      "id": "rating",
+      "platforms": ["ios", "android"],
+      "heading": "Solicitud de valoración",
+      "paragraphs": [
+        {
+          "ios": "Para mostrar una sola vez, en un momento tranquilo, la solicitud de Apple para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Estos recuentos nunca salen de tu dispositivo y no se usan para nada más. Apple muestra la solicitud y gestiona cualquier valoración que des.",
+          "android": "Para pedir una sola vez a Google Play, en un momento tranquilo, que muestre su solicitud para valorar Nidaa, la app cuenta en tu dispositivo cuántas veces y cuántos días la abres, y si has encontrado la Qibla. Estos recuentos nunca salen de tu dispositivo y no se usan para nada más. Google Play decide si muestra la solicitud y gestiona cualquier valoración que des según la [política de privacidad](https://policies.google.com/privacy) de Google."
+        }
+      ]
+    },
+    {
       "id": "choices",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Tus opciones y la conservación de los datos",
       "paragraphs": [
         {
@@ -214,18 +197,13 @@
         },
         {
           "text": "Si la copia de seguridad de Android está activada, Android puede incluir los ajustes de Nidaa y tu lugar guardado en la copia de seguridad de tu dispositivo, por ejemplo, en tu cuenta de Google. Esta copia pertenece a Android y a ti, no a Nidaa: la controlas desde los ajustes de tu teléfono.",
-          "platforms": [
-            "android"
-          ]
+          "platforms": ["android"]
         }
       ]
     },
     {
       "id": "support",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Si contactas con soporte",
       "paragraphs": [
         {
@@ -237,10 +215,7 @@
     },
     {
       "id": "website",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Este sitio web",
       "paragraphs": [
         "Este sitio está alojado en GitHub Pages. No hemos añadido scripts de analítica, publicidad, cookies ni formularios de contacto. El sitio recuerda el idioma que eliges guardándolo en el almacenamiento local de tu navegador, y ese dato nunca sale de tu dispositivo. GitHub puede procesar información técnica de las solicitudes, incluida tu dirección IP, para servir y proteger el sitio web. Consulta la [declaración de privacidad de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
@@ -248,10 +223,7 @@
     },
     {
       "id": "questions",
-      "platforms": [
-        "ios",
-        "android"
-      ],
+      "platforms": ["ios", "android"],
       "heading": "Preguntas y cambios",
       "paragraphs": [
         "Si tienes preguntas o solicitudes sobre privacidad, escribe a [nidaaprayer@gmail.com](mailto:nidaaprayer@gmail.com). Si esta política cambia, publicaremos aquí la versión actualizada con una nueva fecha de entrada en vigor."

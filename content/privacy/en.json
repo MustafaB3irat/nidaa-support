@@ -55,8 +55,8 @@
     }
   },
   "effective_date": {
-    "ios": "3 November 2026",
-    "android": "16 November 2026"
+    "ios": "17 November 2026",
+    "android": "17 November 2026"
   },
   "sections": [
     {
@@ -106,7 +106,16 @@
       "heading": "Apple Watch and the Lock Screen countdown",
       "paragraphs": [
         "If you use Nidaa on Apple Watch, your iPhone sends your saved place (city name, time zone and coordinates rounded to about 100 m) and your prayer-time settings to your paired watch through Apple’s WatchConnectivity, so the watch can show the same times. This data goes only between your own devices. Nidaa does not receive it.",
-        "The optional prayer countdown appears on your Lock Screen, in the Dynamic Island and in the Apple Watch Smart Stack. It runs on your devices, uses no push service and may show your saved city’s name when its time zone differs from your phone’s."
+        "The optional prayer countdown appears on your Lock Screen, in the Dynamic Island and in the Apple Watch Smart Stack. It runs on your devices, uses no push service and may show your saved city’s name when its time zone differs from your phone’s.",
+        "The Qibla compass on Apple Watch asks for the watch’s own location permission, at approximate accuracy, only to find true north. That location stays on your watch."
+      ]
+    },
+    {
+      "id": "siri_ios",
+      "platforms": ["ios"],
+      "heading": "Siri, Shortcuts and Focus",
+      "paragraphs": [
+        "If you ask Siri or Shortcuts for a prayer time or to start the countdown, Nidaa answers on your device from your saved settings. Apple processes Siri requests under its [privacy policy](https://www.apple.com/legal/privacy/). If you add Nidaa’s Prayer Alerts filter to a Focus, the app receives only the choices you make in that filter, and uses them to change its alerts while that Focus is on."
       ]
     },
     {
@@ -183,6 +192,17 @@
         {
           "ios": "If you allow notifications, Nidaa schedules prayer alerts and reminders locally. You can change sounds and reminders in the app or turn off notification permission in your device settings.",
           "android": "If you allow notifications, Nidaa schedules prayer alerts and reminders on your device. If you also allow alarms and reminders, Android lets the alerts sound at the exact minute. After your phone restarts, Nidaa schedules them again. You can change sounds and reminders in the app or turn off notification permission in your phone’s settings."
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "platforms": ["ios", "android"],
+      "heading": "Rating request",
+      "paragraphs": [
+        {
+          "ios": "To show Apple’s request to rate Nidaa once, at a quiet moment, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. These counts never leave your device and are not used for anything else. Apple shows the request and handles any rating you give.",
+          "android": "To ask Google Play once, at a quiet moment, to show its request to rate Nidaa, the app counts on your device how often and on how many days you open it, and whether you have found the Qibla. These counts never leave your device and are not used for anything else. Google Play decides whether to show the request and handles any rating you give under Google’s [privacy policy](https://policies.google.com/privacy)."
         }
       ]
     },

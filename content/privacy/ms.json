@@ -34,8 +34,8 @@
     }
   },
   "effective_date": {
-    "ios": "3 November 2026",
-    "android": "16 November 2026"
+    "ios": "17 November 2026",
+    "android": "17 November 2026"
   },
   "sections": [
     {
@@ -85,7 +85,16 @@
       "heading": "Apple Watch dan kira detik Skrin Kunci",
       "paragraphs": [
         "Jika anda menggunakan Nidaa pada Apple Watch, iPhone anda menghantar tempat yang anda simpan (nama bandar, zon waktu dan koordinat yang dibundarkan kepada kira-kira 100 m) serta seting waktu solat anda ke jam tangan yang dipasangkan melalui WatchConnectivity Apple, supaya jam tangan dapat menunjukkan waktu yang sama. Data ini hanya bergerak antara peranti anda sendiri. Nidaa tidak menerimanya.",
-        "Kira detik solat ialah ciri pilihan yang dipaparkan pada Skrin Kunci anda, dalam Pulau Dinamik dan dalam Tindanan Pintar Apple Watch. Ia berjalan pada peranti anda, tidak menggunakan perkhidmatan pemberitahuan tolak dan mungkin menunjukkan nama bandar yang anda simpan apabila zon waktunya berbeza daripada zon waktu telefon anda."
+        "Kira detik solat ialah ciri pilihan yang dipaparkan pada Skrin Kunci anda, dalam Pulau Dinamik dan dalam Tindanan Pintar Apple Watch. Ia berjalan pada peranti anda, tidak menggunakan perkhidmatan pemberitahuan tolak dan mungkin menunjukkan nama bandar yang anda simpan apabila zon waktunya berbeza daripada zon waktu telefon anda.",
+        "Kompas Kiblat pada Apple Watch meminta kebenaran lokasi jam itu sendiri, pada ketepatan anggaran, hanya untuk mencari utara sebenar. Lokasi itu kekal pada jam anda."
+      ]
+    },
+    {
+      "id": "siri_ios",
+      "platforms": ["ios"],
+      "heading": "Siri, Pintasan dan Fokus",
+      "paragraphs": [
+        "Jika anda bertanya kepada Siri atau Pintasan tentang waktu solat atau meminta kiraan detik dimulakan, Nidaa menjawab pada peranti anda daripada tetapan yang disimpan. Apple memproses permintaan Siri di bawah [dasar privasinya](https://www.apple.com/legal/privacy/). Jika anda menambah penapis Makluman Solat Nidaa pada sesuatu Fokus, aplikasi hanya menerima pilihan yang anda buat dalam penapis itu dan menggunakannya untuk mengubah maklumannya semasa Fokus itu aktif."
       ]
     },
     {
@@ -163,6 +172,17 @@
         {
           "ios": "Jika anda membenarkan pemberitahuan, Nidaa menjadualkan makluman solat dan peringatan secara setempat pada peranti anda. Anda boleh menukar bunyi dan peringatan dalam aplikasi atau mematikan kebenaran pemberitahuan dalam Seting peranti anda.",
           "android": "Jika anda membenarkan pemberitahuan, Nidaa menjadualkan makluman solat dan peringatan pada peranti anda. Jika anda turut membenarkan Penggera & peringatan, Android membolehkan makluman berbunyi tepat pada minitnya. Selepas telefon anda dimulakan semula, Nidaa menjadualkannya semula. Anda boleh menukar bunyi dan peringatan dalam aplikasi atau mematikan kebenaran pemberitahuan dalam tetapan telefon anda."
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "platforms": ["ios", "android"],
+      "heading": "Permintaan penilaian",
+      "paragraphs": [
+        {
+          "ios": "Untuk menunjukkan permintaan Apple supaya anda menilai Nidaa sekali, pada masa yang tenang, aplikasi mengira pada peranti anda berapa kerap dan pada berapa hari anda membukanya, dan sama ada anda telah menemui Kiblat. Kiraan ini tidak pernah meninggalkan peranti anda dan tidak digunakan untuk tujuan lain. Apple menunjukkan permintaan itu dan mengendalikan sebarang penilaian yang anda berikan.",
+          "android": "Untuk meminta Google Play sekali, pada masa yang tenang, menunjukkan permintaannya supaya anda menilai Nidaa, aplikasi mengira pada peranti anda berapa kerap dan pada berapa hari anda membukanya, dan sama ada anda telah menemui Kiblat. Kiraan ini tidak pernah meninggalkan peranti anda dan tidak digunakan untuk tujuan lain. Google Play memutuskan sama ada permintaan itu ditunjukkan dan mengendalikan sebarang penilaian yang anda berikan di bawah [dasar privasi](https://policies.google.com/privacy) Google."
         }
       ]
     },

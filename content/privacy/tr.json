@@ -34,8 +34,8 @@
     }
   },
   "effective_date": {
-    "ios": "3 Kasım 2026",
-    "android": "16 Kasım 2026"
+    "ios": "17 Kasım 2026",
+    "android": "17 Kasım 2026"
   },
   "sections": [
     {
@@ -85,7 +85,16 @@
       "heading": "Apple Watch ve Kilitli ekran geri sayımı",
       "paragraphs": [
         "Nidaa'yı Apple Watch'ta kullanıyorsanız iPhone'unuz, saatin aynı vakitleri gösterebilmesi için kayıtlı konumunuzu (şehir adı, saat dilimi ve yaklaşık 100 m'ye yuvarlanmış koordinatlar) ve namaz vakti ayarlarınızı eşlenmiş saatinize gönderir. Bu aktarım Apple'ın WatchConnectivity teknolojisiyle yapılır. Bu veriler yalnızca kendi cihazlarınız arasında aktarılır. Nidaa bu verileri almaz.",
-        "İsteğe bağlı namaz geri sayımı Kilitli ekranda, Dynamic Island'da ve Apple Watch'taki Akıllı Yığın'da görünür. Geri sayım cihazlarınızda çalışır, hiçbir anlık bildirim (push) hizmeti kullanmaz ve kayıtlı şehrinizin saat dilimi telefonunuzunkinden farklıysa o şehrin adını gösterebilir."
+        "İsteğe bağlı namaz geri sayımı Kilitli ekranda, Dynamic Island'da ve Apple Watch'taki Akıllı Yığın'da görünür. Geri sayım cihazlarınızda çalışır, hiçbir anlık bildirim (push) hizmeti kullanmaz ve kayıtlı şehrinizin saat dilimi telefonunuzunkinden farklıysa o şehrin adını gösterebilir.",
+        "Apple Watch’taki Kıble pusulası, yalnızca gerçek kuzeyi bulmak için saatin kendi konum iznini yaklaşık doğrulukla ister. Bu konum saatinizde kalır."
+      ]
+    },
+    {
+      "id": "siri_ios",
+      "platforms": ["ios"],
+      "heading": "Siri, Kestirmeler ve Odak",
+      "paragraphs": [
+        "Siri’ye veya Kestirmeler’e bir namaz vakti sorarsanız ya da geri sayımı başlatmasını isterseniz, Nidaa kayıtlı ayarlarınızdan cihazınızda yanıt verir. Apple, Siri isteklerini kendi [gizlilik politikasına](https://www.apple.com/legal/privacy/) göre işler. Nidaa’nın Namaz bildirimleri filtresini bir Odak moduna eklerseniz, uygulama yalnızca o filtrede yaptığınız seçimleri alır ve bunları o Odak açıkken bildirimlerini değiştirmek için kullanır."
       ]
     },
     {
@@ -163,6 +172,17 @@
         {
           "ios": "Bildirimlere izin verirseniz Nidaa namaz uyarılarını ve hatırlatıcıları cihazınızda yerel olarak planlar. Sesleri ve hatırlatıcıları uygulamadan değiştirebilir veya bildirim iznini cihazınızın ayarlarından kapatabilirsiniz.",
           "android": "Bildirimlere izin verirseniz Nidaa namaz uyarılarını ve hatırlatıcıları cihazınızda planlar. Alarmlar ve hatırlatıcılar iznini de verirseniz Android, uyarıların tam dakikasında çalmasına izin verir. Telefonunuz yeniden başlatıldıktan sonra Nidaa bunları yeniden planlar. Sesleri ve hatırlatıcıları uygulamadan değiştirebilir veya bildirim iznini telefonunuzun ayarlarından kapatabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "platforms": ["ios", "android"],
+      "heading": "Değerlendirme isteği",
+      "paragraphs": [
+        {
+          "ios": "Apple’ın Nidaa’yı değerlendirme isteğini sakin bir anda bir kez göstermek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Bu sayılar cihazınızdan asla çıkmaz ve başka hiçbir şey için kullanılmaz. İsteği Apple gösterir ve verdiğiniz puanı Apple işler.",
+          "android": "Google Play’den sakin bir anda bir kez Nidaa’yı değerlendirme isteğini göstermesini istemek için uygulama, cihazınızda onu ne sıklıkla ve kaç farklı günde açtığınızı ve Kıble’yi bulup bulmadığınızı sayar. Bu sayılar cihazınızdan asla çıkmaz ve başka hiçbir şey için kullanılmaz. İsteğin gösterilip gösterilmeyeceğine Google Play karar verir ve verdiğiniz puanı Google’ın [gizlilik politikasına](https://policies.google.com/privacy) göre işler."
         }
       ]
     },

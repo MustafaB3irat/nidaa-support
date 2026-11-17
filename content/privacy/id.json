@@ -34,8 +34,8 @@
     }
   },
   "effective_date": {
-    "ios": "3 November 2026",
-    "android": "16 November 2026"
+    "ios": "17 November 2026",
+    "android": "17 November 2026"
   },
   "sections": [
     {
@@ -85,7 +85,16 @@
       "heading": "Apple Watch dan hitung mundur di Layar Terkunci",
       "paragraphs": [
         "Jika Anda menggunakan Nidaa di Apple Watch, iPhone Anda mengirimkan lokasi tersimpan Anda (nama kota, zona waktu, dan koordinat yang dibulatkan hingga sekitar 100 m) serta pengaturan waktu salat ke jam tangan yang dipasangkan melalui WatchConnectivity dari Apple, agar jam tangan dapat menampilkan jadwal yang sama. Data ini hanya berpindah di antara perangkat Anda sendiri. Nidaa tidak menerimanya.",
-        "Hitung mundur salat yang opsional muncul di Layar Terkunci, di Dynamic Island, dan di Tumpukan Pintar Apple Watch. Fitur ini berjalan di perangkat Anda, tidak menggunakan layanan push, dan dapat menampilkan nama kota tersimpan Anda jika zona waktunya berbeda dengan zona waktu ponsel Anda."
+        "Hitung mundur salat yang opsional muncul di Layar Terkunci, di Dynamic Island, dan di Tumpukan Pintar Apple Watch. Fitur ini berjalan di perangkat Anda, tidak menggunakan layanan push, dan dapat menampilkan nama kota tersimpan Anda jika zona waktunya berbeda dengan zona waktu ponsel Anda.",
+        "Kompas Kiblat di Apple Watch meminta izin lokasi milik jam itu sendiri, dengan akurasi perkiraan, hanya untuk menemukan utara sejati. Lokasi itu tetap berada di jam Anda."
+      ]
+    },
+    {
+      "id": "siri_ios",
+      "platforms": ["ios"],
+      "heading": "Siri, Pintasan, dan Fokus",
+      "paragraphs": [
+        "Jika Anda menanyakan waktu salat kepada Siri atau Pintasan, atau meminta hitung mundur dimulai, Nidaa menjawab di perangkat Anda dari pengaturan yang tersimpan. Apple memproses permintaan Siri sesuai [kebijakan privasinya](https://www.apple.com/legal/privacy/). Jika Anda menambahkan filter Pemberitahuan Salat dari Nidaa ke suatu Fokus, aplikasi hanya menerima pilihan yang Anda buat di filter itu dan menggunakannya untuk mengubah pemberitahuannya selama Fokus itu aktif."
       ]
     },
     {
@@ -163,6 +172,17 @@
         {
           "ios": "Jika Anda mengizinkan pemberitahuan, Nidaa menjadwalkan peringatan dan pengingat salat secara lokal. Anda dapat mengubah suara dan pengingat di aplikasi atau menonaktifkan izin pemberitahuan di pengaturan perangkat Anda.",
           "android": "Jika Anda mengizinkan notifikasi, Nidaa menjadwalkan peringatan dan pengingat salat di perangkat Anda. Jika Anda juga mengizinkan Alarm & pengingat, Android memungkinkan peringatan berbunyi tepat pada menitnya. Setelah ponsel Anda dimulai ulang, Nidaa menjadwalkannya kembali. Anda dapat mengubah suara dan pengingat di aplikasi atau menonaktifkan izin notifikasi di setelan ponsel Anda."
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "platforms": ["ios", "android"],
+      "heading": "Permintaan penilaian",
+      "paragraphs": [
+        {
+          "ios": "Untuk menampilkan permintaan Apple agar Anda menilai Nidaa satu kali, pada saat yang tenang, aplikasi menghitung di perangkat Anda seberapa sering dan pada berapa hari Anda membukanya, serta apakah Anda sudah menemukan Kiblat. Hitungan ini tidak pernah meninggalkan perangkat Anda dan tidak digunakan untuk hal lain. Apple menampilkan permintaan itu dan menangani penilaian yang Anda berikan.",
+          "android": "Untuk meminta Google Play satu kali, pada saat yang tenang, agar menampilkan permintaan menilai Nidaa, aplikasi menghitung di perangkat Anda seberapa sering dan pada berapa hari Anda membukanya, serta apakah Anda sudah menemukan Kiblat. Hitungan ini tidak pernah meninggalkan perangkat Anda dan tidak digunakan untuk hal lain. Google Play memutuskan apakah permintaan itu ditampilkan dan menangani penilaian yang Anda berikan sesuai [kebijakan privasi](https://policies.google.com/privacy) Google."
         }
       ]
     },
