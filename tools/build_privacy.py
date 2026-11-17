@@ -84,6 +84,9 @@ def esc(text: str) -> str:
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 
 
+BOLD = re.compile(r"\*\*(.+?)\*\*")
+
+
 def inline(text: str, rtl: bool) -> str:
     """Escapes text and turns [text](url) into links. Addresses and URLs stay left to right in RTL pages."""
     out, last = [], 0
@@ -96,7 +99,7 @@ def inline(text: str, rtl: bool) -> str:
         out.append(f"<a{attrs}>{esc(label)}</a>")
         last = m.end()
     out.append(esc(text[last:]))
-    return "".join(out)
+    return BOLD.sub(r"<strong>\1</strong>", "".join(out))
 
 
 def pick(value, platform: str, where: str) -> str:
@@ -239,6 +242,16 @@ def policy_page(code: str, data: dict, english: dict, platform: str, available: 
         for i, p in enumerate(s.get("paragraphs", [])):
             where = f"{sid}.paragraphs[{i}]"
             attrs = ""
+            if isinstance(p, dict) and "list" in p:
+                items = []
+                for j, item in enumerate(p["list"]):
+                    if isinstance(item, dict) and "text" in item:
+                        if platform not in item.get("platforms", PLATFORMS):
+                            continue
+                        item = item["text"]
+                    items.append(f"<li>{inline(pick(item, platform, f'{where}.list[{j}]'), rtl)}</li>")
+                body.append(f"<ul>{''.join(items)}</ul>")
+                continue
             if isinstance(p, dict) and "text" in p:
                 if platform not in p.get("platforms", PLATFORMS):
                     continue
