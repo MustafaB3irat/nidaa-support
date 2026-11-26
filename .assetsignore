@@ -1,0 +1,9 @@
+# Files in the repository that are not part of the site.
+.git
+.gitignore
+.nojekyll
+.assetsignore
+wrangler.jsonc
+README.md
+tools/
+content/
