@@ -17,7 +17,7 @@
   "lang": "bn",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "নামাজের সময়, সবসময় হাতের কাছে।",
+    "tagline": "নামাজের সময়, সবসময় হাতের কাছে",
     "nav_label": "প্রধান নেভিগেশন",
     "nav_support": "সহায়তা",
     "nav_privacy": "গোপনীয়তা",
@@ -40,7 +40,7 @@
     },
     "effective_date": "কার্যকর হওয়ার তারিখ: {date}",
     "translation_note": "এটি একটি অনুবাদ। [ইংরেজি সংস্করণের]({url}) সঙ্গে কোনো অমিল থাকলে ইংরেজি সংস্করণই প্রযোজ্য হবে।",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "গোপনীয়তা নীতি",
     "router_intro": "প্রতিটি ধরনের ডিভাইসের জন্য Nidaa-র আলাদা গোপনীয়তা নীতি আছে। আপনার ডিভাইসটি বেছে নিন।",
     "router_choice": {

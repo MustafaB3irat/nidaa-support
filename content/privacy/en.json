@@ -17,7 +17,7 @@
   "lang": "en",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Prayer times, close at hand.",
+    "tagline": "Prayer times, close at hand",
     "nav_label": "Main navigation",
     "nav_support": "Support",
     "nav_privacy": "Privacy",
@@ -25,8 +25,8 @@
     "footer_privacy": "Privacy policy",
     "language_label": "Language",
     "eyebrow": {
-      "ios": "NIDAA FOR IPHONE AND APPLE WATCH",
-      "android": "NIDAA FOR ANDROID AND WEAR OS"
+      "ios": "Nidaa for iPhone and Apple Watch",
+      "android": "Nidaa for Android and Wear OS"
     },
     "title": "Privacy Policy",
     "description": "Nidaa does not collect your personal data. This page explains what that means.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Effective date: {date}",
     "translation_note": "This is a translation. If it differs from the [English version]({url}), the English version applies.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Privacy policy",
     "router_intro": "Nidaa has a privacy policy for each kind of device. Choose yours.",
     "router_choice": {

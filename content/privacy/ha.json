@@ -17,7 +17,7 @@
   "lang": "ha",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Lokutan salla, kusa da ku koyaushe.",
+    "tagline": "Lokutan salla, kusa da ku koyaushe",
     "nav_label": "Babban menu",
     "nav_support": "Tallafi",
     "nav_privacy": "Sirri",
@@ -25,8 +25,8 @@
     "footer_privacy": "Manufar sirri",
     "language_label": "Harshe",
     "eyebrow": {
-      "ios": "NIDAA DON IPHONE DA APPLE WATCH",
-      "android": "NIDAA DON ANDROID DA WEAR OS"
+      "ios": "Nidaa don iPhone da Apple Watch",
+      "android": "Nidaa don Android da Wear OS"
     },
     "title": "Manufar Sirri",
     "description": "Nidaa ba ta tattara bayananku na sirri. Wannan shafi yana bayyana ma'anar hakan.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Ranar fara aiki: {date}",
     "translation_note": "Wannan fassara ce. Idan ta bambanta da [sigar Turanci]({url}), sigar Turanci ce ake bi.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Manufar sirri",
     "router_intro": "Nidaa na da manufar sirri ga kowane irin na'ura. Zaɓi taku.",
     "router_choice": {

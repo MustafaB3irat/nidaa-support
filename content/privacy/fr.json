@@ -17,7 +17,7 @@
   "lang": "fr",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Les horaires de prière, à portée de main.",
+    "tagline": "Les horaires de prière, à portée de main",
     "nav_label": "Navigation principale",
     "nav_support": "Assistance",
     "nav_privacy": "Confidentialité",
@@ -25,8 +25,8 @@
     "footer_privacy": "Politique de confidentialité",
     "language_label": "Langue",
     "eyebrow": {
-      "ios": "NIDAA POUR IPHONE ET APPLE WATCH",
-      "android": "NIDAA POUR ANDROID ET WEAR OS"
+      "ios": "Nidaa pour iPhone et Apple Watch",
+      "android": "Nidaa pour Android et Wear OS"
     },
     "title": "Politique de confidentialité",
     "description": "Nidaa ne collecte pas vos données personnelles. Cette page explique ce que cela signifie.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Date d’entrée en vigueur : {date}",
     "translation_note": "Ceci est une traduction. En cas de divergence avec la [version anglaise]({url}), la version anglaise prévaut.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Politique de confidentialité",
     "router_intro": "Nidaa a une politique de confidentialité pour chaque type d’appareil. Choisissez le vôtre.",
     "router_choice": {

@@ -25,6 +25,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content" / "privacy"
 SITE = "https://nidaaprayer.app/"
+# The same in every language: a legal line, not translated.
+COPYRIGHT = "© 2026 Mustafa Buirat · Nidaa Prayer"
 PLATFORMS = ("ios", "android")
 STORAGE_KEY = "nidaa.lang"
 
@@ -52,7 +54,7 @@ LEGACY_ROUTERS = ["ar"]
 
 GLOBE = (
     '<svg class="globe" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" '
-    'stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'
+    'stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
     '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/>'
     '<path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>'
 )
@@ -177,7 +179,7 @@ def header(ui: dict, code: str, here: str, menu: str) -> str:
 def footer(ui: dict, code: str, here: str) -> str:
     _, support = home_and_support(code)
     return (
-        f'<footer><span>{esc(ui["site_name"])}</span><a href="{rel(here, support)}">{esc(ui["footer_support"])}</a>'
+        f'<footer><span dir="ltr">{esc(COPYRIGHT)}</span><a href="{rel(here, support)}">{esc(ui["footer_support"])}</a>'
         f'<a href="{rel(here, router_path(code))}">{esc(ui["footer_privacy"])}</a></footer>'
     )
 

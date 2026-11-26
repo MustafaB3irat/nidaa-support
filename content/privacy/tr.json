@@ -17,7 +17,7 @@
   "lang": "tr",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Namaz vakitleri, her an elinizin altında.",
+    "tagline": "Namaz vakitleri, her an elinizin altında",
     "nav_label": "Ana gezinme",
     "nav_support": "Destek",
     "nav_privacy": "Gizlilik",
@@ -25,8 +25,8 @@
     "footer_privacy": "Gizlilik politikası",
     "language_label": "Dil",
     "eyebrow": {
-      "ios": "IPHONE VE APPLE WATCH İÇİN NIDAA",
-      "android": "ANDROID VE WEAR OS İÇİN NIDAA"
+      "ios": "iPhone ve Apple Watch için Nidaa",
+      "android": "Android ve Wear OS için Nidaa"
     },
     "title": "Gizlilik Politikası",
     "description": "Nidaa kişisel verilerinizi toplamaz. Bu sayfa bunun ne anlama geldiğini açıklar.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Yürürlük tarihi: {date}",
     "translation_note": "Bu bir çeviridir. [İngilizce sürümle]({url}) arasında fark olursa İngilizce sürüm geçerlidir.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Gizlilik politikası",
     "router_intro": "Nidaa'nın her cihaz türü için ayrı bir gizlilik politikası vardır. Cihazınızı seçin.",
     "router_choice": {
