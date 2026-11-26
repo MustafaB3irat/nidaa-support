@@ -1,0 +1,390 @@
+/* Nidaa home page. Builds on style.css (tokens, header, footer).
+   The navy stage is the page's one dark moment; app screens stay as Nidaa draws them.
+   Motion: transform and opacity only, one curve, plays once, none with reduced motion. */
+
+/* Google Play switch: delete this rule when the Android app ships,
+   after adding img/google-play-badge-en.png and img/google-play-badge-ar.png (official badges). */
+.store.play { display: none; }
+
+.home {
+  --curve: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --rise: 28px;
+  --from: 1;            /* flips the direction side phones slide from in RTL */
+  --frame: #0c1115;
+  --frame-edge: #3b444b;
+  overflow-x: clip;
+}
+[dir=rtl] .home, .home[dir=rtl] { --from: -1; }
+
+:where(.home main) :is(h2, h3) { margin: 0; color: var(--text); font-weight: 500; }
+:where(.home main) p { margin: 0; }
+.home figure { margin: 0; }
+
+.section-title {
+  font-size: clamp(32px, 4.4vw, 52px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+[dir=rtl] .section-title, [dir=rtl] .stage h1 { letter-spacing: 0; line-height: 1.3; }
+
+/* Devices */
+
+.phone {
+  --w: 280px;
+  width: var(--w);
+  flex: none;
+  padding: calc(var(--w) * 0.032);
+  border-radius: calc(var(--w) * 0.165);
+  background: var(--frame);
+  box-shadow: 0 0 0 1px var(--frame-edge), 0 24px 48px rgb(0 0 0 / 0.28);
+}
+.phone .screen {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 600 / 1304;
+  border-radius: calc(var(--w) * 0.135);
+  background: #0b1620;
+  container-type: inline-size;
+}
+.phone .screen::after {
+  /* Dynamic Island */
+  content: "";
+  position: absolute;
+  top: 2.9cqw;
+  left: 34.5cqw;
+  width: 31cqw;
+  height: 9cqw;
+  border-radius: 5cqw;
+  background: #000;
+}
+.phone .screen > img { display: block; width: 100%; height: 100%; object-fit: cover; color: transparent; }
+
+/* Apple Watch drawn in CSS around the real screen: case, Digital Crown, side button, sport band */
+.watch {
+  --w: 196px;
+  --case: #1b2228;
+  --case-edge: rgb(255 255 255 / 0.12);
+  --knob: #2a333a;
+  --band: #22394a;
+  --hole: rgb(0 0 0 / 0.28);
+  position: relative;
+  width: var(--w);
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watch.sand { --case: #cfc9bd; --case-edge: rgb(255 255 255 / 0.55); --knob: #bdb6a8; --band: #d9ceb6; --hole: rgb(60 45 20 / 0.22); }
+.watch.sage { --band: #2f4b40; }
+.watch .strap { width: 74%; height: calc(var(--w) * 0.6); background: var(--band); box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.06); }
+.watch .strap.top { margin-bottom: calc(var(--w) * -0.1); border-radius: calc(var(--w) * 0.12) calc(var(--w) * 0.12) 0 0; }
+.watch .strap.bot { position: relative; margin-top: calc(var(--w) * -0.1); border-radius: 0 0 calc(var(--w) * 0.12) calc(var(--w) * 0.12); }
+.watch .strap.bot i {
+  position: absolute;
+  left: 50%;
+  width: calc(var(--w) * 0.035);
+  aspect-ratio: 1;
+  margin-left: calc(var(--w) * -0.0175);
+  border-radius: 50%;
+  background: var(--hole);
+}
+.watch .strap.bot i:nth-child(1) { top: 42%; }
+.watch .strap.bot i:nth-child(2) { top: 58%; }
+.watch .strap.bot i:nth-child(3) { top: 74%; }
+.watch .case {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: calc(var(--w) * 0.055);
+  border-radius: calc(var(--w) * 0.25);
+  background: var(--case);
+  box-shadow: inset 0 0 0 1px var(--case-edge), 0 28px 48px -16px rgb(0 0 0 / 0.45);
+}
+.watch .case::before, .watch .case::after { content: ""; position: absolute; background: var(--knob); }
+.watch .case::before {
+  right: calc(var(--w) * -0.05);
+  top: 22%;
+  width: calc(var(--w) * 0.065);
+  height: calc(var(--w) * 0.17);
+  border-radius: calc(var(--w) * 0.02);
+  box-shadow: inset 0 0 0 1px var(--case-edge);
+}
+.watch .case::after { right: calc(var(--w) * -0.022); top: 52%; width: calc(var(--w) * 0.03); height: calc(var(--w) * 0.26); border-radius: 0 4px 4px 0; }
+.watch .screen { overflow: hidden; aspect-ratio: 416 / 496; border-radius: calc(var(--w) * 0.18); background: #000; }
+.watch img { display: block; width: 100%; height: 100%; object-fit: cover; color: transparent; }
+
+/* Stage: headline, store badge, three phones */
+
+.stage {
+  background: var(--band);
+  color: var(--band-text);
+  padding: 72px 24px 88px;
+  overflow: hidden;
+  text-align: center;
+}
+.stage-copy { max-width: 720px; margin: 0 auto; }
+.stage h1 {
+  margin: 0;
+  font-size: clamp(40px, 6.4vw, 76px);
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+.stage-copy p {
+  max-width: 560px;
+  margin: 20px auto 0;
+  font-size: clamp(17px, 1.6vw, 20px);
+  line-height: 1.55;
+  color: var(--band-text-2);
+}
+.stores { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.store { display: block; line-height: 0; border-radius: 10px; }
+.store img { height: 50px; width: auto; }
+
+.trio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+.trio .mid { --w: 300px; position: relative; z-index: 1; }
+.trio .side { --w: 252px; margin-top: 56px; }
+.trio .first { margin-inline-end: -40px; }
+.trio .last { margin-inline-start: -40px; }
+
+.trio-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 880px;
+  margin: 48px auto 0;
+  padding: 0;
+  list-style: none;
+}
+.home .trio-notes h2 { font-size: 17px; line-height: 1.4; color: var(--band-text); }
+.home .trio-notes p { margin-top: 8px; font-size: 15px; line-height: 1.55; color: var(--band-text-3); }
+
+/* Live countdown card laid over the Today screenshot, sized to the screen (cqw) */
+
+.cd {
+  position: absolute;
+  left: 4.35cqw;
+  top: 42.85cqw;
+  width: 91.3cqw;
+  height: 40.8cqw;
+  padding: 4.6cqw 5.6cqw 0;
+  border-radius: 5.4cqw;
+  background: #13202d;
+  box-shadow: 0 0 0 1px rgb(255 255 255 / 0.07) inset;
+  color: #f2f1ea;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+}
+.cd-top { display: flex; align-items: center; gap: 2.4cqw; font-size: 7.9cqw; font-weight: 600; line-height: 1.15; }
+.cd-top svg { width: 5.6cqw; height: 5.6cqw; color: #e2b04d; margin-inline-end: 0.6cqw; }
+.cd-top span { font-weight: 500; }
+.cd-num {
+  display: flex;
+  align-items: baseline;
+  margin-top: 2.2cqw;
+  color: #d9a74c;
+  font-size: 15.6cqw;
+  font-weight: 500;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.cd-num .in { margin-inline-end: 2.6cqw; font-size: 3.6cqw; color: #c9cfd4; }
+.cd-num u { margin: 0 3.2cqw 0 0.4cqw; font-size: 6cqw; text-decoration: none; color: #c9cfd4; }
+.cd-num .s { font-size: 9.4cqw; }
+.cd-num .s + u { font-size: 3.8cqw; margin-right: 0; }
+.cd-num .h, .cd-num .m, .cd-num .s { display: inline-flex; }
+.cd-num [hidden] { display: none; }
+.dg { display: block; height: 1em; overflow: hidden; }
+.dg i { display: block; font-style: normal; transition: transform 0.5s var(--curve); }
+.dg b { display: block; height: 1em; font-weight: inherit; }
+.cd-at { margin-top: 3.2cqw; font-size: 3.7cqw; color: #c9cfd4; }
+
+/* Called to every prayer: chapters beside a Lock Screen */
+
+.calls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 80px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 120px 32px 40px;
+}
+.calls-text .section-title { margin-bottom: 8px; }
+.chapter { display: flex; flex-direction: column; justify-content: center; min-height: 72vh; max-width: 440px; }
+.home .chapter h3 { font-size: clamp(24px, 2.6vw, 30px); line-height: 1.2; letter-spacing: -0.01em; }
+.home .chapter p { margin-top: 12px; font-size: 18px; line-height: 1.6; color: var(--text-2); }
+.calls-device { position: relative; }
+.lock { --w: min(300px, calc((100vh - 64px) * 0.45)); position: sticky; top: calc(50vh - var(--w) * 1.1); }
+
+.lock .screen { background: #0f1e29; color: #eef1f3; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
+.lock-top { padding: 17cqw 6cqw 0; text-align: center; }
+.home .lock-date { font-size: 5.2cqw; font-weight: 500; color: #d6dde2; }
+.home .lock-time { font-size: 27cqw; font-weight: 600; line-height: 1; letter-spacing: -0.02em; color: #eef1f3; }
+.lock-stack {
+  position: absolute;
+  left: 3.6cqw;
+  right: 3.6cqw;
+  bottom: 9cqw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4cqw;
+}
+.note, .live {
+  border-radius: 6.4cqw;
+  background: #22313c;
+  font-size: 3.9cqw;
+  line-height: 1.3;
+  text-align: left;
+}
+.note { display: flex; gap: 3cqw; padding: 3.4cqw 3.8cqw; }
+.note > img { width: 9.6cqw; height: 9.6cqw; border-radius: 2.2cqw; flex: none; }
+.note > div { flex: 1; min-width: 0; }
+.note-head { display: flex; justify-content: space-between; gap: 2cqw; }
+.note-head span { color: #93a3ad; font-size: 3.4cqw; }
+.home .note p { color: #e7ebee; }
+.home .note .note-head { color: #eef1f3; }
+.live { padding: 4cqw 4.4cqw 3.6cqw; background: #1a2832; }
+.live-row { display: flex; justify-content: space-between; align-items: center; }
+.home .live-name { display: flex; align-items: center; gap: 1.8cqw; font-size: 4.6cqw; font-weight: 600; color: #f2f1ea; }
+.live-name img { width: 5.6cqw; height: 5.6cqw; border-radius: 1.3cqw; }
+.live-name span { font-weight: 500; }
+.home .live-at { margin-top: 0.8cqw; color: #a9b4bb; }
+.home .live-left { font-size: 10cqw; font-weight: 600; line-height: 1; color: #e0b05a; font-variant-numeric: tabular-nums; }
+.live-bar { height: 1.4cqw; margin-top: 3.4cqw; border-radius: 1cqw; background: #34444f; overflow: hidden; }
+.live-bar span { display: block; width: 64%; height: 100%; border-radius: inherit; background: #e0b05a; }
+.live-ends { display: flex; justify-content: space-between; margin-top: 1.8cqw; font-size: 3.2cqw; color: #93a3ad; }
+
+/* On your wrist */
+
+.wrist { max-width: 1040px; margin: 0 auto; padding: 120px 32px; text-align: center; }
+.wrist-copy p { max-width: 560px; margin: 16px auto 0; font-size: 18px; line-height: 1.6; color: var(--text-2); }
+.watches { display: flex; justify-content: center; align-items: flex-start; gap: 56px; margin: 64px 0 0; padding: 0; list-style: none; }
+.watches li { display: flex; flex-direction: column; align-items: center; gap: 28px; max-width: 240px; }
+.watches .lead { margin-top: -40px; }
+.watches .lead .watch { --w: 236px; }
+.watches h3 { font-size: 19px; line-height: 1.35; }
+.watches p { margin-top: 6px; font-size: 15px; line-height: 1.55; color: var(--text-2); }
+
+/* Everything around the five prayers */
+
+.more { max-width: 1040px; margin: 0 auto; padding: 40px 32px 120px; }
+.more .section-title { max-width: 640px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px 40px;
+  margin: 56px 0 0;
+  padding: 48px 0 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.home .grid h3 { font-size: 18px; line-height: 1.35; }
+.home .grid p { margin-top: 8px; font-size: 15px; line-height: 1.6; color: var(--text-2); }
+
+/* Privacy and download */
+
+.quiet {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 96px 32px;
+  text-align: center;
+  background: var(--surface-2);
+  border-radius: 28px;
+}
+.home .quiet h2 { font-size: clamp(30px, 4vw, 46px); line-height: 1.15; letter-spacing: -0.02em; }
+[dir=rtl] .home .quiet h2, .home[dir=rtl] .quiet h2 { letter-spacing: 0; }
+.home .quiet p { margin: 16px 0 24px; font-size: 18px; color: var(--text-2); }
+
+.get { padding: 120px 24px; text-align: center; }
+.get-icon { width: 88px; height: 88px; border-radius: 20px; }
+.home .get h2 { margin-top: 24px; font-size: clamp(26px, 3vw, 34px); line-height: 1.2; letter-spacing: -0.01em; }
+.get .stores { margin-top: 28px; }
+
+/* Motion: the stage enters once */
+
+@keyframes up { from { opacity: 0; transform: translateY(var(--rise)); } }
+@keyframes slide { from { opacity: 0; transform: translateX(calc(var(--from) * var(--dx))) scale(0.94); } }
+@keyframes fade { from { opacity: 0; } }
+
+.stage-copy > * { animation: up 0.9s var(--curve) both; }
+.stage-copy > :nth-child(2) { animation-delay: 0.08s; }
+.stage-copy > :nth-child(3) { animation-delay: 0.16s; }
+.trio .mid { --rise: 64px; animation: up 1.1s var(--curve) 0.2s both; }
+.trio .side { animation: slide 1.1s var(--curve) 0.55s both; }
+.trio .first { --dx: 45%; }
+.trio .last { --dx: -45%; }
+.trio-notes { animation: fade 1s var(--curve) 0.9s both; }
+.cd { animation: fade 0.6s var(--curve) 1.1s both; }
+
+/* Reveals on scroll (home.js adds .js and .in; without JS everything shows) */
+
+.js .rv { opacity: 0; transform: translateY(var(--rise)); transition: opacity 0.9s var(--curve), transform 0.9s var(--curve); }
+.js .rv.in { opacity: 1; transform: none; }
+.js .watches .rv:nth-child(2) { transition-delay: 0.1s; }
+.js .watches .rv:nth-child(3) { transition-delay: 0.2s; }
+.js .grid .rv:nth-child(4n+2) { transition-delay: 0.06s; }
+.js .grid .rv:nth-child(4n+3) { transition-delay: 0.12s; }
+.js .grid .rv:nth-child(4n+4) { transition-delay: 0.18s; }
+
+/* Lock Screen arrivals follow the chapter in view */
+.lock-stack > * { transition: opacity 0.7s var(--curve), transform 0.7s var(--curve); }
+.js .lock[data-step="0"] .s1,
+.js .lock[data-step="0"] .s2, .js .lock[data-step="1"] .s2,
+.js .lock[data-step="0"] .s3, .js .lock[data-step="1"] .s3, .js .lock[data-step="2"] .s3 {
+  opacity: 0;
+  transform: translateY(16px) scale(0.97);
+}
+
+/* Narrower screens */
+
+@media (max-width: 1000px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 880px) {
+  .calls { grid-template-columns: 1fr; gap: 48px; padding-top: 96px; }
+  .calls-text { display: contents; }
+  .calls-text .section-title { order: -2; }
+  .calls-device { order: -1; display: flex; justify-content: center; }
+  .lock { position: relative; top: 0; }
+  .chapter { min-height: 0; }
+  .wrist { padding: 96px 24px; }
+  .watches { gap: 24px; }
+  .watch { --w: 150px; }
+  .watches .lead .watch { --w: 176px; }
+}
+
+@media (max-width: 700px) {
+  .stage { padding: 48px 20px 64px; }
+  .stage-copy p { margin-top: 16px; }
+  .stores { margin-top: 24px; }
+  .store img { height: 44px; }
+  .trio { margin-top: 44px; }
+  .trio .mid { --w: 58vw; }
+  .trio .side { --w: 46vw; margin-top: 10vw; }
+  .trio .first { margin-inline-end: -16vw; }
+  .trio .last { margin-inline-start: -16vw; }
+  .trio-notes { grid-template-columns: 1fr; gap: 24px; max-width: 420px; margin-top: 40px; text-align: start; }
+  .calls { padding: 80px 24px 24px; }
+  .lock { --w: min(300px, 76vw); }
+  .watches { flex-direction: column; align-items: stretch; gap: 32px; max-width: 420px; margin: 48px auto 0; }
+  .watches li { flex-direction: row; align-items: center; gap: 24px; max-width: none; text-align: start; }
+  .watches .lead { margin-top: 0; }
+  .watch, .watches .lead .watch { --w: 36vw; }
+  .watches .strap { height: calc(var(--w) * 0.32); }
+  .more { padding: 24px 24px 80px; }
+  .grid { grid-template-columns: 1fr; gap: 28px; margin-top: 40px; padding-top: 32px; }
+  .quiet { margin: 0 16px; padding: 64px 24px; border-radius: 20px; }
+  .get { padding: 88px 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home *, .home *::before, .home *::after { animation: none !important; transition: none !important; }
+  .js .rv { opacity: 1; transform: none; }
+  .js .lock .lock-stack > * { opacity: 1; transform: none; }
+}
