@@ -2,8 +2,8 @@
    The navy stage is the page's one dark moment; app screens stay as Nidaa draws them.
    Motion: transform and opacity only, one curve, plays once, none with reduced motion. */
 
-/* Google Play switch: delete this rule when the Android app ships,
-   after adding img/google-play-badge-en.png and img/google-play-badge-ar.png (official badges). */
+/* Google Play switch: the official badges are in img/google-play-badge-en.png and -ar.png.
+   Delete this rule once Nidaa is live on Google Play to show them on both pages. */
 .store.play { display: none; }
 
 .home {
