@@ -80,8 +80,8 @@
 }
 .watch::before { top: 24%; height: 17%; }
 .watch::after { top: 50%; height: 22%; }
-.watch .screen { overflow: hidden; border-radius: calc(var(--w) * 0.2); background: #000; }
-.watch img { display: block; width: 100%; height: auto; color: transparent; }
+.watch .screen { overflow: hidden; aspect-ratio: 416 / 496; border-radius: calc(var(--w) * 0.2); background: #000; }
+.watch img { display: block; width: 100%; height: 100%; object-fit: cover; color: transparent; }
 
 /* Stage: headline, store badge, three phones */
 
