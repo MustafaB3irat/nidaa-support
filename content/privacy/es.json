@@ -17,7 +17,7 @@
   "lang": "es",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Los horarios de oración, siempre a mano.",
+    "tagline": "Los horarios de oración, siempre a mano",
     "nav_label": "Navegación principal",
     "nav_support": "Soporte",
     "nav_privacy": "Privacidad",
@@ -25,8 +25,8 @@
     "footer_privacy": "Política de privacidad",
     "language_label": "Idioma",
     "eyebrow": {
-      "ios": "NIDAA PARA IPHONE Y APPLE WATCH",
-      "android": "NIDAA PARA ANDROID Y WEAR OS"
+      "ios": "Nidaa para iPhone y Apple Watch",
+      "android": "Nidaa para Android y Wear OS"
     },
     "title": "Política de privacidad",
     "description": "Nidaa no recopila tus datos personales. Esta página explica qué significa eso.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Fecha de entrada en vigor: {date}",
     "translation_note": "Esta es una traducción. Si difiere de la [versión en inglés]({url}), prevalece la versión en inglés.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Política de privacidad",
     "router_intro": "Nidaa tiene una política de privacidad para cada tipo de dispositivo. Elige el tuyo.",
     "router_choice": {

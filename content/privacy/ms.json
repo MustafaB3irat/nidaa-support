@@ -17,7 +17,7 @@
   "lang": "ms",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Waktu solat, sentiasa di hujung jari.",
+    "tagline": "Waktu solat, sentiasa di hujung jari",
     "nav_label": "Navigasi utama",
     "nav_support": "Sokongan",
     "nav_privacy": "Privasi",
@@ -25,8 +25,8 @@
     "footer_privacy": "Dasar privasi",
     "language_label": "Bahasa",
     "eyebrow": {
-      "ios": "NIDAA UNTUK IPHONE DAN APPLE WATCH",
-      "android": "NIDAA UNTUK ANDROID DAN WEAR OS"
+      "ios": "Nidaa untuk iPhone dan Apple Watch",
+      "android": "Nidaa untuk Android dan Wear OS"
     },
     "title": "Dasar Privasi",
     "description": "Nidaa tidak mengumpul data peribadi anda. Halaman ini menerangkan maksudnya.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Tarikh berkuat kuasa: {date}",
     "translation_note": "Ini ialah terjemahan. Jika terdapat perbezaan dengan [versi bahasa Inggeris]({url}), versi bahasa Inggeris yang terpakai.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Dasar privasi",
     "router_intro": "Nidaa mempunyai dasar privasi bagi setiap jenis peranti. Pilih peranti anda.",
     "router_choice": {

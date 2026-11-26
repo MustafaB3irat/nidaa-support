@@ -17,7 +17,7 @@
   "lang": "de",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Gebetszeiten, immer griffbereit.",
+    "tagline": "Gebetszeiten, immer griffbereit",
     "nav_label": "Hauptnavigation",
     "nav_support": "Support",
     "nav_privacy": "Datenschutz",
@@ -25,8 +25,8 @@
     "footer_privacy": "Datenschutzrichtlinie",
     "language_label": "Sprache",
     "eyebrow": {
-      "ios": "NIDAA FÜR IPHONE UND APPLE WATCH",
-      "android": "NIDAA FÜR ANDROID UND WEAR OS"
+      "ios": "Nidaa für iPhone und Apple Watch",
+      "android": "Nidaa für Android und Wear OS"
     },
     "title": "Datenschutzrichtlinie",
     "description": "Nidaa erfasst keine personenbezogenen Daten von dir. Diese Seite erklärt, was das bedeutet.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Gültig ab: {date}",
     "translation_note": "Dies ist eine Übersetzung. Weicht sie von der [englischen Fassung]({url}) ab, gilt die englische Fassung.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Datenschutzrichtlinie",
     "router_intro": "Nidaa hat für jede Geräteart eine eigene Datenschutzrichtlinie. Wähle deine aus.",
     "router_choice": {

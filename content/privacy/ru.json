@@ -17,7 +17,7 @@
   "lang": "ru",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Время намазов всегда под рукой.",
+    "tagline": "Время намазов всегда под рукой",
     "nav_label": "Основная навигация",
     "nav_support": "Поддержка",
     "nav_privacy": "Конфиденциальность",
@@ -25,8 +25,8 @@
     "footer_privacy": "Политика конфиденциальности",
     "language_label": "Язык",
     "eyebrow": {
-      "ios": "NIDAA ДЛЯ IPHONE И APPLE WATCH",
-      "android": "NIDAA ДЛЯ ANDROID И WEAR OS"
+      "ios": "Nidaa для iPhone и Apple Watch",
+      "android": "Nidaa для Android и Wear OS"
     },
     "title": "Политика конфиденциальности",
     "description": "Nidaa не собирает ваши персональные данные. На этой странице объясняется, что это значит.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Дата вступления в силу: {date}",
     "translation_note": "Это перевод. Если он расходится с [английской версией]({url}), действует английская версия.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Политика конфиденциальности",
     "router_intro": "У Nidaa есть отдельная политика конфиденциальности для каждого типа устройств. Выберите свой.",
     "router_choice": {

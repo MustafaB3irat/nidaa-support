@@ -17,7 +17,7 @@
   "lang": "id",
   "ui": {
     "site_name": "Nidaa",
-    "tagline": "Jadwal salat, selalu dalam genggaman.",
+    "tagline": "Jadwal salat, selalu dalam genggaman",
     "nav_label": "Navigasi utama",
     "nav_support": "Dukungan",
     "nav_privacy": "Privasi",
@@ -25,8 +25,8 @@
     "footer_privacy": "Kebijakan Privasi",
     "language_label": "Bahasa",
     "eyebrow": {
-      "ios": "NIDAA UNTUK IPHONE DAN APPLE WATCH",
-      "android": "NIDAA UNTUK ANDROID DAN WEAR OS"
+      "ios": "Nidaa untuk iPhone dan Apple Watch",
+      "android": "Nidaa untuk Android dan Wear OS"
     },
     "title": "Kebijakan Privasi",
     "description": "Nidaa tidak mengumpulkan data pribadi Anda. Halaman ini menjelaskan apa artinya.",
@@ -40,7 +40,7 @@
     },
     "effective_date": "Tanggal berlaku: {date}",
     "translation_note": "Ini adalah terjemahan. Jika ada perbedaan dengan [versi bahasa Inggris]({url}), yang berlaku adalah versi bahasa Inggris.",
-    "router_eyebrow": "NIDAA",
+    "router_eyebrow": "Nidaa",
     "router_title": "Kebijakan Privasi",
     "router_intro": "Nidaa memiliki kebijakan privasi untuk setiap jenis perangkat. Pilih perangkat Anda.",
     "router_choice": {
