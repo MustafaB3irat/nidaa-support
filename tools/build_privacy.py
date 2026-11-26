@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content" / "privacy"
-SITE = "https://mustafab3irat.github.io/nidaa-support/"
+SITE = "https://nidaaprayer.app/"
 PLATFORMS = ("ios", "android")
 STORAGE_KEY = "nidaa.lang"
 

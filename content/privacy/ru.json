@@ -3,7 +3,7 @@
     "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
     "keep_in_english": [
       "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
-      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, Cloudflare",
       "nidaaprayer@gmail.com"
     ],
     "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "17 ноября 2026 г.",
-    "android": "17 ноября 2026 г."
+    "ios": "26 ноября 2026 г.",
+    "android": "26 ноября 2026 г."
   },
   "sections": [
     {
@@ -219,7 +219,7 @@
       "platforms": ["ios", "android"],
       "heading": "Этот сайт",
       "paragraphs": [
-        "На этом сайте нет аналитики, рекламы и файлов cookie. Выбранный вами язык он запоминает только в вашем браузере. Сайт размещён на GitHub Pages, и GitHub может обрабатывать техническую информацию, например ваш IP-адрес, чтобы его показывать. См. [заявление GitHub о конфиденциальности](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)."
+        "На этом сайте нет аналитики, рекламы и файлов cookie. Выбранный вами язык он запоминает только в вашем браузере. Сайт размещён на Cloudflare, и Cloudflare может обрабатывать техническую информацию, например ваш IP-адрес, чтобы его показывать. См. [заявление Cloudflare о конфиденциальности](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {
