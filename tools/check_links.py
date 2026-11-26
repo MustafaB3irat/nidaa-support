@@ -20,7 +20,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
-PUBLISHED = "https://mustafab3irat.github.io/nidaa-support/"
+PUBLISHED = "https://nidaaprayer.app/"
 
 
 class Links(HTMLParser):

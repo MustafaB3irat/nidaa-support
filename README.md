@@ -1,6 +1,9 @@
 # Nidaa support site
 
-Static pages for Nidaa, served by GitHub Pages at https://mustafab3irat.github.io/nidaa-support/. No build step for Pages: every page is committed as HTML, styled by `style.css`.
+Static pages for Nidaa, served by Cloudflare Workers as static files (`wrangler.jsonc`), deployed from `main`. GitHub Pages at https://mustafab3irat.github.io/nidaa-support/ stays up for apps that still link it. No build step for either: every page is committed as HTML, styled by `style.css`.
+
+- `_headers` sets the security headers. Its policy allows no inline script or style, so scripts live in files (`router.js`, `lang-menu.js`, written by `tools/build_privacy.py`).
+- `.assetsignore` keeps the repository's own files (`tools/`, `content/`, this README) off the site.
 
 ## Privacy policy pages
 

@@ -1,0 +1,18 @@
+// The support and privacy site, served by Cloudflare Workers as static files (no Worker code).
+{
+  "name": "nidaa-support",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash"
+  },
+  // Only the custom domains serve the site: no workers.dev address, no preview URLs.
+  "routes": [
+    { "pattern": "nidaaprayer.app", "custom_domain": true },
+    { "pattern": "www.nidaaprayer.app", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  // No request logs: the privacy policy says Nidaa stores nothing.
+  "observability": { "enabled": false, "logs": { "enabled": false } }
+}

@@ -3,7 +3,7 @@
     "about": "Translate every string value. Do not change keys, section ids, \"platforms\" lists, link URLs, the {placeholders} or the order of sections and paragraphs. Keep the [link text](url) markup: translate the link text, keep the url. Do not use em dashes or en dashes: use a comma, a period or a colon.",
     "keep_in_english": [
       "Nidaa (use the app's own name in your language if the app uses one, for example نداء in Arabic)",
-      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, GitHub, GitHub Pages",
+      "Apple, Siri, Google, Google Play, Google Play services, ARCore, Google Play Services for AR, Cloudflare",
       "nidaaprayer@gmail.com"
     ],
     "arcore_notice": "The paragraph with \"lang\": \"en\" in the section services is a notice Google requires word for word. Copy it unchanged, including \"lang\": \"en\". You may add one new paragraph right after it with its translation, as a plain string.",
@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "۱۷ نوامبر ۲۰۲۶",
-    "android": "۱۷ نوامبر ۲۰۲۶"
+    "ios": "۲۶ نوامبر ۲۰۲۶",
+    "android": "۲۶ نوامبر ۲۰۲۶"
   },
   "sections": [
     {
@@ -219,7 +219,7 @@
       "platforms": ["ios", "android"],
       "heading": "این وب‌سایت",
       "paragraphs": [
-        "این سایت هیچ ابزار تحلیل، تبلیغات یا کوکی ندارد. فقط زبانی را که انتخاب می‌کنید، آن هم تنها در مرورگر خودتان، به خاطر می‌سپارد. این سایت روی GitHub Pages میزبانی می‌شود و GitHub ممکن است برای ارائهٔ آن، اطلاعات فنی مانند نشانی IP شما را پردازش کند. [بیانیهٔ حریم خصوصی GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) را ببینید."
+        "این سایت هیچ ابزار تحلیل، تبلیغات یا کوکی ندارد. فقط زبانی را که انتخاب می‌کنید، آن هم تنها در مرورگر خودتان، به خاطر می‌سپارد. این سایت روی Cloudflare میزبانی می‌شود و Cloudflare ممکن است برای ارائهٔ آن، اطلاعات فنی مانند نشانی IP شما را پردازش کند. [بیانیهٔ حریم خصوصی Cloudflare](https://www.cloudflare.com/privacypolicy/) را ببینید."
       ]
     },
     {

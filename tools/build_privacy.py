@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content" / "privacy"
-SITE = "https://mustafab3irat.github.io/nidaa-support/"
+SITE = "https://nidaaprayer.app/"
 PLATFORMS = ("ios", "android")
 STORAGE_KEY = "nidaa.lang"
 
@@ -268,7 +268,7 @@ def policy_page(code: str, data: dict, english: dict, platform: str, available: 
         f'<h1>{esc(ui["title"])}</h1><p>{esc(ui["description"])}</p></section>'
         f'<article>{"".join(body)}</article></main>'
         + footer(ui, code, here)
-        + f"<script>{MENU_JS}</script></body></html>\n"
+        + f'<script src="{rel(here, "lang-menu.js")}"></script></body></html>\n'
     )
 
 
@@ -281,19 +281,27 @@ def router_script(code: str, here: str, available: list[str], has_content: bool,
         "key": STORAGE_KEY,
         "base": rel(here, ""),
     }
+    # The site's security policy allows no inline script, so the code lives in router.js and
+    # each page passes its settings in a data attribute.
     return (
-        "<script>(function(c){var n=navigator,ua=n.userAgent||'',d=n.userAgentData,p=null;"
-        "if(/Android/i.test(ua)||(d&&d.platform==='Android'))p='android';"
-        "else if(/iPhone|iPad|iPod|Macintosh/i.test(ua))p='ios';"
-        "var l=c.lang;if(c.auto){var s=null;try{s=localStorage.getItem(c.key)}catch(e){}"
-        "if(c.langs.indexOf(s)<0){s=null;var w=n.languages||[n.language||''];"
-        "for(var i=0;i<w.length&&!s;i++){var b=String(w[i]).toLowerCase().split('-')[0];"
-        "if(c.langs.indexOf(b)>=0)s=b}}if(s)l=s}"
-        "var f=l==='en'?'':l+'/';"
-        "if(p)location.replace(c.base+f+'privacy/'+p+'/'+location.hash);"
-        "else if(l!==c.lang)location.replace(c.base+f+'privacy/'+location.hash)"
-        f"}})({json.dumps(cfg, ensure_ascii=False)});</script>"
+        f'<script src="{rel(here, "router.js")}" '
+        f'data-config="{esc(json.dumps(cfg, ensure_ascii=False))}"></script>'
     )
+
+
+ROUTER_JS = (
+    "(function(c){var n=navigator,ua=n.userAgent||'',d=n.userAgentData,p=null;"
+    "if(/Android/i.test(ua)||(d&&d.platform==='Android'))p='android';"
+    "else if(/iPhone|iPad|iPod|Macintosh/i.test(ua))p='ios';"
+    "var l=c.lang;if(c.auto){var s=null;try{s=localStorage.getItem(c.key)}catch(e){}"
+    "if(c.langs.indexOf(s)<0){s=null;var w=n.languages||[n.language||''];"
+    "for(var i=0;i<w.length&&!s;i++){var b=String(w[i]).toLowerCase().split('-')[0];"
+    "if(c.langs.indexOf(b)>=0)s=b}}if(s)l=s}"
+    "var f=l==='en'?'':l+'/';"
+    "if(p)location.replace(c.base+f+'privacy/'+p+'/'+location.hash);"
+    "else if(l!==c.lang)location.replace(c.base+f+'privacy/'+location.hash)"
+    "})(JSON.parse(document.currentScript.dataset.config));\n"
+)
 
 
 def router_page(code: str, data: dict | None, english: dict, available: list[str]) -> str:
@@ -320,7 +328,7 @@ def router_page(code: str, data: dict | None, english: dict, available: list[str
         f'<article><h2>{esc(ui["router_title"])}</h2><p>{esc(ui["router_intro"])}</p>'
         f'<ul class="platform-choices">{choices}</ul></article></main>'
         + footer(ui, shown, here)
-        + f"<script>{MENU_JS}</script></body></html>\n"
+        + f'<script src="{rel(here, "lang-menu.js")}"></script></body></html>\n'
     )
     return html_doc
 
@@ -342,6 +350,9 @@ def main() -> int:
         available = [c for c, _, _ in LANGUAGES if c in datas]
         warnings = [w for c, d in datas.items() if c != "en" for w in check_structure(c, d, english)]
 
+        (ROOT / "router.js").write_text(ROUTER_JS, encoding="utf-8")
+        (ROOT / "lang-menu.js").write_text(MENU_JS + "\n", encoding="utf-8")
+        print("wrote router.js, lang-menu.js")
         for code in available:
             for platform in PLATFORMS:
                 write(policy_path(code, platform), policy_page(code, datas[code], english, platform, available))
