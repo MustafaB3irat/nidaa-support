@@ -167,8 +167,8 @@
 .cd-num u { margin: 0 3.2cqw 0 0.4cqw; font-size: 6cqw; text-decoration: none; color: #c9cfd4; }
 .cd-num .s { font-size: 9.4cqw; }
 .cd-num .s + u { font-size: 3.8cqw; margin-right: 0; }
-.cd-num [hidden] { display: none; }
 .cd-num .h, .cd-num .m, .cd-num .s { display: inline-flex; }
+.cd-num [hidden] { display: none; }
 .dg { display: block; height: 1em; overflow: hidden; }
 .dg i { display: block; font-style: normal; transition: transform 0.5s var(--curve); }
 .dg b { display: block; height: 1em; font-weight: inherit; }
@@ -189,10 +189,10 @@
 .home .chapter h3 { font-size: clamp(24px, 2.6vw, 30px); line-height: 1.2; letter-spacing: -0.01em; }
 .home .chapter p { margin-top: 12px; font-size: 18px; line-height: 1.6; color: var(--text-2); }
 .calls-device { position: relative; }
-.lock { --w: 300px; position: sticky; top: calc(50vh - 325px); }
+.lock { --w: min(300px, calc((100vh - 64px) * 0.45)); position: sticky; top: calc(50vh - var(--w) * 1.1); }
 
 .lock .screen { background: #0f1e29; color: #eef1f3; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
-.lock-top { padding-top: 17cqw; text-align: center; }
+.lock-top { padding: 17cqw 6cqw 0; text-align: center; }
 .home .lock-date { font-size: 5.2cqw; font-weight: 500; color: #d6dde2; }
 .home .lock-time { font-size: 27cqw; font-weight: 600; line-height: 1; letter-spacing: -0.02em; color: #eef1f3; }
 .lock-stack {
@@ -305,8 +305,6 @@
   opacity: 0;
   transform: translateY(16px) scale(0.97);
 }
-.js .chapter { opacity: 0.35; transition: opacity 0.5s var(--curve), transform 0.9s var(--curve); }
-.js .chapter.now { opacity: 1; }
 
 /* Narrower screens */
 
@@ -321,7 +319,6 @@
   .calls-device { order: -1; display: flex; justify-content: center; }
   .lock { position: relative; top: 0; }
   .chapter { min-height: 0; }
-  .js .chapter { opacity: 1; }
   .wrist { padding: 96px 24px; }
   .watches { gap: 20px; }
   .watch { --w: 150px; }
@@ -352,6 +349,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .home *, .home *::before, .home *::after { animation: none !important; transition: none !important; }
-  .js .rv, .js .chapter { opacity: 1; transform: none; }
+  .js .rv { opacity: 1; transform: none; }
   .js .lock .lock-stack > * { opacity: 1; transform: none; }
 }

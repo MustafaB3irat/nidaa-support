@@ -71,6 +71,10 @@
   }
 
   ready(function () {
+    /* Remember the language picked here, as the language menu does on other pages */
+    document.querySelectorAll('a.language[hreflang]').forEach(function (a) {
+      a.addEventListener('click', function () { try { localStorage.setItem('nidaa.lang', a.getAttribute('hreflang')); } catch (e) {} });
+    });
     document.querySelectorAll('[data-countdown]').forEach(countdownCard);
     document.querySelectorAll('[data-live]').forEach(liveActivity);
     if (still) return;
@@ -82,33 +86,35 @@
       if (io) io.unobserve(el);
     });
 
-    /* Notifications arrive on the Lock Screen with the chapter in view */
+    /* Notifications arrive on the Lock Screen with the chapter in view.
+       Wide: the step follows the scroll position, so jumps and resizes stay right.
+       One column: the three arrivals play in turn once the phone is in view. */
     var lock = document.querySelector('.lock');
     var chapters = [].slice.call(document.querySelectorAll('.chapter'));
     if (!lock || !chapters.length) return;
     var wide = matchMedia('(min-width: 881px)');
+    var played = false, queued = false;
 
-    if (wide.matches) {
-      lock.setAttribute('data-step', '0');
-      watch(chapters, { rootMargin: '-45% 0px -45% 0px' }, function (el, on) {
-        if (on) {
-          chapters.forEach(function (c) { c.classList.toggle('now', c === el); });
-          lock.setAttribute('data-step', el.getAttribute('data-step'));
-        } else if (el === chapters[0] && el.getBoundingClientRect().top > innerHeight / 2) {
-          el.classList.remove('now');
-          lock.setAttribute('data-step', '0');
-        }
-      });
-    } else {
-      /* One column: play the three arrivals in turn once the phone is in view */
-      lock.setAttribute('data-step', '0');
-      watch([lock], { threshold: 0.45 }, function (el, on, io) {
-        if (!on) return;
-        if (io) io.unobserve(el);
-        [1, 2, 3].forEach(function (n) {
-          setTimeout(function () { lock.setAttribute('data-step', String(n)); }, 300 + (n - 1) * 750);
-        });
-      });
+    function step(n) { lock.setAttribute('data-step', String(n)); }
+    function follow() {
+      queued = false;
+      if (!wide.matches) return;
+      var line = innerHeight * 0.55, n = 0;
+      chapters.forEach(function (c) { if (c.getBoundingClientRect().top < line) n = +c.getAttribute('data-step'); });
+      step(n);
     }
+    addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(follow); } }, { passive: true });
+    function mode() { if (wide.matches) follow(); else step(played ? 3 : 0); }
+    if (wide.addEventListener) wide.addEventListener('change', mode); else wide.addListener(mode);
+    mode();
+
+    watch([lock], { rootMargin: '0px 0px -25% 0px' }, function (el, on, io) {
+      if (!on || wide.matches) return;
+      if (io) io.unobserve(el);
+      played = true;
+      [1, 2, 3].forEach(function (n) {
+        setTimeout(function () { if (!wide.matches) step(n); }, 300 + (n - 1) * 750);
+      });
+    });
   });
 })();
