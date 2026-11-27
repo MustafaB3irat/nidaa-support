@@ -42,7 +42,7 @@ PLAY_URL = "https://play.google.com/store/apps/details?id=com.mustafabirat.nidaa
 # App Store Connect campaign tags, so App Analytics counts downloads that came from the site.
 # PROVIDER_TOKEN is the "pt" value of a campaign link made in App Store Connect
 # (App Analytics, Campaigns). Empty: the links carry no tag.
-PROVIDER_TOKEN = ""
+PROVIDER_TOKEN = "126337634"
 CAMPAIGN = "website"
 # The QR code opens nidaaprayer.app/qr, which _redirects sends to the App Store with its
 # own campaign tag, so the printed code never has to change.
@@ -52,6 +52,14 @@ QR_IMAGE = "img/qr-app-store.svg"
 def app_store_url(campaign: str) -> str:
     url = f"https://apps.apple.com/app/id{APP_ID}"
     return f"{url}?pt={PROVIDER_TOKEN}&ct={campaign}&mt=8" if PROVIDER_TOKEN else url
+
+
+def banner_meta() -> str:
+    """Safari's Smart App Banner; affiliate-data carries the campaign tag (ct=banner)."""
+    content = f"app-id={APP_ID}"
+    if PROVIDER_TOKEN:
+        content += f", affiliate-data=pt={PROVIDER_TOKEN}&amp;ct=banner"
+    return content
 
 
 # Store badges drawn for a language; the others use the English ones.
@@ -216,7 +224,7 @@ def page(code: str, d: dict, ui: dict, available: list[str]) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="apple-itunes-app" content="app-id={APP_ID}">
+<meta name="apple-itunes-app" content="{banner_meta()}">
 <title>{d["title"]}</title>
 <meta name="description" content="{d["description"]}">
 <link rel="canonical" href="{SITE}{here}">

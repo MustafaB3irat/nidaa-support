@@ -39,7 +39,7 @@ Never edit the generated `index.html` files by hand. The App Store reviews quote
 
 **Download tracking.** The site tracks nothing. To count downloads that came from it, App Store Connect's App Analytics reads a campaign tag on the App Store link:
 
-- Set `PROVIDER_TOKEN` in `tools/build_home.py` to the `pt` value of a campaign link made in App Store Connect (App Analytics, Campaigns), then rebuild. Store buttons get `ct=website`.
+- `PROVIDER_TOKEN` in `tools/build_home.py` is the `pt` value of the account's campaign links (App Store Connect, App Analytics, Campaigns). Campaigns: `website` (store buttons), `banner` (Safari's Smart App Banner), `qr` (desktop QR code, via `/qr`), `get` (`/get`, for bios and posts). A campaign appears in App Analytics only after installs come through it.
 - The QR code shown beside the App Store badge on desktop (`img/qr-app-store.svg`) opens `nidaaprayer.app/qr`. `/qr` and `/get` are redirects in `_redirects`: add the same `pt` there with `ct=qr` and `ct=get`. Use `nidaaprayer.app/get` in social bios and reel captions.
 - To redraw the QR code (only if `/qr` itself changes): `python3 -m pip install segno`, then `segno.make("https://nidaaprayer.app/qr", error="m").save("img/qr-app-store.svg", border=2, dark="#102634", light="#ffffff", xmldecl=False, omitsize=True)`.
 
