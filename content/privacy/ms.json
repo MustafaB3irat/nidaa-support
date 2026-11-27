@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 November 2026",
-    "android": "26 November 2026"
+    "ios": "27 November 2026",
+    "android": "27 November 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Pilihan anda",
       "paragraphs": [
         "Anda boleh mematikan kebenaran dalam tetapan peranti anda, menukar lokasi yang disimpan dalam aplikasi, atau memadam aplikasi untuk mengalih keluar semua yang disimpannya. Oleh sebab kami tidak memegang sebarang data tentang anda, tiada apa-apa untuk diminta daripada kami atau dipadamkan."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "Laman web ini",
-      "paragraphs": [
-        "Laman ini tidak mempunyai analitik, iklan atau kuki. Ia hanya mengingati bahasa yang anda pilih, dalam pelayar anda. Ia dihoskan di Cloudflare, dan Cloudflare mungkin memproses maklumat teknikal seperti alamat IP anda untuk menyampaikannya. Lihat [kenyataan privasi Cloudflare](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {

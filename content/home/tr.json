@@ -1,0 +1,121 @@
+{
+  "lang": "tr",
+  "title": "Nidaa · iPhone ve Apple Watch için namaz vakitleri, ezan ve kıble",
+  "description": "iPhone ve Apple Watch’ta namaz vakitleri, ezan ve kıble. Namaz vakitleri telefonunuzda hesaplanır, böylece çevrim dışı da çalışır. Hesap yok, reklam yok, analiz yok.",
+  "hero": {
+    "title": "Gününüzde namaza yer açın",
+    "lede": "iPhone ve Apple&nbsp;Watch’ta namaz vakitleri, ezan ve kıble. Namaz vakitleri telefonunuzda hesaplanır, böylece çevrim dışı da çalışır."
+  },
+  "store": {
+    "app_store_alt": "App Store’dan indirin",
+    "play_alt": "Google Play’den indirin",
+    "qr_alt": "QR kodu: Nidaa’yı App Store’dan indirmek için iPhone kameranızla tarayın"
+  },
+  "screens": {
+    "mosques": "Nidaa’nın Camiler ekranı: Londra’daki en yakın camiler, yürüyerek, arabayla ve toplu taşımayla ulaşım süreleriyle",
+    "today": "Nidaa’nın Londra’daki Bugün ekranı: İkindi 2 saat 11 dakika sonra, 4:53 PM’de, ardından beş vakit namaz ve güneş doğuşu",
+    "qibla": "Nidaa’nın AR Kıble ekranı: yerde Kâbe’ye uzanan altın rengi oklardan bir yol, Kâbe 4.794 km uzakta"
+  },
+  "notes": [
+    {
+      "title": "Yakınınızdaki camiler",
+      "text": "Yürüyerek, arabayla ve toplu taşımayla ulaşım süreleri, ardından Apple Haritalar, Google Haritalar veya Waze’de yol tarifi."
+    },
+    {
+      "title": "Sonraki namaza geri sayım",
+      "text": "Bugünün beş vakit namazı ve güneş doğuşu, bir de sonraki namaza kalan süre."
+    },
+    {
+      "title": "AR ile Kıble",
+      "text": "Yerdeki yolu izleyerek Kâbe’ye yönelin ya da pusulayı kullanın."
+    }
+  ],
+  "praise": {
+    "title": "App Store’daki ortalama puan",
+    "united_states": "Amerika Birleşik Devletleri"
+  },
+  "calls": {
+    "title": "Her namaza bir davet",
+    "chapters": [
+      {
+        "title": "Vaktinde ezan",
+        "text": "Her namaz için ayrı ayrı tam ezanı, kısa bir tonu ya da sessizliği seçin."
+      },
+      {
+        "title": "Vakit çıkmadan",
+        "text": "Bir namazın vakti çıkmadan 5 ila 60 dakika önce hatırlatma; böylece en yoğun öğleden sonra bile İkindi’yi kaçırmazsınız."
+      },
+      {
+        "title": "Kilitli ekranda geri sayım",
+        "text": "Bir Canlı Etkinlik, kilitli ekranda ve Dynamic Island’da sonraki namaza geri sayar."
+      }
+    ],
+    "lock_label": "Saat 7:30 PM’de bir iPhone kilitli ekranı: Nidaa’nın Yatsı geri sayımı ve iki Akşam bildirimi"
+  },
+  "wrist": {
+    "title": "Bileğinizde",
+    "lede": "Bugünün namaz vakitleri, Kıble pusulası ve saat kadranınızda bir geri sayım; komplikasyonlarda ve Akıllı Gruplama’da.",
+    "watches": [
+      {
+        "alt": "Apple Watch’ta Nidaa: Londra’da bugünün namaz vakitleri, Yatsı 5:31 PM’de, yarının İmsak vakti 5:58 AM’de",
+        "title": "Bugünün vakitleri",
+        "text": "Beş vakit ve güneş doğuşu, sıradaki vakit işaretli."
+      },
+      {
+        "alt": "Nidaa komplikasyonları olan bir Apple Watch kadranı: İmsak 5:58 AM’de, 7 saat 55 dakika sonra",
+        "title": "Saat kadranınızda",
+        "text": "Sonraki namaz ve geri sayımı, komplikasyonlarda."
+      },
+      {
+        "alt": "Apple Watch’ta Nidaa’nın Kıble pusulası: kuzeye göre 119°, Kıble’ye dönük",
+        "title": "Kıble",
+        "text": "Bileğinizde bir pusula; Mekke’ye yöneldiğinizde yeşile döner."
+      }
+    ]
+  },
+  "more": {
+    "title": "Namazlarınız için ihtiyacınız olan her şey",
+    "items": [
+      {
+        "title": "Çevrim dışı namaz vakitleri",
+        "text": "Namaz vakitleri ve kıble telefonunuzda hesaplanır. Konumunuz kaydedildikten sonra bağlantıya gerek kalmaz."
+      },
+      {
+        "title": "Camiinizin vakitleri",
+        "text": "Ülkenize uygun hesaplama yöntemi, Şafii veya Hanefi ikindi hesabı ve her vakit için dakika ayarı."
+      },
+      {
+        "title": "Bir ay, tek sayfada",
+        "text": "Paylaşabileceğiniz ya da tek sayfalık PDF olarak yazdırabileceğiniz aylık vakit çizelgesi."
+      },
+      {
+        "title": "Sünnet günler",
+        "text": "Cuma, Eyyam-ı Biyz, Pazartesi ve Perşembe günleri, Arefe, Aşure ve gecenin son üçte biri için hatırlatmalar."
+      },
+      {
+        "title": "Widget’lar",
+        "text": "Bugünün namaz vakitleri ve sıradaki vakit, ana ekranınızda ve kilitli ekranınızda."
+      },
+      {
+        "title": "Siri ve Kestirmeler",
+        "text": "Siri’ye sonraki namazın ne zaman olduğunu sorun ya da bunu bir kestirmeye ekleyin."
+      },
+      {
+        "title": "Hicri tarih",
+        "text": "Bugünün tarihinin yanında; bulunduğunuz yerdeki hilal gözlemine uyması için bir veya iki gün ileri ya da geri alınabilir."
+      },
+      {
+        "title": "Kendi dilinizde",
+        "text": "13 dil, daha büyük metin, VoiceOver, açık ve koyu görünüm."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa sizin hakkınızda hiçbir şey bilmez",
+    "text": "Hesap yok, reklam yok, analiz yok. Nidaa hiçbir veri toplamaz.",
+    "link": "Gizlilik politikasını okuyun"
+  },
+  "get": {
+    "title": "iPhone ve Apple&nbsp;Watch için Nidaa"
+  }
+}

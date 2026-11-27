@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 Nuwamba, 2026",
-    "android": "26 Nuwamba, 2026"
+    "ios": "27 Nuwamba, 2026",
+    "android": "27 Nuwamba, 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Zaɓuɓɓukanku",
       "paragraphs": [
         "Kuna iya kashe izini a saitunan na'urarku, canza wurin da kuka adana a cikin manhajar, ko goge manhajar don cire duk abin da ta adana. Tun da ba mu riƙe wani bayani game da ku, babu abin da za ku nema daga gare mu ko ku sa mu goge."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "Wannan shafin yanar gizo",
-      "paragraphs": [
-        "Wannan shafi ba shi da nazari (analytics), talla ko kukis. Yana tuna harshen da kuka zaɓa ne kawai, a cikin burauzarku. Yana kan Cloudflare, kuma Cloudflare na iya sarrafa bayanan fasaha kamar adireshin IP ɗinku don isar da shi. Duba [sanarwar sirri ta Cloudflare](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {

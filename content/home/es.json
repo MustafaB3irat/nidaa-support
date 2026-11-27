@@ -1,0 +1,121 @@
+{
+  "lang": "es",
+  "title": "Nidaa · Horarios de oración, adhán y Qibla para iPhone y Apple Watch",
+  "description": "Los horarios de oración, el adhán y la Qibla en iPhone y Apple Watch. Los horarios de oración se calculan en tu teléfono, así que funcionan sin conexión. Sin cuenta, sin anuncios, sin analíticas.",
+  "hero": {
+    "title": "Haz espacio para la oración",
+    "lede": "Los horarios de oración, el adhán y la Qibla en iPhone y Apple&nbsp;Watch. Los horarios de oración se calculan en tu teléfono, así que funcionan sin conexión."
+  },
+  "store": {
+    "app_store_alt": "Descargar en el App Store",
+    "play_alt": "Disponible en Google Play",
+    "qr_alt": "Código QR: escanéalo con la cámara del iPhone para conseguir Nidaa en el App Store"
+  },
+  "screens": {
+    "mosques": "Pantalla Mezquitas de Nidaa con las mezquitas más cercanas en Londres y el tiempo a pie, en coche y en transporte público",
+    "today": "Pantalla Hoy de Nidaa en Londres: Asr dentro de 2 horas y 11 minutos, a las 4:53 PM, y debajo las cinco oraciones y el amanecer",
+    "qibla": "Pantalla Qibla de Nidaa en RA: un camino de flechas doradas en el suelo que lleva a la Kaaba, a 4794 km"
+  },
+  "notes": [
+    {
+      "title": "Mezquitas cerca de ti",
+      "text": "El tiempo a pie, en coche y en transporte público, y luego cómo llegar con Mapas de Apple, Google Maps o Waze."
+    },
+    {
+      "title": "La próxima oración, en cuenta atrás",
+      "text": "Las cinco oraciones y el amanecer de hoy, y el tiempo que falta para la siguiente."
+    },
+    {
+      "title": "La Qibla en RA",
+      "text": "Sigue un camino en el suelo hasta la Kaaba, o usa la brújula."
+    }
+  ],
+  "praise": {
+    "title": "Valoración media en el App Store",
+    "united_states": "Estados Unidos"
+  },
+  "calls": {
+    "title": "La llamada a cada oración",
+    "chapters": [
+      {
+        "title": "El adhán, a su hora",
+        "text": "Elige para cada oración por separado el adhán completo, una campanilla o silencio."
+      },
+      {
+        "title": "Antes de que se acabe el tiempo",
+        "text": "Un recordatorio entre 5 y 60 minutos antes de que termine el tiempo de una oración, para que una tarde ajetreada nunca te quite el Asr."
+      },
+      {
+        "title": "La cuenta atrás en la pantalla de bloqueo",
+        "text": "Una Actividad en directo lleva la cuenta atrás hasta la próxima oración en la pantalla de bloqueo y en la Dynamic Island."
+      }
+    ],
+    "lock_label": "Pantalla de bloqueo de un iPhone a las 7:30 PM con la cuenta atrás de Nidaa para Isha y dos notificaciones de Magrib"
+  },
+  "wrist": {
+    "title": "En tu muñeca",
+    "lede": "Las oraciones de hoy, la brújula de la Qibla y una cuenta atrás en tu esfera, con complicaciones y en el grupo inteligente.",
+    "watches": [
+      {
+        "alt": "Nidaa en el Apple Watch: las oraciones de hoy en Londres, con Isha a las 5:31 PM y el Fajr de mañana a las 5:58 AM",
+        "title": "Las oraciones de hoy",
+        "text": "Las cinco y el amanecer, con la próxima destacada."
+      },
+      {
+        "alt": "Una esfera del Apple Watch con complicaciones de Nidaa: Fajr a las 5:58 AM, dentro de 7 horas y 55 minutos",
+        "title": "En tu esfera",
+        "text": "La próxima oración y su cuenta atrás, en complicaciones."
+      },
+      {
+        "alt": "La brújula de la Qibla de Nidaa en el Apple Watch: 119° desde el norte, mirando hacia la Qibla",
+        "title": "La Qibla",
+        "text": "Una brújula en tu muñeca que se pone verde cuando miras hacia La Meca."
+      }
+    ]
+  },
+  "more": {
+    "title": "Todo lo que rodea a las cinco oraciones",
+    "items": [
+      {
+        "title": "Horarios sin conexión",
+        "text": "Los horarios de oración y la Qibla se calculan en tu teléfono. Una vez guardada tu ubicación, no necesitas cobertura."
+      },
+      {
+        "title": "Los horarios de tu mezquita",
+        "text": "El método de cálculo de tu país, el Asr shafií o hanafí, y ajustes por minutos para cada oración."
+      },
+      {
+        "title": "El mes en una página",
+        "text": "Un horario mensual que puedes compartir o imprimir como PDF de una sola página."
+      },
+      {
+        "title": "Días de sunna",
+        "text": "Recordatorios para la Yumu’a, los Días blancos, los lunes y jueves, Arafa, Ashura y el último tercio de la noche."
+      },
+      {
+        "title": "Widgets",
+        "text": "Las oraciones de hoy y la próxima en tu pantalla de inicio y en tu pantalla de bloqueo."
+      },
+      {
+        "title": "Siri y Atajos",
+        "text": "Pregúntale a Siri cuándo es la próxima oración, o añádelo a un atajo."
+      },
+      {
+        "title": "La fecha hiyri",
+        "text": "Junto a la fecha de hoy, y ajustable uno o dos días para que coincida con el avistamiento de la luna donde vives."
+      },
+      {
+        "title": "En tu idioma",
+        "text": "13 idiomas, texto más grande, VoiceOver y aspecto claro y oscuro."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa no sabe nada de ti",
+    "text": "Sin cuenta, sin anuncios, sin analíticas. Nidaa no recopila nada.",
+    "link": "Lee la política de privacidad"
+  },
+  "get": {
+    "title": "Nidaa para iPhone y Apple&nbsp;Watch"
+  }
+}

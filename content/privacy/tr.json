@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 Kasım 2026",
-    "android": "26 Kasım 2026"
+    "ios": "27 Kasım 2026",
+    "android": "27 Kasım 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Seçimleriniz",
       "paragraphs": [
         "İzinleri cihazınızın ayarlarından kapatabilir, kayıtlı konumunuzu uygulamada değiştirebilir veya uygulamayı silerek sakladığı her şeyi kaldırabilirsiniz. Hakkınızda hiçbir veri tutmadığımız için bizden talep edilecek veya silinecek bir şey yoktur."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "Bu web sitesi",
-      "paragraphs": [
-        "Bu sitede analiz, reklam veya çerez yoktur. Seçtiğiniz dili yalnızca tarayıcınızda hatırlar. Site Cloudflare üzerinde barındırılır ve Cloudflare, siteyi sunmak için IP adresiniz gibi teknik bilgileri işleyebilir. [Cloudflare'ın gizlilik bildirimine](https://www.cloudflare.com/privacypolicy/) bakın."
       ]
     },
     {

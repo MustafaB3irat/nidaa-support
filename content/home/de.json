@@ -1,0 +1,121 @@
+{
+  "lang": "de",
+  "title": "Nidaa · Gebetszeiten, Adhan und Qibla für iPhone und Apple Watch",
+  "description": "Gebetszeiten, Adhan und Qibla auf iPhone und Apple Watch. Die Gebetszeiten werden auf deinem iPhone berechnet und funktionieren deshalb auch offline. Kein Konto, keine Werbung, keine Analysen.",
+  "hero": {
+    "title": "Schaffe Raum für das Gebet",
+    "lede": "Gebetszeiten, Adhan und Qibla auf iPhone und Apple&nbsp;Watch. Die Gebetszeiten werden auf deinem iPhone berechnet und funktionieren deshalb auch offline."
+  },
+  "store": {
+    "app_store_alt": "Laden im App Store",
+    "play_alt": "Jetzt bei Google Play",
+    "qr_alt": "QR-Code: Scanne ihn mit der Kamera deines iPhone, um Nidaa im App Store zu laden"
+  },
+  "screens": {
+    "mosques": "Der Bildschirm „Moscheen“ in Nidaa mit den nächstgelegenen Moscheen in London und den Wegzeiten zu Fuß, mit dem Auto und mit öffentlichen Verkehrsmitteln",
+    "today": "Der Bildschirm „Heute“ in Nidaa in London: Asr in 2 Stunden 11 Minuten um 4:53 PM, darunter alle fünf Gebete und der Sonnenaufgang",
+    "qibla": "Die Qibla in AR in Nidaa: Ein Pfad aus goldenen Winkeln auf dem Boden führt zur Kaaba, 4.794 km entfernt"
+  },
+  "notes": [
+    {
+      "title": "Moscheen in deiner Nähe",
+      "text": "Wegzeiten zu Fuß, mit dem Auto und mit öffentlichen Verkehrsmitteln, dann die Route in Apple Karten, Google Maps oder Waze."
+    },
+    {
+      "title": "Das nächste Gebet im Countdown",
+      "text": "Alle fünf Gebete und der Sonnenaufgang für heute, dazu die Zeit bis zum nächsten Gebet."
+    },
+    {
+      "title": "Die Qibla in AR",
+      "text": "Folge einem Pfad auf dem Boden bis zur Kaaba oder nutze den Kompass."
+    }
+  ],
+  "praise": {
+    "title": "Durchschnittliche Bewertung im App Store",
+    "united_states": "Vereinigte Staaten"
+  },
+  "calls": {
+    "title": "Der Ruf zu jedem Gebet",
+    "chapters": [
+      {
+        "title": "Der Adhan, pünktlich",
+        "text": "Wähle für jedes Gebet einzeln den vollständigen Adhan, einen Signalton oder Stille."
+      },
+      {
+        "title": "Bevor die Zeit abläuft",
+        "text": "Eine Erinnerung 5 bis 60 Minuten vor dem Ende einer Gebetszeit, damit dir ein voller Nachmittag nie das Asr-Gebet nimmt."
+      },
+      {
+        "title": "Der Countdown auf dem Sperrbildschirm",
+        "text": "Eine Live-Aktivität zählt auf dem Sperrbildschirm und in der Dynamic Island bis zum nächsten Gebet herunter."
+      }
+    ],
+    "lock_label": "Ein iPhone-Sperrbildschirm um 7:30 PM mit dem Countdown von Nidaa bis Ischa und zwei Mitteilungen zu Maghrib"
+  },
+  "wrist": {
+    "title": "An deinem Handgelenk",
+    "lede": "Die heutigen Gebete, der Qibla-Kompass und ein Countdown auf deinem Zifferblatt, in Komplikationen und im Smart-Stapel.",
+    "watches": [
+      {
+        "alt": "Nidaa auf der Apple Watch: die heutigen Gebete in London, mit Ischa um 5:31 PM und Fajr morgen um 5:58 AM",
+        "title": "Die heutigen Gebete",
+        "text": "Alle fünf und der Sonnenaufgang, das nächste hervorgehoben."
+      },
+      {
+        "alt": "Ein Zifferblatt der Apple Watch mit Komplikationen von Nidaa: Fajr um 5:58 AM, in 7 Stunden 55 Minuten",
+        "title": "Auf deinem Zifferblatt",
+        "text": "Das nächste Gebet und ein Countdown, in Komplikationen."
+      },
+      {
+        "alt": "Der Qibla-Kompass von Nidaa auf der Apple Watch: 119° von Norden, zur Qibla ausgerichtet",
+        "title": "Die Qibla",
+        "text": "Ein Kompass am Handgelenk, der grün wird, wenn du nach Mekka blickst."
+      }
+    ]
+  },
+  "more": {
+    "title": "Alles rund um die fünf Gebete",
+    "items": [
+      {
+        "title": "Gebetszeiten offline",
+        "text": "Gebetszeiten und Qibla werden auf deinem iPhone berechnet. Ist dein Standort einmal gespeichert, brauchst du keinen Empfang."
+      },
+      {
+        "title": "Die Zeiten deiner Moschee",
+        "text": "Die Berechnungsmethode deines Landes, Asr nach schafiitischer oder hanafitischer Rechtsschule und minutengenaue Anpassungen für jedes Gebet."
+      },
+      {
+        "title": "Der Monat auf einer Seite",
+        "text": "Ein Gebetsplan für den ganzen Monat, den du teilen oder als einseitiges PDF drucken kannst."
+      },
+      {
+        "title": "Sunna-Tage",
+        "text": "Erinnerungen an das Freitagsgebet, die Weißen Tage, Montage und Donnerstage, Arafa, Aschura und das letzte Drittel der Nacht."
+      },
+      {
+        "title": "Widgets",
+        "text": "Die heutigen Gebete und das nächste auf deinem Home-Bildschirm und Sperrbildschirm."
+      },
+      {
+        "title": "Siri und Kurzbefehle",
+        "text": "Frag Siri, wann das nächste Gebet ist, oder bau es in einen Kurzbefehl ein."
+      },
+      {
+        "title": "Das Hidschri-Datum",
+        "text": "Neben dem heutigen Datum, und um ein oder zwei Tage anpassbar, damit es zu deiner Mondsichtung passt."
+      },
+      {
+        "title": "In deiner Sprache",
+        "text": "13 Sprachen, größerer Text, VoiceOver sowie helles und dunkles Erscheinungsbild."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa weiß nichts über dich",
+    "text": "Kein Konto, keine Werbung, keine Analysen. Nidaa erfasst nichts.",
+    "link": "Datenschutzrichtlinie lesen"
+  },
+  "get": {
+    "title": "Nidaa für iPhone und Apple&nbsp;Watch"
+  }
+}

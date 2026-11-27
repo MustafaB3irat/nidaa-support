@@ -1,0 +1,121 @@
+{
+  "lang": "fr",
+  "title": "Nidaa · Horaires de prière, adhan et Qibla pour iPhone et Apple Watch",
+  "description": "Les horaires de prière, l’adhan et la Qibla sur iPhone et Apple Watch. Les horaires de prière sont calculés sur votre téléphone, ils fonctionnent donc hors ligne. Ni compte, ni publicité, ni outil d’analyse.",
+  "hero": {
+    "title": "Faites place à la prière",
+    "lede": "Les horaires de prière, l’adhan et la Qibla sur iPhone et Apple&nbsp;Watch. Les horaires de prière sont calculés sur votre téléphone, ils fonctionnent donc hors ligne."
+  },
+  "store": {
+    "app_store_alt": "Télécharger dans l’App Store",
+    "play_alt": "Disponible sur Google Play",
+    "qr_alt": "Code QR : scannez-le avec l’appareil photo de votre iPhone pour obtenir Nidaa sur l’App Store"
+  },
+  "screens": {
+    "mosques": "L’écran Mosquées de Nidaa : les mosquées les plus proches à Londres, avec les temps de trajet à pied, en voiture et en transports en commun",
+    "today": "L’écran Aujourd’hui de Nidaa à Londres : Asr dans 2 heures 11 minutes, à 4:53 PM, puis les cinq prières et le Chourouk",
+    "qibla": "L’écran Qibla de Nidaa en RA : un chemin de chevrons dorés au sol mène à la Kaaba, à 4 794 km"
+  },
+  "notes": [
+    {
+      "title": "Les mosquées près de chez vous",
+      "text": "Les temps de trajet à pied, en voiture et en transports en commun, puis l’itinéraire dans Plans, Google Maps ou Waze."
+    },
+    {
+      "title": "La prochaine prière, en compte à rebours",
+      "text": "Les cinq prières et le Chourouk du jour, et le temps qu’il reste avant la prochaine."
+    },
+    {
+      "title": "La Qibla en RA",
+      "text": "Suivez un chemin tracé au sol jusqu’à la Kaaba, ou servez-vous de la boussole."
+    }
+  ],
+  "praise": {
+    "title": "Note moyenne sur l’App Store",
+    "united_states": "États-Unis"
+  },
+  "calls": {
+    "title": "L’appel, à chaque prière",
+    "chapters": [
+      {
+        "title": "L’adhan, à l’heure",
+        "text": "Pour chaque prière, choisissez l’adhan complet, un carillon ou le silence."
+      },
+      {
+        "title": "Avant la fin du temps",
+        "text": "Un rappel 5 à 60 minutes avant la fin du temps d’une prière, pour qu’un après-midi chargé ne vous fasse jamais manquer l’Asr."
+      },
+      {
+        "title": "Le compte à rebours sur l’écran verrouillé",
+        "text": "Une Activité en direct décompte le temps jusqu’à la prochaine prière sur l’écran verrouillé et dans la Dynamic Island."
+      }
+    ],
+    "lock_label": "Un écran verrouillé d’iPhone à 7:30 PM, avec le compte à rebours de Nidaa jusqu’à Icha et deux notifications pour Maghrib"
+  },
+  "wrist": {
+    "title": "À votre poignet",
+    "lede": "Les prières du jour, la boussole de la Qibla et un compte à rebours sur votre cadran, dans les complications et dans Défilement intelligent.",
+    "watches": [
+      {
+        "alt": "Nidaa sur Apple Watch : les prières du jour à Londres, avec Icha à 5:31 PM et le Fajr du lendemain à 5:58 AM",
+        "title": "Les prières du jour",
+        "text": "Les cinq prières et le Chourouk, la prochaine mise en évidence."
+      },
+      {
+        "alt": "Un cadran d’Apple Watch avec les complications de Nidaa : Fajr à 5:58 AM, dans 7 heures 55 minutes",
+        "title": "Sur votre cadran",
+        "text": "La prochaine prière et son compte à rebours, dans les complications."
+      },
+      {
+        "alt": "La boussole de la Qibla de Nidaa sur Apple Watch : 119° depuis le nord, face à la Qibla",
+        "title": "La Qibla",
+        "text": "Une boussole à votre poignet, qui passe au vert quand vous êtes face à La Mecque."
+      }
+    ]
+  },
+  "more": {
+    "title": "Tout autour des cinq prières",
+    "items": [
+      {
+        "title": "Des horaires hors ligne",
+        "text": "Les horaires de prière et la Qibla sont calculés sur votre téléphone. Une fois votre position enregistrée, plus besoin de réseau."
+      },
+      {
+        "title": "Les horaires de votre mosquée",
+        "text": "La méthode de calcul de votre pays, l’Asr chaféite ou hanafite, et des ajustements à la minute pour chaque prière."
+      },
+      {
+        "title": "Le mois sur une page",
+        "text": "Un calendrier mensuel à partager ou à imprimer en un PDF d’une seule page."
+      },
+      {
+        "title": "Les jours de Sunna",
+        "text": "Des rappels pour la Joumou’a, les Jours blancs, les lundis et jeudis, Arafat, Achoura et le dernier tiers de la nuit."
+      },
+      {
+        "title": "Widgets",
+        "text": "Les prières du jour et la prochaine sur votre écran d’accueil et votre écran verrouillé."
+      },
+      {
+        "title": "Siri et Raccourcis",
+        "text": "Demandez à Siri l’heure de la prochaine prière, ou intégrez-la à un raccourci."
+      },
+      {
+        "title": "La date hégirienne",
+        "text": "À côté de la date du jour, et ajustable d’un jour ou deux selon l’observation du croissant chez vous."
+      },
+      {
+        "title": "Dans votre langue",
+        "text": "13 langues, le texte plus grand, VoiceOver, et les apparences claire et sombre."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa ne sait rien de vous",
+    "text": "Ni compte, ni publicité, ni outil d’analyse. Nidaa ne collecte rien.",
+    "link": "Lire la politique de confidentialité"
+  },
+  "get": {
+    "title": "Nidaa pour iPhone et Apple&nbsp;Watch"
+  }
+}
