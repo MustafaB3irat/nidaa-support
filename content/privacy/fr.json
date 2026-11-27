@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 novembre 2026",
-    "android": "26 novembre 2026"
+    "ios": "27 novembre 2026",
+    "android": "27 novembre 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Vos choix",
       "paragraphs": [
         "Vous pouvez désactiver les autorisations dans les réglages de votre appareil, modifier votre lieu enregistré dans l’application, ou supprimer l’application pour effacer tout ce qu’elle a enregistré. Comme nous ne détenons aucune donnée vous concernant, il n’y a rien à nous demander ni à supprimer chez nous."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "Ce site web",
-      "paragraphs": [
-        "Ce site n’utilise ni outil d’analyse, ni publicité, ni cookies. Il mémorise uniquement, dans votre navigateur, la langue que vous choisissez. Il est hébergé sur Cloudflare, et Cloudflare peut traiter des informations techniques comme votre adresse IP pour l’afficher. Consultez la [déclaration de confidentialité de Cloudflare](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {

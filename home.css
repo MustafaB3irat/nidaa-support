@@ -140,6 +140,11 @@
 .stores { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 .store { display: block; line-height: 0; border-radius: 10px; }
 .store img { height: 50px; width: auto; }
+.stores .qr { display: none; width: 116px; height: 116px; border-radius: 14px; }
+@media (min-width: 881px) and (hover: hover) and (pointer: fine) {
+  .stores { align-items: center; gap: 20px; }
+  .stores .qr { display: block; }
+}
 
 .trio {
   display: flex;
@@ -283,6 +288,7 @@
   list-style: none;
   border-top: 1px solid var(--line);
 }
+.grid svg { display: block; margin-bottom: 16px; color: var(--text-2); }
 .home .grid h3 { font-size: 18px; line-height: 1.35; }
 .home .grid p { margin-top: 8px; font-size: 15px; line-height: 1.6; color: var(--text-2); }
 
@@ -381,12 +387,12 @@
 }
 
 @media (max-width: 700px) {
-  /* One phone, large enough to read, cut by the band's lower edge on purpose */
-  .stage { --hero: min(84vw, 340px); padding: 40px 20px 0; }
+  /* One whole phone, large enough to read */
+  .stage { --hero: min(76vw, 320px); padding: 40px 20px 56px; }
   .stage-copy p { margin-top: 16px; }
   .stores { margin-top: 24px; }
   .store img { height: 44px; }
-  .trio { height: calc(var(--hero) * 1.43); margin-top: 40px; align-items: flex-start; overflow: hidden; }
+  .trio { margin-top: 40px; }
   .trio .mid { --w: var(--hero); }
   .trio .side, .trio-notes { display: none; }
 
@@ -426,8 +432,29 @@
   .watches .strap { height: calc(var(--w) * 0.32); }
   .more { padding: 24px 24px 80px; }
   .grid { grid-template-columns: 1fr; gap: 28px; margin-top: 40px; padding-top: 32px; }
+  .grid li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 16px; }
+  .grid svg { margin: 0; }
   .quiet { margin: 0 16px; padding: 64px 24px; border-radius: 20px; }
   .get { padding: 88px 24px; }
+}
+
+/* Narrow screens tall enough: the Lock Screen stays in view and each chapter shows below it in turn,
+   as on wide screens. home.js marks the chapter in view with .on. Same query as in home.js. */
+@media (max-width: 880px) and (min-height: 600px) and (prefers-reduced-motion: no-preference) {
+  .js .calls { --lw: min(300px, 64vw, calc((100vh - 300px) * 0.45)); gap: 0; }
+  @supports (height: 1svh) { .js .calls { --lw: min(300px, 64vw, calc((100svh - 300px) * 0.45)); } }
+  .js .calls-device { position: sticky; top: 16px; z-index: 1; align-self: start; padding-bottom: 24px; }
+  .js .lock { --w: var(--lw); }
+  .js .chapter {
+    min-height: calc(100vh - var(--lw) * 2.1 - 56px);
+    min-height: calc(100svh - var(--lw) * 2.1 - 56px);
+    justify-content: flex-start;
+    padding-top: 24px;
+    opacity: 0;
+    transition: opacity 0.5s var(--curve);
+  }
+  .js .chapter.on { opacity: 1; }
+  .js .chapter:last-child { min-height: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

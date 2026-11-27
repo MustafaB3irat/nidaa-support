@@ -1,0 +1,4 @@
+# Short links to the App Store. Cloudflare serves these before any file.
+# Add the App Store Connect campaign tag here too (?pt=…&ct=…&mt=8) once PROVIDER_TOKEN is set in tools/build_home.py.
+/qr   https://apps.apple.com/app/id6818994960  302
+/get  https://apps.apple.com/app/id6818994960  302

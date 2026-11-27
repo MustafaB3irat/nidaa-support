@@ -71,10 +71,6 @@
   }
 
   ready(function () {
-    /* Remember the language picked here, as the language menu does on other pages */
-    document.querySelectorAll('a.language[hreflang]').forEach(function (a) {
-      a.addEventListener('click', function () { try { localStorage.setItem('nidaa.lang', a.getAttribute('hreflang')); } catch (e) {} });
-    });
     document.querySelectorAll('[data-countdown]').forEach(countdownCard);
     document.querySelectorAll('[data-live]').forEach(liveActivity);
     if (still) return;
@@ -88,33 +84,64 @@
 
     /* Notifications arrive on the Lock Screen with the chapter in view.
        Wide: the step follows the scroll position, so jumps and resizes stay right.
-       One column: the three arrivals play in turn once the phone is in view. */
+       Narrow and tall enough: the Lock Screen sticks near the top (home.css) and the step
+       follows the chapter showing below it, which is marked .on.
+       Otherwise: the three arrivals play in turn once the phone is in view. */
     var lock = document.querySelector('.lock');
+    var device = document.querySelector('.calls-device');
     var chapters = [].slice.call(document.querySelectorAll('.chapter'));
-    if (!lock || !chapters.length) return;
+    if (!lock || !device || !chapters.length) return;
     var wide = matchMedia('(min-width: 881px)');
+    var tall = matchMedia('(max-width: 880px) and (min-height: 600px) and (prefers-reduced-motion: no-preference)');
     var played = false, queued = false;
 
-    function step(n) { lock.setAttribute('data-step', String(n)); }
+    /* below: the phone's lower edge while it sticks; a chapter fades once its text reaches it */
+    function step(n, below) {
+      lock.setAttribute('data-step', String(n));
+      chapters.forEach(function (c) {
+        var clear = below === undefined || c.getBoundingClientRect().top + 16 >= below;
+        c.classList.toggle('on', +c.getAttribute('data-step') === n && clear);
+      });
+    }
     function follow() {
       queued = false;
-      if (!wide.matches) return;
-      var line = innerHeight * 0.55, n = 0;
+      var line, below;
+      if (wide.matches) line = innerHeight * 0.55;
+      else if (tall.matches) {
+        below = device.getBoundingClientRect().bottom;
+        line = below + (innerHeight - below) * 0.8;  /* above the phone's edge until it is in view: nothing arrives early */
+      } else return;
+      var n = 0;
       chapters.forEach(function (c) { if (c.getBoundingClientRect().top < line) n = +c.getAttribute('data-step'); });
-      step(n);
+      step(n, below);
     }
     addEventListener('scroll', function () { if (!queued) { queued = true; requestAnimationFrame(follow); } }, { passive: true });
-    function mode() { if (wide.matches) follow(); else step(played ? 3 : 0); }
-    if (wide.addEventListener) wide.addEventListener('change', mode); else wide.addListener(mode);
+    /* The three arrivals, in turn, once */
+    function play() {
+      played = true;
+      [1, 2, 3].forEach(function (n) {
+        setTimeout(function () { if (!wide.matches && !tall.matches) step(n); }, 300 + (n - 1) * 750);
+      });
+    }
+    function inView() {
+      var r = lock.getBoundingClientRect();
+      return r.top < innerHeight * 0.75 && r.bottom > 0;
+    }
+    /* Entering the fallback with the phone already on screen (a phone turned to landscape)
+       plays now: the observer below only fires when the phone crosses the edge */
+    function mode() {
+      if (wide.matches || tall.matches) follow();
+      else if (played) step(3);
+      else { step(0); if (inView()) play(); }
+    }
+    [wide, tall].forEach(function (q) { if (q.addEventListener) q.addEventListener('change', mode); else q.addListener(mode); });
+    addEventListener('resize', function () { if (!queued) { queued = true; requestAnimationFrame(follow); } });
     mode();
 
     watch([lock], { rootMargin: '0px 0px -25% 0px' }, function (el, on, io) {
-      if (!on || wide.matches) return;
+      if (!on || played || wide.matches || tall.matches) return;
       if (io) io.unobserve(el);
-      played = true;
-      [1, 2, 3].forEach(function (n) {
-        setTimeout(function () { if (!wide.matches) step(n); }, 300 + (n - 1) * 750);
-      });
+      play();
     });
   });
 })();

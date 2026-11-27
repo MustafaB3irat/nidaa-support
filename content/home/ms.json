@@ -1,0 +1,121 @@
+{
+  "lang": "ms",
+  "title": "Nidaa · Waktu solat, azan dan Kiblat untuk iPhone dan Apple Watch",
+  "description": "Waktu solat, azan dan arah Kiblat pada iPhone dan Apple Watch. Waktu solat dikira pada telefon anda, jadi ia berfungsi di luar talian. Tiada akaun, tiada iklan, tiada analitik.",
+  "hero": {
+    "title": "Luangkan masa untuk solat",
+    "lede": "Waktu solat, azan dan Kiblat pada iPhone dan Apple&nbsp;Watch. Waktu solat dikira pada telefon anda, jadi ia berfungsi di luar talian."
+  },
+  "store": {
+    "app_store_alt": "Muat turun di App Store",
+    "play_alt": "Dapatkan di Google Play",
+    "qr_alt": "Kod QR: imbas dengan kamera iPhone anda untuk mendapatkan Nidaa di App Store"
+  },
+  "screens": {
+    "mosques": "Skrin Masjid Nidaa yang menyenaraikan masjid terdekat di London, dengan masa perjalanan berjalan kaki, dengan kereta dan dengan pengangkutan awam",
+    "today": "Skrin Hari Ini Nidaa di London: Asar dalam 2 jam 11 minit, pada 4:53 PM, diikuti kelima-lima waktu solat dan syuruk",
+    "qibla": "Skrin Kiblat AR Nidaa: laluan anak panah emas di lantai menuju ke Kaabah, 4,794 km jauhnya"
+  },
+  "notes": [
+    {
+      "title": "Masjid berdekatan anda",
+      "text": "Masa perjalanan berjalan kaki, dengan kereta dan dengan pengangkutan awam, kemudian arah dalam Peta Apple, Google Maps atau Waze."
+    },
+    {
+      "title": "Kira detik ke solat seterusnya",
+      "text": "Kelima-lima waktu solat dan syuruk hari ini, serta baki masa sehingga solat seterusnya."
+    },
+    {
+      "title": "Kiblat dengan AR",
+      "text": "Ikut laluan di lantai menuju ke Kaabah, atau gunakan kompas."
+    }
+  ],
+  "praise": {
+    "title": "Penilaian purata di App Store",
+    "united_states": "Amerika Syarikat"
+  },
+  "calls": {
+    "title": "Seruan untuk setiap solat",
+    "chapters": [
+      {
+        "title": "Azan tepat pada waktunya",
+        "text": "Pilih azan penuh, loceng atau senyap untuk setiap solat secara berasingan."
+      },
+      {
+        "title": "Sebelum waktu tamat",
+        "text": "Peringatan 5 hingga 60 minit sebelum waktu solat tamat, supaya petang yang sibuk tidak membuatkan anda terlepas Asar."
+      },
+      {
+        "title": "Kira detik di Skrin Kunci",
+        "text": "Aktiviti Langsung mengira detik ke solat seterusnya di Skrin Kunci dan dalam Dynamic Island."
+      }
+    ],
+    "lock_label": "Skrin Kunci iPhone pada 7:30 PM dengan kira detik Isyak daripada Nidaa dan dua pemberitahuan Maghrib"
+  },
+  "wrist": {
+    "title": "Di pergelangan tangan anda",
+    "lede": "Waktu solat hari ini, kompas Kiblat dan kira detik pada muka jam anda, melalui komplikasi dan Tindanan Pintar.",
+    "watches": [
+      {
+        "alt": "Nidaa pada Apple Watch: waktu solat hari ini di London, dengan Isyak pada 5:31 PM dan Subuh esok pada 5:58 AM",
+        "title": "Waktu solat hari ini",
+        "text": "Kelima-lima waktu dan syuruk, dengan solat seterusnya ditandakan."
+      },
+      {
+        "alt": "Muka jam Apple Watch dengan komplikasi Nidaa: Subuh pada 5:58 AM, dalam 7 jam 55 minit",
+        "title": "Pada muka jam anda",
+        "text": "Solat seterusnya dan kira detiknya, melalui komplikasi."
+      },
+      {
+        "alt": "Kompas Kiblat Nidaa pada Apple Watch: 119° dari Utara, menghadap Kiblat",
+        "title": "Kiblat",
+        "text": "Kompas di pergelangan tangan anda, bertukar hijau apabila anda menghadap Makkah."
+      }
+    ]
+  },
+  "more": {
+    "title": "Segala yang anda perlukan untuk solat lima waktu",
+    "items": [
+      {
+        "title": "Waktu solat di luar talian",
+        "text": "Waktu solat dan Kiblat dikira pada telefon anda. Setelah lokasi anda disimpan, tiada isyarat diperlukan."
+      },
+      {
+        "title": "Ikut waktu masjid anda",
+        "text": "Kaedah pengiraan untuk negara anda, mazhab Asar Syafie atau Hanafi, dan pelarasan minit bagi setiap waktu solat."
+      },
+      {
+        "title": "Sebulan dalam satu halaman",
+        "text": "Jadual waktu bulanan yang boleh anda kongsi atau cetak sebagai PDF satu halaman."
+      },
+      {
+        "title": "Hari-hari sunat",
+        "text": "Peringatan untuk Jumaat, puasa Hari Putih, Isnin dan Khamis, Arafah, Asyura dan sepertiga malam terakhir."
+      },
+      {
+        "title": "Widget",
+        "text": "Waktu solat hari ini dan solat seterusnya di Skrin Utama dan Skrin Kunci anda."
+      },
+      {
+        "title": "Siri dan Pintasan",
+        "text": "Tanya Siri bila solat seterusnya, atau jadikannya sebahagian daripada pintasan anda."
+      },
+      {
+        "title": "Tarikh Hijrah",
+        "text": "Di sebelah tarikh hari ini, dan boleh dilaraskan sehari atau dua supaya sepadan dengan rukyah anak bulan di tempat anda."
+      },
+      {
+        "title": "Dalam bahasa anda",
+        "text": "13 bahasa, teks lebih besar, VoiceOver, serta penampilan cerah dan gelap."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa tidak tahu apa-apa tentang anda",
+    "text": "Tiada akaun, tiada iklan, tiada analitik. Nidaa tidak mengumpul apa-apa.",
+    "link": "Baca dasar privasi"
+  },
+  "get": {
+    "title": "Nidaa untuk iPhone dan Apple&nbsp;Watch"
+  }
+}

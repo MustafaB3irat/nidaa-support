@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 de noviembre de 2026",
-    "android": "26 de noviembre de 2026"
+    "ios": "27 de noviembre de 2026",
+    "android": "27 de noviembre de 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Tus opciones",
       "paragraphs": [
         "Puedes desactivar los permisos en los ajustes de tu dispositivo, cambiar tu ubicación guardada en la app o borrar la app para eliminar todo lo que almacenó. Como no tenemos datos sobre ti, no hay nada que pedirnos ni que borrar."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "Este sitio web",
-      "paragraphs": [
-        "Este sitio no tiene analíticas, publicidad ni cookies. Solo recuerda en tu navegador el idioma que eliges. Está alojado en Cloudflare, y Cloudflare puede procesar información técnica, como tu dirección IP, para servirlo. Consulta la [declaración de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {

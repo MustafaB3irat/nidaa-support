@@ -1,0 +1,121 @@
+{
+  "lang": "ha",
+  "title": "Nidaa · Lokutan salla, kiran salla da Alƙibla don iPhone da Apple Watch",
+  "description": "Lokutan salla, kiran salla da Alƙibla a iPhone da Apple Watch. Ana lissafa lokutan salla a cikin wayarku, don haka suna aiki ba tare da intanet ba. Babu asusu, babu talla, babu nazari.",
+  "hero": {
+    "title": "Ku ba salla wuri a cikin ranarku",
+    "lede": "Lokutan salla, kiran salla da Alƙibla a iPhone da Apple&nbsp;Watch. Ana lissafa lokutan salla a cikin wayarku, don haka suna aiki ba tare da intanet ba."
+  },
+  "store": {
+    "app_store_alt": "Sauke daga App Store",
+    "play_alt": "Samu a Google Play",
+    "qr_alt": "Lambar QR: ku duba ta da kyamarar iPhone ɗinku don samun Nidaa a App Store"
+  },
+  "screens": {
+    "mosques": "Allon Masallatai na Nidaa: masallatai mafi kusa a London, tare da lokacin tafiya a ƙafa, da mota da kuma da sufurin jama'a",
+    "today": "Allon Yau na Nidaa a London: La'asar nan da awa 2 da minti 11, da ƙarfe 4:53 PM, sannan dukkan salloli biyar da fitowar rana",
+    "qibla": "Allon Alƙibla ta AR na Nidaa: hanyar kibiyoyi masu launin zinariya a ƙasa da ke kaiwa zuwa Ka'aba, mai nisan 4,794 km"
+  },
+  "notes": [
+    {
+      "title": "Masallatai da ke kusa da ku",
+      "text": "Lokacin tafiya a ƙafa, da mota da kuma da sufurin jama'a, sannan kwatance a Apple Maps, Google Maps ko Waze."
+    },
+    {
+      "title": "Ƙidaya zuwa salla ta gaba",
+      "text": "Dukkan salloli biyar da fitowar rana na yau, da sauran lokaci kafin salla ta gaba."
+    },
+    {
+      "title": "Alƙibla ta AR",
+      "text": "Bi hanyar da ke ƙasa zuwa Ka'aba, ko ku yi amfani da kamfas."
+    }
+  ],
+  "praise": {
+    "title": "Matsakaicin ƙima a App Store",
+    "united_states": "Amurka"
+  },
+  "calls": {
+    "title": "Ana kiran ku zuwa kowace salla",
+    "chapters": [
+      {
+        "title": "Kiran salla a kan lokaci",
+        "text": "Zaɓi cikakken kiran salla, ƙararrawa ko shiru ga kowace salla daban."
+      },
+      {
+        "title": "Kafin lokaci ya fita",
+        "text": "Tunatarwa minti 5 zuwa 60 kafin lokacin salla ya fita, don kada shagalin yamma ya sa La'asar ta kuɓuce muku."
+      },
+      {
+        "title": "Ƙidaya a allon kulle",
+        "text": "Live Activity na ƙirga zuwa salla ta gaba a allon kulle da kuma cikin Dynamic Island."
+      }
+    ],
+    "lock_label": "Allon kulle na iPhone da ƙarfe 7:30 PM, da ƙidayar Isha'i ta Nidaa da sanarwoyin Magariba guda biyu"
+  },
+  "wrist": {
+    "title": "A wuyan hannunku",
+    "lede": "Sallolin yau, kamfas na Alƙibla da ƙidaya a fuskar agogonku, ta hanyar complications da Smart Stack.",
+    "watches": [
+      {
+        "alt": "Nidaa a Apple Watch: sallolin yau a London, Isha'i da ƙarfe 5:31 PM da Asubar gobe da ƙarfe 5:58 AM",
+        "title": "Sallolin yau",
+        "text": "Dukkan biyar da fitowar rana, tare da alamar salla ta gaba."
+      },
+      {
+        "alt": "Fuskar Apple Watch mai complications na Nidaa: Asuba da ƙarfe 5:58 AM, nan da awa 7 da minti 55",
+        "title": "A fuskar agogonku",
+        "text": "Salla ta gaba da ƙidayarta, a cikin complications."
+      },
+      {
+        "alt": "Kamfas na Alƙibla na Nidaa a Apple Watch: 119° daga Arewa, ana fuskantar Alƙibla",
+        "title": "Alƙibla",
+        "text": "Kamfas a wuyan hannunku, wanda ke komawa kore idan kun fuskanci Makka."
+      }
+    ]
+  },
+  "more": {
+    "title": "Duk abin da kuke buƙata don salloli biyar",
+    "items": [
+      {
+        "title": "Lokutan salla ba tare da intanet ba",
+        "text": "Ana lissafa lokutan salla da Alƙibla a cikin wayarku. Da zarar an adana wurinku, ba ku buƙatar sigina."
+      },
+      {
+        "title": "Lokutan da masallacinku ke bi",
+        "text": "Hanyar lissafi ta ƙasarku, La'asar bisa mazhabar Shafi'i ko Hanafi, da gyaran minti ga kowace salla."
+      },
+      {
+        "title": "Wata guda a shafi ɗaya",
+        "text": "Jadawalin wata da za ku iya rabawa ko bugawa a matsayin PDF mai shafi ɗaya."
+      },
+      {
+        "title": "Ranakun sunna",
+        "text": "Tunatarwa don Juma'a, Ranakun Farin Wata, Litinin da Alhamis, Arafa, Ashura da sulusin ƙarshe na dare."
+      },
+      {
+        "title": "Widget",
+        "text": "Sallolin yau da salla ta gaba a Home Screen da kuma allon kulle."
+      },
+      {
+        "title": "Siri da Shortcuts",
+        "text": "Tambayi Siri lokacin salla ta gaba, ko ku saka shi a cikin shortcut."
+      },
+      {
+        "title": "Kwanan watan Hijira",
+        "text": "Yana kusa da kwanan watan yau, kuma ana iya gyara shi da kwana ɗaya ko biyu don ya dace da ganin wata a inda kuke."
+      },
+      {
+        "title": "Da harshenku",
+        "text": "Harsuna 13, rubutu mafi girma, VoiceOver, da yanayin haske da na duhu."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa ba ta san komai game da ku ba",
+    "text": "Babu asusu, babu talla, babu nazari. Nidaa ba ta tattara komai.",
+    "link": "Karanta manufar sirri"
+  },
+  "get": {
+    "title": "Nidaa don iPhone da Apple&nbsp;Watch"
+  }
+}

@@ -49,8 +49,8 @@
     }
   },
   "effective_date": {
-    "ios": "26 November 2026",
-    "android": "26 November 2026"
+    "ios": "27 November 2026",
+    "android": "27 November 2026"
   },
   "sections": [
     {
@@ -212,14 +212,6 @@
       "heading": "Your choices",
       "paragraphs": [
         "You can turn permissions off in your device settings, change your saved location in the app, or delete the app to remove everything it stored. Because we hold no data about you, there is nothing to request from us or delete."
-      ]
-    },
-    {
-      "id": "website",
-      "platforms": ["ios", "android"],
-      "heading": "This website",
-      "paragraphs": [
-        "This site has no analytics, advertising or cookies. It remembers the language you choose in your browser only. It is hosted on Cloudflare, and Cloudflare may process technical information such as your IP address to serve it. See [Cloudflare’s privacy statement](https://www.cloudflare.com/privacypolicy/)."
       ]
     },
     {

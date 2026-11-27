@@ -1,0 +1,121 @@
+{
+  "lang": "id",
+  "title": "Nidaa · Jadwal salat, azan, dan Kiblat untuk iPhone dan Apple Watch",
+  "description": "Jadwal salat, azan, dan arah Kiblat di iPhone dan Apple Watch. Jadwal salat dihitung di ponsel Anda, jadi tetap berfungsi offline. Tanpa akun, tanpa iklan, tanpa analitik.",
+  "hero": {
+    "title": "Luangkan waktu untuk salat",
+    "lede": "Jadwal salat, azan, dan Kiblat di iPhone dan Apple&nbsp;Watch. Jadwal salat dihitung di ponsel Anda, jadi tetap berfungsi offline."
+  },
+  "store": {
+    "app_store_alt": "Download di App Store",
+    "play_alt": "Dapatkan di Google Play",
+    "qr_alt": "Kode QR: pindai dengan kamera iPhone Anda untuk mendapatkan Nidaa di App Store"
+  },
+  "screens": {
+    "mosques": "Layar Masjid di Nidaa: masjid terdekat di London, dengan waktu tempuh berjalan kaki, dengan mobil, dan dengan transportasi umum",
+    "today": "Layar Hari Ini di Nidaa untuk London: Asar 2 jam 11 menit lagi, pukul 4:53 PM, lalu kelima waktu salat dan waktu terbit",
+    "qibla": "Layar Kiblat AR di Nidaa: jalur panah emas di lantai yang mengarah ke Kakbah, sejauh 4.794 km"
+  },
+  "notes": [
+    {
+      "title": "Masjid di dekat Anda",
+      "text": "Waktu tempuh berjalan kaki, dengan mobil, dan dengan transportasi umum, lalu petunjuk arah di Peta Apple, Google Maps, atau Waze."
+    },
+    {
+      "title": "Hitung mundur ke salat berikutnya",
+      "text": "Kelima waktu salat dan waktu terbit hari ini, serta sisa waktu menuju salat berikutnya."
+    },
+    {
+      "title": "Kiblat dengan AR",
+      "text": "Ikuti jalur di lantai menuju Kakbah, atau gunakan kompas."
+    }
+  ],
+  "praise": {
+    "title": "Penilaian rata-rata di App Store",
+    "united_states": "Amerika Serikat"
+  },
+  "calls": {
+    "title": "Seruan untuk setiap salat",
+    "chapters": [
+      {
+        "title": "Azan tepat waktu",
+        "text": "Pilih azan lengkap, denting, atau senyap untuk masing-masing salat."
+      },
+      {
+        "title": "Sebelum waktunya habis",
+        "text": "Pengingat 5 sampai 60 menit sebelum waktu salat berakhir, agar sore yang sibuk tidak membuat Anda melewatkan Asar."
+      },
+      {
+        "title": "Hitung mundur di Layar Terkunci",
+        "text": "Aktivitas Langsung menghitung mundur ke salat berikutnya di Layar Terkunci dan di Dynamic Island."
+      }
+    ],
+    "lock_label": "Layar Terkunci iPhone pukul 7:30 PM dengan hitung mundur Isya dari Nidaa dan dua notifikasi Magrib"
+  },
+  "wrist": {
+    "title": "Di pergelangan tangan Anda",
+    "lede": "Jadwal salat hari ini, kompas Kiblat, dan hitung mundur di wajah jam Anda, lewat komplikasi dan Smart Stack.",
+    "watches": [
+      {
+        "alt": "Nidaa di Apple Watch: jadwal salat hari ini di London, dengan Isya pukul 5:31 PM dan Subuh besok pukul 5:58 AM",
+        "title": "Jadwal salat hari ini",
+        "text": "Lima waktu dan waktu terbit, dengan salat berikutnya ditandai."
+      },
+      {
+        "alt": "Wajah jam Apple Watch dengan komplikasi Nidaa: Subuh pukul 5:58 AM, 7 jam 55 menit lagi",
+        "title": "Di wajah jam Anda",
+        "text": "Salat berikutnya dan hitung mundurnya, lewat komplikasi."
+      },
+      {
+        "alt": "Kompas Kiblat Nidaa di Apple Watch: 119° dari Utara, menghadap Kiblat",
+        "title": "Kiblat",
+        "text": "Kompas di pergelangan tangan Anda, yang berubah hijau saat Anda menghadap Makkah."
+      }
+    ]
+  },
+  "more": {
+    "title": "Semua yang Anda perlukan untuk salat lima waktu",
+    "items": [
+      {
+        "title": "Jadwal salat offline",
+        "text": "Jadwal salat dan Kiblat dihitung di ponsel Anda. Setelah lokasi Anda tersimpan, tidak perlu sinyal."
+      },
+      {
+        "title": "Sesuai jadwal masjid Anda",
+        "text": "Metode perhitungan untuk negara Anda, mazhab Asar Syafi'i atau Hanafi, dan penyesuaian menit untuk setiap salat."
+      },
+      {
+        "title": "Sebulan dalam satu halaman",
+        "text": "Jadwal salat bulanan yang dapat dibagikan atau dicetak sebagai PDF satu halaman."
+      },
+      {
+        "title": "Hari-hari sunah",
+        "text": "Pengingat untuk salat Jumat, puasa Ayyamul Bidh, Senin dan Kamis, Arafah, Asyura, serta sepertiga malam terakhir."
+      },
+      {
+        "title": "Widget",
+        "text": "Jadwal salat hari ini dan salat berikutnya di Layar Utama dan Layar Terkunci."
+      },
+      {
+        "title": "Siri dan Pintasan",
+        "text": "Tanyakan kepada Siri kapan salat berikutnya, atau jadikan bagian dari pintasan Anda."
+      },
+      {
+        "title": "Tanggal Hijriah",
+        "text": "Tampil di samping tanggal hari ini, dan dapat digeser satu atau dua hari agar sesuai dengan rukyat hilal di tempat Anda."
+      },
+      {
+        "title": "Dalam bahasa Anda",
+        "text": "13 bahasa, teks lebih besar, VoiceOver, serta tampilan terang dan gelap."
+      }
+    ]
+  },
+  "quiet": {
+    "title": "Nidaa tidak tahu apa pun tentang Anda",
+    "text": "Tanpa akun, tanpa iklan, tanpa analitik. Nidaa tidak mengumpulkan apa pun.",
+    "link": "Baca kebijakan privasi"
+  },
+  "get": {
+    "title": "Nidaa untuk iPhone dan Apple&nbsp;Watch"
+  }
+}
