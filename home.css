@@ -423,14 +423,16 @@
   .praise li { flex: none; width: 78vw; scroll-snap-align: start; }
   /* Cards off to the side would wait for a swipe to reveal, and their offset would scroll the strip */
   .js .praise li.rv { opacity: 1; transform: none; transition: none; }
-  .calls { padding: 80px 24px 24px; }
+  /* One rhythm on phones: 80px from the end of one section to the next heading */
+  .calls { padding: 80px 24px 0; }
   .lock { --w: min(300px, 76vw); }
   .watches { flex-direction: column; align-items: stretch; gap: 32px; max-width: 420px; margin: 48px auto 0; }
   .watches li { flex-direction: row; align-items: center; gap: 24px; max-width: none; text-align: start; }
   .watches .lead { margin-top: 0; }
   .watch, .watches .lead .watch { --w: 36vw; }
   .watches .strap { height: calc(var(--w) * 0.32); }
-  .more { padding: 24px 24px 80px; }
+  .wrist { padding: 80px 24px 0; }
+  .more { padding: 80px 24px; }
   .grid { grid-template-columns: 1fr; gap: 28px; margin-top: 40px; padding-top: 32px; }
   .grid li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 16px; }
   .grid svg { margin: 0; }
@@ -443,6 +445,7 @@
 @media (max-width: 880px) and (min-height: 600px) and (prefers-reduced-motion: no-preference) {
   .js .calls { --lw: min(300px, 64vw, calc((100vh - 300px) * 0.45)); gap: 0; }
   @supports (height: 1svh) { .js .calls { --lw: min(300px, 64vw, calc((100svh - 300px) * 0.45)); } }
+  .js .calls-text .section-title { margin-bottom: 32px; }
   .js .calls-device { position: sticky; top: 16px; z-index: 1; align-self: start; padding-bottom: 24px; }
   .js .lock { --w: var(--lw); }
   .js .chapter {
